@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "EscapeThePlate",
+			"Path": "C:\\Users\\tommy\\OneDrive\\Documents\\GitHub\\EscapeThePlate\\EscapeThePlate\\Source\\EscapeThePlate.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "EscapeThePlateEditor",
+			"Path": "C:\\Users\\tommy\\OneDrive\\Documents\\GitHub\\EscapeThePlate\\EscapeThePlate\\Source\\EscapeThePlateEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
