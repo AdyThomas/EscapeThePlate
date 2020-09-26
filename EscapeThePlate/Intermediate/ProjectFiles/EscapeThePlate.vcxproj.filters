@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\EscapeThePlate.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{19A63C2F-7E2E-48E9-AF75-1DC2091EA485}</UniqueIdentifier>
+      <UniqueIdentifier>{52784C30-702F-499D-9D33-91F23A5A7D15}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EscapeThePlate.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0A7A6A8E-A9E2-4BE6-81C5-9EDED4C013BF}</UniqueIdentifier>
+      <UniqueIdentifier>{4154D95D-D7BD-4D50-BF4B-7C6EE4B15CD6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,18 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\EscapeThePlate">
-      <UniqueIdentifier>{EFBFE0C7-BB12-4E61-8A7A-DE91D744B39B}</UniqueIdentifier>
+      <UniqueIdentifier>{9A6DD3DE-1D01-40BE-80C5-7B2F90971A6E}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\EscapeThePlate\ChickenBreast.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\ChickenBreast.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
     <None Include="..\..\Source\EscapeThePlate\EscapeThePlate.Build.cs">
       <Filter>Source\EscapeThePlate</Filter>
     </None>
@@ -35,10 +44,22 @@
     <ClInclude Include="..\..\Source\EscapeThePlate\EscapeThePlate.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\IngredientBaseClass.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\IngredientBaseClass.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\EscapeThePlate\Onion.cpp">
       <Filter>Source\EscapeThePlate</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\EscapeThePlate\Onion.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\RedOnion.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\RedOnion.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
   </ItemGroup>

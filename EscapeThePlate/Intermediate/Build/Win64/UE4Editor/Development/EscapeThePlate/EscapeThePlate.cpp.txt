@@ -1,2 +1,2 @@
-C:\Users\tommy\OneDrive\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\Definitions.EscapeThePlate.h
-C:\Users\tommy\OneDrive\Documents\GitHub\EscapeThePlate\EscapeThePlate\Source\EscapeThePlate\EscapeThePlate.h
+C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\Definitions.EscapeThePlate.h
+C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Source\EscapeThePlate\EscapeThePlate.h

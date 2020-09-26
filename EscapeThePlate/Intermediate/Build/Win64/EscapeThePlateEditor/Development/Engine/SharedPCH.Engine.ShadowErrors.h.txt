@@ -1,4 +1,4 @@
-C:/Users/tommy/OneDrive/Documents/GitHub/EscapeThePlate/EscapeThePlate/Intermediate/Build/Win64/EscapeThePlateEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h
+C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Intermediate/Build/Win64/EscapeThePlateEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h
 D:/Unreal/UE_4.25/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h
 D:\Unreal\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
 D:\Unreal\UE_4.25\Engine\Source\Runtime\Core\Public\CoreTypes.h

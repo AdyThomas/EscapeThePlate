@@ -230,8 +230,8 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\tommy\OneDrive\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Inc\EscapeThePlate
-/I C:\Users\tommy\OneDrive\Documents\GitHub\EscapeThePlate\EscapeThePlate\Source
+/I C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Inc\EscapeThePlate
+/I C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -261,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\tommy\OneDrive\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\EscapeThePlateEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\tommy\OneDrive\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\EscapeThePlateEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\tommy\OneDrive\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\EscapeThePlateEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\tommy\OneDrive\Documents\GitHub\EscapeThePlate\EscapeThePlate\Source\EscapeThePlate\Onion.cpp"
-/FI"C:\Users\tommy\OneDrive\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\Definitions.EscapeThePlate.h"
-/Fo"C:\Users\tommy\OneDrive\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\Onion.cpp.obj"
+/FI"C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\EscapeThePlateEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\EscapeThePlateEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\EscapeThePlateEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Source\EscapeThePlate\Onion.cpp"
+/FI"C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\Definitions.EscapeThePlate.h"
+/Fo"C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\Onion.cpp.obj"
 /TP
 /GR-
 /W4
