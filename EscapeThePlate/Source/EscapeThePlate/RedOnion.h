@@ -23,5 +23,5 @@ public:
 	// Movement functions
 	void MoveX(float magnitude) override;
 	void MoveY(float magnitude) override;
-	
+
 };

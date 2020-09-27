@@ -40,7 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeChickenBreast() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChickenBreast_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n *\n */" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "ChickenBreast.h" },
 		{ "ModuleRelativePath", "ChickenBreast.h" },
@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeChickenBreast() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AChickenBreast, 487848524);
+	IMPLEMENT_CLASS(AChickenBreast, 3130218014);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AChickenBreast>()
 	{
 		return AChickenBreast::StaticClass();

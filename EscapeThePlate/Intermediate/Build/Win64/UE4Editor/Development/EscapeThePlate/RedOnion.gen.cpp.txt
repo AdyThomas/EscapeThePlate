@@ -3,9 +3,5 @@ D:\Unreal\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppI
 D:\Unreal\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Source\EscapeThePlate/RedOnion.h
 C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Source\EscapeThePlate\IngredientBaseClass.h
-D:\Unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-D:\Unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Inc\EscapeThePlate\IngredientBaseClass.generated.h
 C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Inc\EscapeThePlate\RedOnion.generated.h

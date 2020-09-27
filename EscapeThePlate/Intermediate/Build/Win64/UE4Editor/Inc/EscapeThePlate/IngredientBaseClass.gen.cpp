@@ -15,8 +15,10 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseClass() {}
 // Cross Module References
 	ESCAPETHEPLATE_API UClass* Z_Construct_UClass_AIngredientBaseClass_NoRegister();
 	ESCAPETHEPLATE_API UClass* Z_Construct_UClass_AIngredientBaseClass();
-	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_EscapeThePlate();
+	ESCAPETHEPLATE_API UClass* Z_Construct_UClass_UIngredientBaseMovementComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
@@ -34,6 +36,14 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseClass() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoveComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MoveComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Skeleton_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Skeleton;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Camera;
@@ -50,7 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseClass() {}
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_AIngredientBaseClass_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_ACharacter,
+		(UObject* (*)())Z_Construct_UClass_APawn,
 		(UObject* (*)())Z_Construct_UPackage__Script_EscapeThePlate,
 	};
 #if WITH_METADATA
@@ -60,6 +70,21 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseClass() {}
 		{ "ModuleRelativePath", "IngredientBaseClass.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveComponent_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "IngredientBaseClass.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveComponent = { "MoveComponent", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseClass, MoveComponent), Z_Construct_UClass_UIngredientBaseMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_Skeleton_MetaData[] = {
+		{ "Category", "IngredientBaseClass" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "IngredientBaseClass.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_Skeleton = { "Skeleton", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseClass, Skeleton), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_Skeleton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_Skeleton_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_Camera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -73,10 +98,10 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseClass() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_SpringArm_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
-		{ "Comment", "/** Components for the player camera */" },
+		{ "Comment", "// The spring attaching the camera to the pawn\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "IngredientBaseClass.h" },
-		{ "ToolTip", "Components for the player camera" },
+		{ "ToolTip", "The spring attaching the camera to the pawn" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseClass, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_SpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_SpringArm_MetaData)) };
@@ -88,6 +113,8 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseClass() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveSpeed = { "MoveSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseClass, MoveSpeed), METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AIngredientBaseClass_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_Skeleton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_Camera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_SpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveSpeed,
@@ -119,7 +146,7 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseClass() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIngredientBaseClass, 2219510793);
+	IMPLEMENT_CLASS(AIngredientBaseClass, 2772071570);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AIngredientBaseClass>()
 	{
 		return AIngredientBaseClass::StaticClass();

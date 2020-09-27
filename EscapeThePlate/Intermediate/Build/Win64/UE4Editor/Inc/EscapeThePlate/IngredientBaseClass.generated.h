@@ -21,7 +21,7 @@ private: \
 	static void StaticRegisterNativesAIngredientBaseClass(); \
 	friend struct Z_Construct_UClass_AIngredientBaseClass_Statics; \
 public: \
-	DECLARE_CLASS(AIngredientBaseClass, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/EscapeThePlate"), NO_API) \
+	DECLARE_CLASS(AIngredientBaseClass, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/EscapeThePlate"), NO_API) \
 	DECLARE_SERIALIZER(AIngredientBaseClass)
 
 
@@ -30,7 +30,7 @@ private: \
 	static void StaticRegisterNativesAIngredientBaseClass(); \
 	friend struct Z_Construct_UClass_AIngredientBaseClass_Statics; \
 public: \
-	DECLARE_CLASS(AIngredientBaseClass, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/EscapeThePlate"), NO_API) \
+	DECLARE_CLASS(AIngredientBaseClass, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/EscapeThePlate"), NO_API) \
 	DECLARE_SERIALIZER(AIngredientBaseClass)
 
 

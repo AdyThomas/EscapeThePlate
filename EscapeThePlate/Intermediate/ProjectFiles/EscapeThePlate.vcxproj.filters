@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\EscapeThePlate.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{52784C30-702F-499D-9D33-91F23A5A7D15}</UniqueIdentifier>
+      <UniqueIdentifier>{3032BCB1-4766-40AB-B84E-FCE0E4EF3D64}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EscapeThePlate.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4154D95D-D7BD-4D50-BF4B-7C6EE4B15CD6}</UniqueIdentifier>
+      <UniqueIdentifier>{59F5FFE6-FF9F-4333-82BA-2B5074494CFE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\EscapeThePlate">
-      <UniqueIdentifier>{9A6DD3DE-1D01-40BE-80C5-7B2F90971A6E}</UniqueIdentifier>
+      <UniqueIdentifier>{9F164C15-3301-437E-A24E-D52F533C7288}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\EscapeThePlate\ChickenBreast.cpp">
       <Filter>Source\EscapeThePlate</Filter>
@@ -50,10 +50,10 @@
     <ClInclude Include="..\..\Source\EscapeThePlate\IngredientBaseClass.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\EscapeThePlate\Onion.cpp">
+    <ClCompile Include="..\..\Source\EscapeThePlate\IngredientBaseMovementComponent.cpp">
       <Filter>Source\EscapeThePlate</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\EscapeThePlate\Onion.h">
+    <ClInclude Include="..\..\Source\EscapeThePlate\IngredientBaseMovementComponent.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\EscapeThePlate\RedOnion.cpp">

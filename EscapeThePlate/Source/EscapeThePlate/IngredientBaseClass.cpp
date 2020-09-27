@@ -7,6 +7,7 @@
 #include "Engine/World.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "IngredientBaseMovementComponent.h"
 
 // Sets default values
 AIngredientBaseClass::AIngredientBaseClass()
@@ -16,10 +17,12 @@ AIngredientBaseClass::AIngredientBaseClass()
 
 	MoveSpeed = 1.0;
 
+	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
+
 	// Make springarm, connect to character
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->SetupAttachment(GetRootComponent());
-	SpringArm->TargetArmLength = 400.f;
+	SpringArm->TargetArmLength = 300.f;
 	SpringArm->bUsePawnControlRotation = true;
 
 	// Connect camera to springarm
@@ -32,24 +35,34 @@ AIngredientBaseClass::AIngredientBaseClass()
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationRoll = false;
 
+	// Connect skeletal mesh to root
+	Skeleton = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeleton"));
+	Skeleton->SetupAttachment(GetRootComponent());
+
+	// Establish the movement component
+	MoveComponent = CreateDefaultSubobject<UIngredientBaseMovementComponent>(TEXT("MoveComponent"));
+	MoveComponent->UpdatedComponent = RootComponent;
+
+	//TODO: Make this for Pawns
 	// Config character movement in dir of input
-	GetCharacterMovement()->bOrientRotationToMovement = true;
-	GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f);
+	//GetCharacterMovement()->bOrientRotationToMovement = true;
+	//GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f);
 
-	GetCharacterMovement()->JumpZVelocity = 0;
-}
+	//GetCharacterMovement()->JumpZVelocity = 0;
 
-// Called when the game starts or when spawned
-void AIngredientBaseClass::BeginPlay()
-{
-	Super::BeginPlay();
-	
 }
 
 // Called every frame
 void AIngredientBaseClass::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+}
+
+// Called when the game starts or when spawned
+void AIngredientBaseClass::BeginPlay()
+{
+	Super::BeginPlay();
 
 }
 
@@ -61,12 +74,13 @@ void AIngredientBaseClass::SetupPlayerInputComponent(UInputComponent* PlayerInpu
 
 }
 
-void AIngredientBaseClass::MoveX(float magnitude)
+// Simple getter for the movement component
+UPawnMovementComponent* AIngredientBaseClass::GetMovementComponent() const
 {
-
+	return MoveComponent;
 }
 
-void AIngredientBaseClass::MoveY(float magnitude)
-{
+//Pointless implementations, should be overridden by children
+void AIngredientBaseClass::MoveX(float magnitude){}
 
-}
+void AIngredientBaseClass::MoveY(float magnitude){}

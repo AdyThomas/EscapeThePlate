@@ -3,11 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
+#include "GameFramework/Pawn.h"
 #include "IngredientBaseClass.generated.h"
 
 UCLASS()
-class ESCAPETHEPLATE_API AIngredientBaseClass : public ACharacter
+class ESCAPETHEPLATE_API AIngredientBaseClass : public APawn
 {
 	GENERATED_BODY()
 
@@ -16,25 +16,33 @@ public:
 	AIngredientBaseClass();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
-	float MoveSpeed;
+		float MoveSpeed;
 
-	/** Components for the player camera */
+	// The spring attaching the camera to the pawn
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-	class USpringArmComponent* SpringArm;
+		class USpringArmComponent* SpringArm;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* Camera;
+
+	UPROPERTY(EditAnywhere)
+	class USkeletalMeshComponent* Skeleton;
+
+	UPROPERTY()
+	class UIngredientBaseMovementComponent* MoveComponent;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	virtual UPawnMovementComponent* GetMovementComponent() const override;
 
 	// Movement functions, implemented by child classes
 	virtual void MoveX(float magnitude);

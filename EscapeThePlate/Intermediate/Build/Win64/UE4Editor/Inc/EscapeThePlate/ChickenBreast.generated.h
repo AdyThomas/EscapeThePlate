@@ -36,7 +36,7 @@ public: \
 
 #define EscapeThePlate_Source_EscapeThePlate_ChickenBreast_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AChickenBreast(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AChickenBreast(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AChickenBreast) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AChickenBreast); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AChickenBreast); \
@@ -48,8 +48,6 @@ public:
 
 
 #define EscapeThePlate_Source_EscapeThePlate_ChickenBreast_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AChickenBreast() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AChickenBreast(AChickenBreast&&); \
