@@ -3,10 +3,10 @@
   Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 16 processes...
     [1/4] IngredientBaseClass.cpp
-    [2/4] UE4Editor-EscapeThePlate-0024.lib
-       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0024.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0024.exp
-    [3/4] UE4Editor-EscapeThePlate-0024.dll
-       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0024.suppressed.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0024.suppressed.exp
+    [2/4] UE4Editor-EscapeThePlate-0037.lib
+       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0037.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0037.exp
+    [3/4] UE4Editor-EscapeThePlate-0037.dll
+       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0037.suppressed.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0037.suppressed.exp
     [4/4] EscapeThePlateEditor.target
-  Total time in Parallel executor: 1.82 seconds
-  Total execution time: 2.27 seconds
+  Total time in Parallel executor: 1.40 seconds
+  Total execution time: 3.18 seconds

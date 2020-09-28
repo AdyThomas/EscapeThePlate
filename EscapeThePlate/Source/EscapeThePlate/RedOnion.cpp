@@ -21,8 +21,6 @@ void ARedOnion::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 	PlayerInputComponent->BindAxis("MoveY", this, &ARedOnion::MoveY);
 	PlayerInputComponent->BindAxis("MoveX", this, &ARedOnion::MoveX);
-	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("Tilt", this, &APawn::AddControllerPitchInput);
 }
 
 // Movement in the X direction with a magnitude

@@ -15,12 +15,19 @@ public:
 	// Sets default values for this character's properties
 	AIngredientBaseClass();
 
+	// Movement speed values
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
-		float MoveSpeed;
+	float MoveSpeed;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
+	float TurnSpeed;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
+	float TiltSpeed;
 
 	// The spring attaching the camera to the pawn
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-		class USpringArmComponent* SpringArm;
+	class USpringArmComponent* SpringArm;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* Camera;
@@ -50,5 +57,10 @@ public:
 	// Movement functions, implemented by child classes
 	virtual void MoveX(float magnitude);
 	virtual void MoveY(float magnitude);
+	virtual void Turn(float magnitude);
+	virtual void Tilt(float magnitude);
 
+	// Ability/Interaction functions
+	virtual void PerformAbility();
+	virtual void PerformInteraction();
 };

@@ -57,6 +57,14 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseClass() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArm;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TiltSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TiltSpeed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TurnSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TurnSpeed;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoveSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MoveSpeed;
@@ -119,9 +127,25 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseClass() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseClass, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_SpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_SpringArm_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveSpeed_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_TiltSpeed_MetaData[] = {
 		{ "Category", "Movement" },
 		{ "ModuleRelativePath", "IngredientBaseClass.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_TiltSpeed = { "TiltSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseClass, TiltSpeed), METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_TiltSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_TiltSpeed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_TurnSpeed_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "IngredientBaseClass.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_TurnSpeed = { "TurnSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseClass, TurnSpeed), METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_TurnSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_TurnSpeed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveSpeed_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "Comment", "// Movement speed values\n" },
+		{ "ModuleRelativePath", "IngredientBaseClass.h" },
+		{ "ToolTip", "Movement speed values" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveSpeed = { "MoveSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseClass, MoveSpeed), METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveSpeed_MetaData)) };
@@ -131,6 +155,8 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseClass() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_Skeleton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_Camera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_SpringArm,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_TiltSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_TurnSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseClass_Statics::NewProp_MoveSpeed,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AIngredientBaseClass_Statics::StaticCppClassTypeInfo = {
@@ -160,7 +186,7 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseClass() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIngredientBaseClass, 1800483113);
+	IMPLEMENT_CLASS(AIngredientBaseClass, 2488991598);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AIngredientBaseClass>()
 	{
 		return AIngredientBaseClass::StaticClass();

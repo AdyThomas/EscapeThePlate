@@ -22,8 +22,6 @@ void AChickenBreast::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAxis("MoveY", this, &AChickenBreast::MoveY);
 	PlayerInputComponent->BindAxis("MoveX", this, &AChickenBreast::MoveX);
-	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("Tilt", this, &APawn::AddControllerPitchInput);
 }
 
 // Movement in the X direction with a magnitude

@@ -19,19 +19,22 @@ AIngredientBaseClass::AIngredientBaseClass()
 
 	// Preset variables
 	MoveSpeed = 1.0;
+	TurnSpeed = 45.f;
+	TiltSpeed = 45.f;
 
 	// Create collider, make it the root component
 	BoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxCollider"));
+	SetRootComponent(BoxCollider);
 	BoxCollider->SetCollisionProfileName(TEXT("Pawn"));
 
 	// We want physics always
 	BoxCollider->SetSimulatePhysics(true);
-	RootComponent = BoxCollider;
+	
 
 	// Make springarm, connect to character
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->SetupAttachment(RootComponent);
-	SpringArm->TargetArmLength = 300.f;
+	SpringArm->TargetArmLength = 200.f;
 	SpringArm->bUsePawnControlRotation = true;
 
 	// Connect camera to springarm
@@ -47,8 +50,6 @@ AIngredientBaseClass::AIngredientBaseClass()
 	// Connect skeletal mesh to root
 	Skeleton = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeleton"));
 	Skeleton->SetupAttachment(RootComponent);
-
-	
 
 	// Establish the movement component
 	MoveComponent = CreateDefaultSubobject<UIngredientBaseMovementComponent>(TEXT("MoveComponent"));
@@ -76,6 +77,8 @@ void AIngredientBaseClass::SetupPlayerInputComponent(UInputComponent* PlayerInpu
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	check(PlayerInputComponent);
 
+	PlayerInputComponent->BindAxis("Turn", this, &AIngredientBaseClass::Turn);
+	PlayerInputComponent->BindAxis("Tilt", this, &AIngredientBaseClass::Tilt);
 }
 
 // Simple getter for the movement component
@@ -84,7 +87,19 @@ UPawnMovementComponent* AIngredientBaseClass::GetMovementComponent() const
 	return MoveComponent;
 }
 
+void AIngredientBaseClass::Turn(float magnitude)
+{
+	AddControllerYawInput(magnitude * TurnSpeed * GetWorld()->GetDeltaSeconds());
+}
+
+void AIngredientBaseClass::Tilt(float magnitude)
+{
+	AddControllerPitchInput(magnitude * TiltSpeed * GetWorld()->GetDeltaSeconds());
+}
+
 //Pointless implementations, should be overridden by children
 void AIngredientBaseClass::MoveX(float magnitude){}
-
 void AIngredientBaseClass::MoveY(float magnitude){}
+void AIngredientBaseClass::PerformAbility(){}
+void AIngredientBaseClass::PerformInteraction(){}
+
