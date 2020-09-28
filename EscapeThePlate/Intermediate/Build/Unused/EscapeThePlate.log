@@ -1,13 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\tommy\Documents\GitHub\EscapeThePlate).
   Building EscapeThePlateEditor...
   Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 16 processes...
-    [1/5] RedOnion.cpp
-    [2/5] ChickenBreast.cpp
-    [3/5] UE4Editor-EscapeThePlate-0020.lib
-       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0020.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0020.exp
-    [4/5] UE4Editor-EscapeThePlate-0020.dll
-       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0020.suppressed.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0020.suppressed.exp
-    [5/5] EscapeThePlateEditor.target
-  Total time in Parallel executor: 1.32 seconds
-  Total execution time: 1.79 seconds
+  Building 4 actions with 16 processes...
+    [1/4] IngredientBaseClass.cpp
+    [2/4] UE4Editor-EscapeThePlate-0024.lib
+       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0024.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0024.exp
+    [3/4] UE4Editor-EscapeThePlate-0024.dll
+       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0024.suppressed.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0024.suppressed.exp
+    [4/4] EscapeThePlateEditor.target
+  Total time in Parallel executor: 1.82 seconds
+  Total execution time: 2.27 seconds

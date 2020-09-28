@@ -8,6 +8,8 @@
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "IngredientBaseMovementComponent.h"
+#include "Components/BoxComponent.h"
+
 
 // Sets default values
 AIngredientBaseClass::AIngredientBaseClass()
@@ -15,13 +17,20 @@ AIngredientBaseClass::AIngredientBaseClass()
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	// Preset variables
 	MoveSpeed = 1.0;
 
-	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
+	// Create collider, make it the root component
+	BoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxCollider"));
+	BoxCollider->SetCollisionProfileName(TEXT("Pawn"));
+
+	// We want physics always
+	BoxCollider->SetSimulatePhysics(true);
+	RootComponent = BoxCollider;
 
 	// Make springarm, connect to character
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
-	SpringArm->SetupAttachment(GetRootComponent());
+	SpringArm->SetupAttachment(RootComponent);
 	SpringArm->TargetArmLength = 300.f;
 	SpringArm->bUsePawnControlRotation = true;
 
@@ -37,18 +46,13 @@ AIngredientBaseClass::AIngredientBaseClass()
 
 	// Connect skeletal mesh to root
 	Skeleton = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeleton"));
-	Skeleton->SetupAttachment(GetRootComponent());
+	Skeleton->SetupAttachment(RootComponent);
+
+	
 
 	// Establish the movement component
 	MoveComponent = CreateDefaultSubobject<UIngredientBaseMovementComponent>(TEXT("MoveComponent"));
 	MoveComponent->UpdatedComponent = RootComponent;
-
-	//TODO: Make this for Pawns
-	// Config character movement in dir of input
-	//GetCharacterMovement()->bOrientRotationToMovement = true;
-	//GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f);
-
-	//GetCharacterMovement()->JumpZVelocity = 0;
 
 }
 

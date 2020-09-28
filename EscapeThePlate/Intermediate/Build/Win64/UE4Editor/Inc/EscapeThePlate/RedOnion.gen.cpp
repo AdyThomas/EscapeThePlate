@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeRedOnion() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARedOnion, 3136026013);
+	IMPLEMENT_CLASS(ARedOnion, 178860464);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<ARedOnion>()
 	{
 		return ARedOnion::StaticClass();

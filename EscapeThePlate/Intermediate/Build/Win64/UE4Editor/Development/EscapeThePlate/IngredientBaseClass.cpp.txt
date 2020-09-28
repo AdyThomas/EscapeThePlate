@@ -29,3 +29,5 @@ D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetworkPr
 D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
 C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Source\EscapeThePlate\IngredientBaseMovementComponent.h
 C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Inc\EscapeThePlate\IngredientBaseMovementComponent.generated.h
+D:\Unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h

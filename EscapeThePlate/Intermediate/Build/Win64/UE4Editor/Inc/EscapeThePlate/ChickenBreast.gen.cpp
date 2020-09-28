@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeChickenBreast() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AChickenBreast, 3130218014);
+	IMPLEMENT_CLASS(AChickenBreast, 447222917);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AChickenBreast>()
 	{
 		return AChickenBreast::StaticClass();

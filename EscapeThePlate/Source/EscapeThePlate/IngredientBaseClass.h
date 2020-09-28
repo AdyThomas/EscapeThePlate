@@ -25,8 +25,11 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* Camera;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = Mesh)
 	class USkeletalMeshComponent* Skeleton;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Collision)
+	class UBoxComponent* BoxCollider;
 
 	UPROPERTY()
 	class UIngredientBaseMovementComponent* MoveComponent;
