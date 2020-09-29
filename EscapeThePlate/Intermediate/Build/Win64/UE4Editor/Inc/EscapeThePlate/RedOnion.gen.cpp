@@ -31,6 +31,16 @@ void EmptyLinkFunctionForGeneratedCodeRedOnion() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bUpPressed_MetaData[];
+#endif
+		static void NewProp_bUpPressed_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bUpPressed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HorizontalAcceleration_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HorizontalAcceleration;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -47,6 +57,27 @@ void EmptyLinkFunctionForGeneratedCodeRedOnion() {}
 		{ "ToolTip", "Represents the red onion playable character, with a wrapper and the ability to not get contaminated" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARedOnion_Statics::NewProp_bUpPressed_MetaData[] = {
+		{ "ModuleRelativePath", "RedOnion.h" },
+	};
+#endif
+	void Z_Construct_UClass_ARedOnion_Statics::NewProp_bUpPressed_SetBit(void* Obj)
+	{
+		((ARedOnion*)Obj)->bUpPressed = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ARedOnion_Statics::NewProp_bUpPressed = { "bUpPressed", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ARedOnion), &Z_Construct_UClass_ARedOnion_Statics::NewProp_bUpPressed_SetBit, METADATA_PARAMS(Z_Construct_UClass_ARedOnion_Statics::NewProp_bUpPressed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARedOnion_Statics::NewProp_bUpPressed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARedOnion_Statics::NewProp_HorizontalAcceleration_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "RedOnion.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ARedOnion_Statics::NewProp_HorizontalAcceleration = { "HorizontalAcceleration", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARedOnion, HorizontalAcceleration), METADATA_PARAMS(Z_Construct_UClass_ARedOnion_Statics::NewProp_HorizontalAcceleration_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARedOnion_Statics::NewProp_HorizontalAcceleration_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARedOnion_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARedOnion_Statics::NewProp_bUpPressed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARedOnion_Statics::NewProp_HorizontalAcceleration,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ARedOnion_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ARedOnion>::IsAbstract,
 	};
@@ -56,11 +87,11 @@ void EmptyLinkFunctionForGeneratedCodeRedOnion() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ARedOnion_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ARedOnion_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ARedOnion_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ARedOnion_Statics::Class_MetaDataParams))
@@ -74,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeRedOnion() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARedOnion, 2394429578);
+	IMPLEMENT_CLASS(ARedOnion, 2451503130);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<ARedOnion>()
 	{
 		return ARedOnion::StaticClass();
