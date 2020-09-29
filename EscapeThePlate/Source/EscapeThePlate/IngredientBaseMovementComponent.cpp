@@ -12,7 +12,7 @@ void UIngredientBaseMovementComponent::TickComponent(float DeltaTime, enum ELeve
         return;
 
 	// Get mvmt input
-    FVector DesiredMovementThisFrame = ConsumeInputVector().GetClampedToMaxSize(1.f);
+	FVector DesiredMovementThisFrame = ConsumeInputVector();// .GetClampedToMaxSize(1.f);
 
 	//Perform movment only if not arbitrary
 	if (!DesiredMovementThisFrame.IsNearlyZero())

@@ -14,7 +14,7 @@ ARedOnion::ARedOnion()
 	MaxSpeed = 100.0;
 	ForwardSpeed = 0;
 	HorizontalSpeed = 0;
-	Friction = .5f;
+	Friction = 2.f;
 	bUpPressed = false;
 	bDownPressed = false;
 	bLeftPressed = false;
@@ -29,6 +29,7 @@ void ARedOnion::Tick(float DeltaTime)
 	CheckAndPerformMovement(DeltaTime);
 }
 
+// Checks if keys are pressed, and performs corresponding acceleration and movement if so
 void ARedOnion::CheckAndPerformMovement(float DeltaTime)
 {
 	// Handle forward movement
@@ -40,6 +41,7 @@ void ARedOnion::CheckAndPerformMovement(float DeltaTime)
 	{
 		ForwardSpeed = FMath::Clamp(ForwardSpeed - ForwardAcceleration * DeltaTime, -1 * MaxSpeed, MaxSpeed);
 	}
+	//Deceleration
 	else if (ForwardSpeed < 0.f)
 	{
 		ForwardSpeed = FMath::Clamp(ForwardSpeed + Friction * DeltaTime, -1 * MaxSpeed, 0.f);
@@ -58,6 +60,7 @@ void ARedOnion::CheckAndPerformMovement(float DeltaTime)
 	{
 		HorizontalSpeed = FMath::Clamp(HorizontalSpeed + HorizontalAcceleration * DeltaTime, -1 * MaxSpeed, MaxSpeed);
 	}
+	// Deceleration
 	else if (HorizontalSpeed < 0.f)
 	{
 		HorizontalSpeed = FMath::Clamp(HorizontalSpeed + Friction * DeltaTime, -1 * MaxSpeed, 0.f);
@@ -67,13 +70,17 @@ void ARedOnion::CheckAndPerformMovement(float DeltaTime)
 		HorizontalSpeed = FMath::Clamp(HorizontalSpeed - Friction * DeltaTime, 0.f, MaxSpeed);
 	}
 
-	const FRotator Rotation = Controller->GetControlRotation();
-	const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
+	if (MoveComponent && Controller)
+	{
+		// Perform Movement
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
 
-	const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-	MoveComponent->AddInputVector(ForwardSpeed * ForwardDirection);
-	const FVector HorizDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-	MoveComponent->AddInputVector(HorizontalSpeed * HorizDirection);
+		const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		MoveComponent->AddInputVector(ForwardSpeed * ForwardDirection);
+		const FVector HorizDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+		MoveComponent->AddInputVector(HorizontalSpeed * HorizDirection);
+	}
 }
 
 // Called to bind functionality to input
