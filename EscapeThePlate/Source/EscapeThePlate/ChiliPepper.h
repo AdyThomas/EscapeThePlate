@@ -17,11 +17,21 @@ class ESCAPETHEPLATE_API AChiliPepper : public AIngredientBaseClass
 public:
 	AChiliPepper();
 
-	// Ability defined variables, TODO: Put in baseclass?
+	// The acceleration for jumping and max time this can accelerate, respectively
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Ability)
-	float LaunchSpeed;
-	float VerticalSpeed;
+	float Acceleration;
+	float JumpTime;
+
+	// The timer used to start/stop jumping
+	UPROPERTY()
+	float AccelerationTimer;
+	
+	// The cooldown of the jump ability in seconds
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Ability)
 	float AbilityCooldown;
+
+	// The timer and flag used to trigger the ability
+	UPROPERTY()
 	float AbilityCooldownTimer;
 	bool bAbilityPressed;
 
@@ -41,4 +51,6 @@ public:
 private:
 	void CheckLauchVars(float DeltaTime);
 	void PerformLaunch(float DeltaTime);
+	// Cancels any further jump acceleration
+	void StopJump();
 };

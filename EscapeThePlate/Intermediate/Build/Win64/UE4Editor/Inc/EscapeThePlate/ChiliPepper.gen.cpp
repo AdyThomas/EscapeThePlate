@@ -32,9 +32,21 @@ void EmptyLinkFunctionForGeneratedCodeChiliPepper() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LaunchSpeed_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AbilityCooldownTimer_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LaunchSpeed;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AbilityCooldownTimer;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AbilityCooldown_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AbilityCooldown;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AccelerationTimer_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AccelerationTimer;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Acceleration_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Acceleration;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -52,16 +64,44 @@ void EmptyLinkFunctionForGeneratedCodeChiliPepper() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChiliPepper_Statics::NewProp_LaunchSpeed_MetaData[] = {
-		{ "Category", "Ability" },
-		{ "Comment", "// Ability defined variables, TODO: Put in baseclass?\n" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChiliPepper_Statics::NewProp_AbilityCooldownTimer_MetaData[] = {
+		{ "Comment", "// The timer and flag used to trigger the ability\n" },
 		{ "ModuleRelativePath", "ChiliPepper.h" },
-		{ "ToolTip", "Ability defined variables, TODO: Put in baseclass?" },
+		{ "ToolTip", "The timer and flag used to trigger the ability" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AChiliPepper_Statics::NewProp_LaunchSpeed = { "LaunchSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AChiliPepper, LaunchSpeed), METADATA_PARAMS(Z_Construct_UClass_AChiliPepper_Statics::NewProp_LaunchSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AChiliPepper_Statics::NewProp_LaunchSpeed_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AChiliPepper_Statics::NewProp_AbilityCooldownTimer = { "AbilityCooldownTimer", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AChiliPepper, AbilityCooldownTimer), METADATA_PARAMS(Z_Construct_UClass_AChiliPepper_Statics::NewProp_AbilityCooldownTimer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AChiliPepper_Statics::NewProp_AbilityCooldownTimer_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChiliPepper_Statics::NewProp_AbilityCooldown_MetaData[] = {
+		{ "Category", "Ability" },
+		{ "Comment", "// The cooldown of the jump ability in seconds\n" },
+		{ "ModuleRelativePath", "ChiliPepper.h" },
+		{ "ToolTip", "The cooldown of the jump ability in seconds" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AChiliPepper_Statics::NewProp_AbilityCooldown = { "AbilityCooldown", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AChiliPepper, AbilityCooldown), METADATA_PARAMS(Z_Construct_UClass_AChiliPepper_Statics::NewProp_AbilityCooldown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AChiliPepper_Statics::NewProp_AbilityCooldown_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChiliPepper_Statics::NewProp_AccelerationTimer_MetaData[] = {
+		{ "Comment", "// The timer used to start/stop jumping\n" },
+		{ "ModuleRelativePath", "ChiliPepper.h" },
+		{ "ToolTip", "The timer used to start/stop jumping" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AChiliPepper_Statics::NewProp_AccelerationTimer = { "AccelerationTimer", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AChiliPepper, AccelerationTimer), METADATA_PARAMS(Z_Construct_UClass_AChiliPepper_Statics::NewProp_AccelerationTimer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AChiliPepper_Statics::NewProp_AccelerationTimer_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChiliPepper_Statics::NewProp_Acceleration_MetaData[] = {
+		{ "Category", "Ability" },
+		{ "Comment", "// The acceleration for jumping and max time this can accelerate, respectively\n" },
+		{ "ModuleRelativePath", "ChiliPepper.h" },
+		{ "ToolTip", "The acceleration for jumping and max time this can accelerate, respectively" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AChiliPepper_Statics::NewProp_Acceleration = { "Acceleration", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AChiliPepper, Acceleration), METADATA_PARAMS(Z_Construct_UClass_AChiliPepper_Statics::NewProp_Acceleration_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AChiliPepper_Statics::NewProp_Acceleration_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AChiliPepper_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChiliPepper_Statics::NewProp_LaunchSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChiliPepper_Statics::NewProp_AbilityCooldownTimer,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChiliPepper_Statics::NewProp_AbilityCooldown,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChiliPepper_Statics::NewProp_AccelerationTimer,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChiliPepper_Statics::NewProp_Acceleration,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AChiliPepper_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AChiliPepper>::IsAbstract,
@@ -90,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeChiliPepper() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AChiliPepper, 3666238810);
+	IMPLEMENT_CLASS(AChiliPepper, 1976799251);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AChiliPepper>()
 	{
 		return AChiliPepper::StaticClass();
