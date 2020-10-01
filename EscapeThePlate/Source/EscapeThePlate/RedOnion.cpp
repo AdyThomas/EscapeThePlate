@@ -9,9 +9,9 @@ ARedOnion::ARedOnion()
 	//Superclass constructor called automatically
 
 	MoveSpeed = 1.f;
-	HorizontalAcceleration = 1;
-	ForwardAcceleration = 1;
-	MaxSpeed = 40.0;
+	HorizontalAcceleration = 2;
+	ForwardAcceleration = 2;
+	MaxSpeed = 20.0;
 	ForwardSpeed = 0;
 	HorizontalSpeed = 0;
 	Friction = 2.f;

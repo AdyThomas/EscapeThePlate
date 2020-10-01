@@ -83,6 +83,7 @@ void AChiliPepper::CheckLauchVars(float DeltaTime)
 	// Perform Ability
 	if (bAbilityPressed)
 	{
+		UE_LOG(LogTemp, Warning, TEXT("Velocity %f, %f, %f"),MoveComponent->Velocity.X, MoveComponent->Velocity.Y, MoveComponent->Velocity.Z)
 		// Reset vars
 		bAbilityPressed = false;
 		AbilityCooldownTimer = AbilityCooldown;
