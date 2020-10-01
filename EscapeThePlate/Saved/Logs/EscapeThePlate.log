@@ -18206,3 +18206,1551 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.01-03.11.08:773][204]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023E95656400), frame # 422204
 [2020.10.01-03.11.08:776][204]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
 [2020.10.01-03.11.08:802][205]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2020.10.01-03.43.47:725][939]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Apple.obj)
+[2020.10.01-03.43.47:859][939]LogFbx: Loading FBX Scene from C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Apple.obj
+[2020.10.01-03.43.47:877][939]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-03.43.50:735][939]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.01-03.43.53:196][939]LogMaterial: Display: Missing cached shader map for material initialShadingGroup, compiling. 
+[2020.10.01-03.43.53:371][939]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 15
+[2020.10.01-03.43.53:371][939]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 13
+[2020.10.01-03.43.53:371][939]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 11
+[2020.10.01-03.43.53:371][939]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 9
+[2020.10.01-03.43.53:371][939]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
+[2020.10.01-03.43.53:371][939]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2020.10.01-03.43.53:371][939]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2020.10.01-03.43.53:371][939]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.10.01-03.43.53:371][939]LogFbx: Display: Triangulating static mesh pSphere4
+[2020.10.01-03.43.53:593][939]LogStaticMesh: Building static mesh Apple...
+[2020.10.01-03.43.53:799][939]LogStaticMesh: Built static mesh [0.22s] /Game/Assets/3DModels/Apple.Apple
+[2020.10.01-03.43.54:588][939]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Bananas.obj)
+[2020.10.01-03.43.54:597][939]LogFbx: Loading FBX Scene from C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Bananas.obj
+[2020.10.01-03.43.54:600][939]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-03.43.54:616][939]LogFbx: Display: Triangulating static mesh pCylinder1
+[2020.10.01-03.43.54:621][939]LogStaticMesh: Building static mesh Bananas_pCylinder1...
+[2020.10.01-03.43.54:624][939]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Bananas_pCylinder1.Bananas_pCylinder1
+[2020.10.01-03.43.54:636][939]LogFbx: Display: Triangulating static mesh pCylinder2
+[2020.10.01-03.43.54:641][939]LogStaticMesh: Building static mesh Bananas_pCylinder2...
+[2020.10.01-03.43.54:644][939]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Bananas_pCylinder2.Bananas_pCylinder2
+[2020.10.01-03.43.54:655][939]LogFbx: Display: Triangulating static mesh pCylinder3
+[2020.10.01-03.43.54:660][939]LogStaticMesh: Building static mesh Bananas_pCylinder3...
+[2020.10.01-03.43.54:663][939]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Bananas_pCylinder3.Bananas_pCylinder3
+[2020.10.01-03.43.54:683][939]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Carrots.obj)
+[2020.10.01-03.43.54:689][939]LogFbx: Loading FBX Scene from C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Carrots.obj
+[2020.10.01-03.43.54:695][939]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-03.43.54:697][939]LogFbx: Display: Triangulating static mesh pCylinder4
+[2020.10.01-03.43.54:703][939]LogStaticMesh: Building static mesh Carrots_pCylinder4...
+[2020.10.01-03.43.54:705][939]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Carrots_pCylinder4.Carrots_pCylinder4
+[2020.10.01-03.43.54:706][939]LogStaticMesh: Warning: Carrots_pCylinder4 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.10.01-03.43.54:726][939]LogFbx: Display: Triangulating static mesh pCylinder5
+[2020.10.01-03.43.54:733][939]LogStaticMesh: Building static mesh Carrots_pCylinder5...
+[2020.10.01-03.43.54:737][939]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/3DModels/Carrots_pCylinder5.Carrots_pCylinder5
+[2020.10.01-03.43.54:739][939]LogStaticMesh: Warning: Carrots_pCylinder5 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.10.01-03.43.54:745][939]LogFbx: Display: Triangulating static mesh pCylinder6
+[2020.10.01-03.43.54:750][939]LogStaticMesh: Building static mesh Carrots_pCylinder6...
+[2020.10.01-03.43.54:753][939]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Carrots_pCylinder6.Carrots_pCylinder6
+[2020.10.01-03.43.54:754][939]LogStaticMesh: Warning: Carrots_pCylinder6 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.10.01-03.43.54:770][939]FBXImport: Warning: Carrots_pCylinder4 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.10.01-03.43.54:770][939]FBXImport: Warning: Carrots_pCylinder5 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.10.01-03.43.54:770][939]FBXImport: Warning: Carrots_pCylinder6 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.10.01-03.43.54:919][939]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Chicken Breast.obj)
+[2020.10.01-03.43.54:927][939]LogFbx: Loading FBX Scene from C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Chicken Breast.obj
+[2020.10.01-03.43.54:929][939]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-03.43.54:936][939]LogMaterial: Display: Missing cached shader map for material pCube1Mat, compiling. 
+[2020.10.01-03.43.54:944][939]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 15
+[2020.10.01-03.43.54:944][939]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 13
+[2020.10.01-03.43.54:944][939]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 11
+[2020.10.01-03.43.54:944][939]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 9
+[2020.10.01-03.43.54:946][939]LogFbx: Display: Triangulating static mesh pCube1
+[2020.10.01-03.43.54:950][939]LogStaticMesh: Building static mesh Chicken_Breast_pCube1...
+[2020.10.01-03.43.54:951][939]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Chicken_Breast_pCube1.Chicken_Breast_pCube1
+[2020.10.01-03.43.54:964][939]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Grapefruit.obj)
+[2020.10.01-03.43.54:976][939]LogFbx: Loading FBX Scene from C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Grapefruit.obj
+[2020.10.01-03.43.54:979][939]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-03.43.54:982][939]LogFbx: Display: Triangulating static mesh pSphere6
+[2020.10.01-03.43.54:988][939]LogStaticMesh: Building static mesh Grapefruit_pSphere6...
+[2020.10.01-03.43.54:991][939]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Grapefruit_pSphere6.Grapefruit_pSphere6
+[2020.10.01-03.43.55:001][939]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.01-03.43.55:009][939]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Kitchen_knife_tri.obj)
+[2020.10.01-03.43.55:021][939]LogFbx: Loading FBX Scene from C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Kitchen_knife_tri.obj
+[2020.10.01-03.43.55:023][939]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-03.43.55:029][939]LogStaticMesh: Building static mesh Kitchen_knife_tri_pCube1...
+[2020.10.01-03.43.55:031][939]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Kitchen_knife_tri_pCube1.Kitchen_knife_tri_pCube1
+[2020.10.01-03.43.55:047][939]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Kitchen_stove_tri.obj)
+[2020.10.01-03.43.55:054][939]LogFbx: Loading FBX Scene from C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Kitchen_stove_tri.obj
+[2020.10.01-03.43.55:061][939]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-03.43.55:077][939]LogMaterial: Display: Missing cached shader map for material pCube11Mat, compiling. 
+[2020.10.01-03.43.55:111][939]LogStaticMesh: Building static mesh Kitchen_stove_tri_pCube11...
+[2020.10.01-03.43.55:117][939]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/3DModels/Kitchen_stove_tri_pCube11.Kitchen_stove_tri_pCube11
+[2020.10.01-03.43.55:119][939]LogStaticMesh: Warning: Kitchen_stove_tri_pCube11 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.10.01-03.43.55:119][939]LogStaticMesh: Warning: Kitchen_stove_tri_pCube11 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.10.01-03.43.55:127][939]FBXImport: Warning: Kitchen_stove_tri_pCube11 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.10.01-03.43.55:127][939]FBXImport: Warning: Kitchen_stove_tri_pCube11 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.10.01-03.43.55:131][939]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Lemon.obj)
+[2020.10.01-03.43.55:140][939]LogFbx: Loading FBX Scene from C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Lemon.obj
+[2020.10.01-03.43.55:142][939]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-03.43.55:144][939]LogFbx: Display: Triangulating static mesh pSphere7
+[2020.10.01-03.43.55:151][939]LogStaticMesh: Building static mesh Lemon_pSphere7...
+[2020.10.01-03.43.55:153][939]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Lemon_pSphere7.Lemon_pSphere7
+[2020.10.01-03.43.55:162][939]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.01-03.43.55:166][939]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Onion.obj)
+[2020.10.01-03.43.55:175][939]LogFbx: Loading FBX Scene from C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Onion.obj
+[2020.10.01-03.43.55:177][939]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-03.43.55:180][939]LogFbx: Display: Triangulating static mesh pSphere1
+[2020.10.01-03.43.55:187][939]LogStaticMesh: Building static mesh Onion_pSphere1...
+[2020.10.01-03.43.55:189][939]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Onion_pSphere1.Onion_pSphere1
+[2020.10.01-03.43.55:199][939]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Orange.obj)
+[2020.10.01-03.43.55:206][939]LogFbx: Loading FBX Scene from C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Orange.obj
+[2020.10.01-03.43.55:209][939]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-03.43.55:214][939]LogFbx: Display: Triangulating static mesh pSphere5
+[2020.10.01-03.43.55:220][939]LogStaticMesh: Building static mesh Orange_pSphere5...
+[2020.10.01-03.43.55:223][939]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Orange_pSphere5.Orange_pSphere5
+[2020.10.01-03.43.55:232][939]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.01-03.43.55:236][939]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Salmon.obj)
+[2020.10.01-03.43.55:242][939]LogFbx: Loading FBX Scene from C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Salmon.obj
+[2020.10.01-03.43.55:243][939]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-03.43.55:251][939]LogFbx: Display: Triangulating static mesh pCube2
+[2020.10.01-03.43.55:255][939]LogStaticMesh: Building static mesh Salmon_pCube2...
+[2020.10.01-03.43.55:256][939]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Salmon_pCube2.Salmon_pCube2
+[2020.10.01-03.43.55:268][939]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Tomato.obj)
+[2020.10.01-03.43.55:278][939]LogFbx: Loading FBX Scene from C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Tomato.obj
+[2020.10.01-03.43.55:281][939]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-03.43.55:283][939]LogFbx: Display: Triangulating static mesh pSphere3
+[2020.10.01-03.43.55:291][939]LogStaticMesh: Building static mesh Tomato_pSphere3...
+[2020.10.01-03.43.55:293][939]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Tomato_pSphere3.Tomato_pSphere3
+[2020.10.01-03.43.55:301][939]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.01-03.43.56:098][946]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 22
+[2020.10.01-03.43.56:743][992]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 20
+[2020.10.01-03.43.57:332][ 36]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 18
+[2020.10.01-03.43.57:357][ 38]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 16
+[2020.10.01-03.43.57:386][ 40]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 14
+[2020.10.01-03.43.57:517][ 50]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 12
+[2020.10.01-03.43.57:557][ 53]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 10
+[2020.10.01-03.43.57:609][ 57]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 9
+[2020.10.01-03.43.57:706][ 65]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 8
+[2020.10.01-03.43.57:847][ 76]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2020.10.01-03.43.57:969][ 85]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 6
+[2020.10.01-03.43.58:052][ 87]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2020.10.01-03.43.58:219][ 89]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2020.10.01-03.43.58:220][ 89]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 3
+[2020.10.01-03.43.58:282][ 92]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2020.10.01-03.43.58:407][ 98]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1
+[2020.10.01-03.43.59:859][250]LogSlate: Window 'Message Log' being destroyed
+[2020.10.01-03.43.59:862][250]LogSlate: Window 'Message Log' being destroyed
+[2020.10.01-03.44.02:010][475]LogUObjectHash: Compacting FUObjectHashTables data took   8.40ms
+[2020.10.01-03.44.02:029][475]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/PrototypeLevel' took 0.115
+[2020.10.01-03.44.02:069][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Apple] ([1] browsable assets)...
+[2020.10.01-03.44.02:086][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Apple.Apple]
+[2020.10.01-03.44.02:086][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Apple]
+[2020.10.01-03.44.02:355][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Apple_Auto149AC7D544C0F1C1E0AEC92B171572180.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Apple_Auto1.uasset'
+[2020.10.01-03.44.02:376][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/initialShadingGroup] ([1] browsable assets)...
+[2020.10.01-03.44.02:383][475]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/3DModels/initialShadingGroup.initialShadingGroup]
+[2020.10.01-03.44.02:383][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/initialShadingGroup]
+[2020.10.01-03.44.02:403][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/initialShadingGroup_Auto1F73FFBA24B082CCB613CF1A88228E2FF.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/initialShadingGroup_Auto1.uasset'
+[2020.10.01-03.44.02:403][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Tomato_pSphere3] ([1] browsable assets)...
+[2020.10.01-03.44.02:410][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Tomato_pSphere3.Tomato_pSphere3]
+[2020.10.01-03.44.02:410][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Tomato_pSphere3]
+[2020.10.01-03.44.02:416][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Tomato_pSphere3_Auto1D719A5DD435FCA46B8C04EBBBBB5B8AA.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Tomato_pSphere3_Auto1.uasset'
+[2020.10.01-03.44.02:416][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Bananas_pCylinder1] ([1] browsable assets)...
+[2020.10.01-03.44.02:424][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Bananas_pCylinder1.Bananas_pCylinder1]
+[2020.10.01-03.44.02:424][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Bananas_pCylinder1]
+[2020.10.01-03.44.02:430][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Bananas_pCylinder1_Auto173F5489641EBC3100E6293ACF437066D.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Bananas_pCylinder1_Auto1.uasset'
+[2020.10.01-03.44.02:430][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Bananas_pCylinder2] ([1] browsable assets)...
+[2020.10.01-03.44.02:438][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Bananas_pCylinder2.Bananas_pCylinder2]
+[2020.10.01-03.44.02:438][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Bananas_pCylinder2]
+[2020.10.01-03.44.02:444][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Bananas_pCylinder2_Auto17A9778AD4F6285C1995BA08ECD37F0B1.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Bananas_pCylinder2_Auto1.uasset'
+[2020.10.01-03.44.02:444][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Bananas_pCylinder3] ([1] browsable assets)...
+[2020.10.01-03.44.02:451][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Bananas_pCylinder3.Bananas_pCylinder3]
+[2020.10.01-03.44.02:451][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Bananas_pCylinder3]
+[2020.10.01-03.44.02:457][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Bananas_pCylinder3_Auto1C2E2555B4D318C8ACC70F0AABE37A383.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Bananas_pCylinder3_Auto1.uasset'
+[2020.10.01-03.44.02:457][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Salmon_pCube2] ([1] browsable assets)...
+[2020.10.01-03.44.02:465][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Salmon_pCube2.Salmon_pCube2]
+[2020.10.01-03.44.02:465][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Salmon_pCube2]
+[2020.10.01-03.44.02:471][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Salmon_pCube2_Auto1E5BDA2974FF359673CA803828F30E63D.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Salmon_pCube2_Auto1.uasset'
+[2020.10.01-03.44.02:472][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Carrots_pCylinder4] ([1] browsable assets)...
+[2020.10.01-03.44.02:480][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Carrots_pCylinder4.Carrots_pCylinder4]
+[2020.10.01-03.44.02:480][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Carrots_pCylinder4]
+[2020.10.01-03.44.02:487][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Carrots_pCylinder4_Auto183EC192F4F26EC69A0C928A50CD1BE96.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Carrots_pCylinder4_Auto1.uasset'
+[2020.10.01-03.44.02:487][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Carrots_pCylinder5] ([1] browsable assets)...
+[2020.10.01-03.44.02:495][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Carrots_pCylinder5.Carrots_pCylinder5]
+[2020.10.01-03.44.02:495][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Carrots_pCylinder5]
+[2020.10.01-03.44.02:500][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Carrots_pCylinder5_Auto16DF5226543FD5897A1F14E9B8D473DB4.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Carrots_pCylinder5_Auto1.uasset'
+[2020.10.01-03.44.02:501][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Carrots_pCylinder6] ([1] browsable assets)...
+[2020.10.01-03.44.02:508][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Carrots_pCylinder6.Carrots_pCylinder6]
+[2020.10.01-03.44.02:508][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Carrots_pCylinder6]
+[2020.10.01-03.44.02:514][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Carrots_pCylinder6_Auto13A99CDC04EADA745DAAADC9C2BDAA054.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Carrots_pCylinder6_Auto1.uasset'
+[2020.10.01-03.44.02:514][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Orange_pSphere5] ([1] browsable assets)...
+[2020.10.01-03.44.02:521][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Orange_pSphere5.Orange_pSphere5]
+[2020.10.01-03.44.02:521][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Orange_pSphere5]
+[2020.10.01-03.44.02:527][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Orange_pSphere5_Auto16D6D9440493504F80E5116B793886B74.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Orange_pSphere5_Auto1.uasset'
+[2020.10.01-03.44.02:527][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Chicken_Breast_pCube1] ([1] browsable assets)...
+[2020.10.01-03.44.02:535][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Chicken_Breast_pCube1.Chicken_Breast_pCube1]
+[2020.10.01-03.44.02:535][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Chicken_Breast_pCube1]
+[2020.10.01-03.44.02:540][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Chicken_Breast_pCube1_Auto1C8D700D94B0BF3875D93BEA1D348A081.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Chicken_Breast_pCube1_Auto1.uasset'
+[2020.10.01-03.44.02:541][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/pCube1Mat] ([1] browsable assets)...
+[2020.10.01-03.44.02:548][475]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/3DModels/pCube1Mat.pCube1Mat]
+[2020.10.01-03.44.02:548][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/pCube1Mat]
+[2020.10.01-03.44.02:552][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/pCube1Mat_Auto1A16B7BF54A2877005DACF190F6A36811.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/pCube1Mat_Auto1.uasset'
+[2020.10.01-03.44.02:553][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Onion_pSphere1] ([1] browsable assets)...
+[2020.10.01-03.44.02:560][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Onion_pSphere1.Onion_pSphere1]
+[2020.10.01-03.44.02:560][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Onion_pSphere1]
+[2020.10.01-03.44.02:566][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Onion_pSphere1_Auto108BFCCD54D4D3B104B88D9AA4F9C38CB.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Onion_pSphere1_Auto1.uasset'
+[2020.10.01-03.44.02:567][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Grapefruit_pSphere6] ([1] browsable assets)...
+[2020.10.01-03.44.02:574][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Grapefruit_pSphere6.Grapefruit_pSphere6]
+[2020.10.01-03.44.02:574][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Grapefruit_pSphere6]
+[2020.10.01-03.44.02:580][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Grapefruit_pSphere6_Auto1DB03698842FEDC29194CC38A85F4A735.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Grapefruit_pSphere6_Auto1.uasset'
+[2020.10.01-03.44.02:580][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Lemon_pSphere7] ([1] browsable assets)...
+[2020.10.01-03.44.02:587][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Lemon_pSphere7.Lemon_pSphere7]
+[2020.10.01-03.44.02:587][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Lemon_pSphere7]
+[2020.10.01-03.44.02:593][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Lemon_pSphere7_Auto13B527907462D130C79F12FB1AFDAD705.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Lemon_pSphere7_Auto1.uasset'
+[2020.10.01-03.44.02:593][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Kitchen_knife_tri_pCube1] ([1] browsable assets)...
+[2020.10.01-03.44.02:600][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Kitchen_knife_tri_pCube1.Kitchen_knife_tri_pCube1]
+[2020.10.01-03.44.02:600][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Kitchen_knife_tri_pCube1]
+[2020.10.01-03.44.02:605][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Kitchen_knife_tri_pCube1_Auto15DA418414512B96D7F51D5A42D0C6723.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Kitchen_knife_tri_pCube1_Auto1.uasset'
+[2020.10.01-03.44.02:606][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/pCube11Mat] ([1] browsable assets)...
+[2020.10.01-03.44.02:613][475]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/3DModels/pCube11Mat.pCube11Mat]
+[2020.10.01-03.44.02:613][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/pCube11Mat]
+[2020.10.01-03.44.02:618][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/pCube11Mat_Auto11B13F6A34218A5B932C6218D2F7727EE.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/pCube11Mat_Auto1.uasset'
+[2020.10.01-03.44.02:618][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3DModels/Kitchen_stove_tri_pCube11] ([1] browsable assets)...
+[2020.10.01-03.44.02:625][475]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/3DModels/Kitchen_stove_tri_pCube11.Kitchen_stove_tri_pCube11]
+[2020.10.01-03.44.02:625][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3DModels/Kitchen_stove_tri_pCube11]
+[2020.10.01-03.44.02:633][475]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Kitchen_stove_tri_pCube11_Auto1618A8AC44E33F63D94397DA7CF3DDE98.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Assets/3DModels/Kitchen_stove_tri_pCube11_Auto1.uasset'
+[2020.10.01-03.44.02:633][475]LogFileHelpers: Auto-saving content packages took 0.604
+[2020.10.01-03.44.13:005][694]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.01-03.44.26:697][278]LogActorFactory: Actor Factory created Kitchen_stove_tri_pCube11
+[2020.10.01-03.44.28:123][441]LogActorFactory: Actor Factory created Kitchen_stove_tri_pCube11
+[2020.10.01-03.44.38:423][618]LogActorFactory: Actor Factory created Kitchen_stove_tri_pCube11
+[2020.10.01-03.44.39:413][735]LogActorFactory: Actor Factory created Kitchen_stove_tri_pCube11
+[2020.10.01-03.44.54:604][530]LogActorFactory: Actor Factory created Bananas_pCylinder2
+[2020.10.01-03.44.55:862][680]LogActorFactory: Actor Factory created Bananas_pCylinder2
+[2020.10.01-03.44.58:885][ 37]Cmd: TRANSACTION UNDO
+[2020.10.01-03.44.58:886][ 37]LogEditorTransaction: Undo Create Actors
+[2020.10.01-03.45.19:538][283]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Kitchen_stove_tri_pCube11)
+[2020.10.01-03.45.26:468][ 22]LogActorFactory: Actor Factory created Kitchen_stove_tri_pCube11
+[2020.10.01-03.45.27:519][146]LogActorFactory: Actor Factory created Kitchen_stove_tri_pCube11
+[2020.10.01-03.45.36:219][180]Cmd: TRANSACTION UNDO
+[2020.10.01-03.45.36:219][180]LogEditorTransaction: Undo Scale Actors
+[2020.10.01-03.45.37:054][222]Cmd: TRANSACTION UNDO
+[2020.10.01-03.45.37:054][222]LogEditorTransaction: Undo Create Actors
+[2020.10.01-03.45.40:064][552]LogActorFactory: Actor Factory created Bananas_pCylinder3
+[2020.10.01-03.45.40:527][606]LogActorFactory: Actor Factory created Bananas_pCylinder3
+[2020.10.01-03.45.44:143][ 34]Cmd: TRANSACTION UNDO
+[2020.10.01-03.45.44:143][ 34]LogEditorTransaction: Undo Scale Actors
+[2020.10.01-03.45.44:869][ 85]Cmd: TRANSACTION UNDO
+[2020.10.01-03.45.44:869][ 85]LogEditorTransaction: Undo Create Actors
+[2020.10.01-03.45.50:666][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kitchen_stove_tri_pCube11)
+[2020.10.01-03.46.54:961][363]Cmd: MODE GRID=0
+[2020.10.01-03.47.03:354][316]Cmd: EDIT COPY
+[2020.10.01-03.47.03:703][343]Cmd: EDIT PASTE
+[2020.10.01-03.47.11:518][266]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-03.47.11:527][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-03.47.11:527][266]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 3:47:11 PM)
+[2020.10.01-03.47.11:527][266]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-03.47.11:533][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005542s)
+[2020.10.01-03.47.11:534][266]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-03.47.11:534][266]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023EA1CAEA00), frame # 458266
+[2020.10.01-03.47.11:534][266]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023E0BD37EC0), frame # 458266
+[2020.10.01-03.47.11:534][266]LogPlayLevel: PIE: World Init took: (0.001400s)
+[2020.10.01-03.47.11:534][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.007102s)
+[2020.10.01-03.47.11:562][266]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.10.01-03.47.11:567][266]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-03.47.11:567][266]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-03.47.11:567][266]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-03.47.11:567][266]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-03.47.11:567][266]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-03.47.11:567][266]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-03.47.11:567][266]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-03.47.11:567][266]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-03.47.11:567][266]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-03.47.11:567][266]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-03.47.11:576][266]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-03.47.11:576][266]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-03.47.11:605][266]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-03.47.11:606][266]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-03.47.11:606][266]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-03.47.11:606][266]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-03.47.11:606][266]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-03.47.11:616][266]LogInit: FAudioDevice initialized.
+[2020.10.01-03.47.11:624][266]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-03.47.11:625][266]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-21.47.11
+[2020.10.01-03.47.11:626][266]LogWorld: Bringing up level for play took: 0.001130
+[2020.10.01-03.47.11:626][266]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2020.10.01-03.47.11:628][266]PIE: Server logged in
+[2020.10.01-03.47.11:629][266]PIE: Play in editor total start time 0.103 seconds.
+[2020.10.01-03.47.28:837][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-03.47.28:837][317]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-03.47.28:837][317]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-03.47.28:837][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-03.47.28:852][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-03.47.28:856][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-03.47.28:880][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-03.47.28:896][317]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023E0BD37EC0), frame # 460317
+[2020.10.01-03.47.28:896][317]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023EA1CAEA00), frame # 460317
+[2020.10.01-03.47.28:899][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.10.01-03.47.28:925][318]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2020.10.01-03.47.31:223][588]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-03.47.31:232][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-03.47.31:232][588]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 3:47:31 PM)
+[2020.10.01-03.47.31:257][588]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-03.47.31:261][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004223s)
+[2020.10.01-03.47.31:262][588]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-03.47.31:262][588]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023E95C23E00), frame # 460588
+[2020.10.01-03.47.31:262][588]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023E0D302980), frame # 460588
+[2020.10.01-03.47.31:262][588]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2020.10.01-03.47.31:262][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.005143s)
+[2020.10.01-03.47.31:286][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.10.01-03.47.31:287][588]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-03.47.31:287][588]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-03.47.31:287][588]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-03.47.31:287][588]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-03.47.31:287][588]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-03.47.31:287][588]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-03.47.31:287][588]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-03.47.31:287][588]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-03.47.31:287][588]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-03.47.31:287][588]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-03.47.31:295][588]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-03.47.31:295][588]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-03.47.31:317][588]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-03.47.31:317][588]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-03.47.31:317][588]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-03.47.31:317][588]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-03.47.31:317][588]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-03.47.31:328][588]LogInit: FAudioDevice initialized.
+[2020.10.01-03.47.31:337][588]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-03.47.31:339][588]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-21.47.31
+[2020.10.01-03.47.31:339][588]LogWorld: Bringing up level for play took: 0.000891
+[2020.10.01-03.47.31:339][588]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2020.10.01-03.47.31:341][588]PIE: Server logged in
+[2020.10.01-03.47.31:341][588]PIE: Play in editor total start time 0.11 seconds.
+[2020.10.01-03.47.33:042][790]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.47.37:294][296]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.47.42:127][874]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.47.59:320][927]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.48.04:312][523]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.48.07:745][933]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.48.14:302][715]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.48.17:954][152]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.48.28:463][407]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.48.46:741][591]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.48.50:471][ 36]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.48.55:050][580]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.48.58:771][ 25]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.49.02:595][482]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.49.06:287][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-03.49.06:287][921]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-03.49.06:287][921]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-03.49.06:288][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-03.49.06:299][921]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-03.49.06:302][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-03.49.06:343][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-03.49.06:345][921]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023E0D302980), frame # 471921
+[2020.10.01-03.49.06:345][921]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023E95C23E00), frame # 471921
+[2020.10.01-03.49.06:347][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.10.01-03.49.06:374][922]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2020.10.01-03.49.11:024][457]LogActorFactory: Actor Factory created Bananas_pCylinder1
+[2020.10.01-03.49.11:596][525]LogActorFactory: Actor Factory created Bananas_pCylinder1
+[2020.10.01-03.49.27:617][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bananas_pCylinder1)
+[2020.10.01-03.49.35:956][394]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-03.49.35:964][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-03.49.35:965][394]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 3:49:35 PM)
+[2020.10.01-03.49.35:997][394]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-03.49.36:001][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004188s)
+[2020.10.01-03.49.36:001][394]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-03.49.36:002][394]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023EC4A37200), frame # 475394
+[2020.10.01-03.49.36:002][394]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023EBBFB2AC0), frame # 475394
+[2020.10.01-03.49.36:002][394]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2020.10.01-03.49.36:002][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.005199s)
+[2020.10.01-03.49.36:028][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.10.01-03.49.36:033][394]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-03.49.36:033][394]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-03.49.36:033][394]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-03.49.36:033][394]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-03.49.36:033][394]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-03.49.36:033][394]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-03.49.36:033][394]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-03.49.36:033][394]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-03.49.36:033][394]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-03.49.36:033][394]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-03.49.36:042][394]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-03.49.36:042][394]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-03.49.36:066][394]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-03.49.36:067][394]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-03.49.36:067][394]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-03.49.36:067][394]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-03.49.36:067][394]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-03.49.36:078][394]LogInit: FAudioDevice initialized.
+[2020.10.01-03.49.36:087][394]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-03.49.36:089][394]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-21.49.36
+[2020.10.01-03.49.36:089][394]LogWorld: Bringing up level for play took: 0.000908
+[2020.10.01-03.49.36:089][394]LogOnline: OSS: Creating online subsystem instance for: :Context_50
+[2020.10.01-03.49.36:091][394]PIE: Server logged in
+[2020.10.01-03.49.36:091][394]PIE: Play in editor total start time 0.126 seconds.
+[2020.10.01-03.49.43:936][330]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.49.47:472][753]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.49.51:270][208]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.49.54:550][601]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.49.58:386][ 60]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.02:731][581]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.08:547][277]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.13:789][905]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.17:115][303]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.21:847][870]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.24:911][237]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.29:054][730]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.32:891][188]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.37:581][749]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.42:132][294]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.46:105][770]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.49:912][226]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.53:057][603]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.50.56:543][ 21]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.51.02:362][718]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.51.07:293][309]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.51.11:332][793]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.51.14:768][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-03.51.14:768][202]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-03.51.14:768][202]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-03.51.14:768][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-03.51.14:782][202]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-03.51.14:786][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-03.51.14:826][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-03.51.14:827][202]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023EBBFB2AC0), frame # 487202
+[2020.10.01-03.51.14:827][202]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023EC4A37200), frame # 487202
+[2020.10.01-03.51.14:830][202]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.10.01-03.51.14:856][203]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2020.10.01-03.52.01:589][756]LogActorFactory: Actor Factory created Chicken_Breast_pCube1
+[2020.10.01-03.52.02:141][822]LogActorFactory: Actor Factory created Chicken_Breast_pCube1
+[2020.10.01-03.52.16:227][414]LogHotReload: New module detected: UE4Editor-EscapeThePlate-0025.dll
+[2020.10.01-03.52.19:150][479]LogHotReload: Starting Hot-Reload from IDE
+[2020.10.01-03.52.21:237][479]LogHotReload: Re-instancing ChiliPepper after hot-reload.
+[2020.10.01-03.52.21:308][479]LogContentBrowser: Native class hierarchy updated for 'EscapeThePlate' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2020.10.01-03.52.21:311][479]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.01-03.52.21:510][479]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 3432 classes and 823 folders.
+[2020.10.01-03.52.21:513][479]Display: HotReload took  2.4s.
+[2020.10.01-03.52.23:872][580]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-03.52.23:883][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-03.52.23:883][580]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 3:52:23 PM)
+[2020.10.01-03.52.23:884][580]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-03.52.23:888][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004282s)
+[2020.10.01-03.52.23:889][580]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-03.52.23:889][580]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023ED648B600), frame # 490580
+[2020.10.01-03.52.23:889][580]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023E0A0591C0), frame # 490580
+[2020.10.01-03.52.23:889][580]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2020.10.01-03.52.23:889][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.005300s)
+[2020.10.01-03.52.24:007][580]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.10.01-03.52.24:008][580]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-03.52.24:008][580]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-03.52.24:008][580]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-03.52.24:008][580]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-03.52.24:008][580]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-03.52.24:008][580]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-03.52.24:008][580]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-03.52.24:008][580]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-03.52.24:009][580]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-03.52.24:009][580]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-03.52.24:016][580]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-03.52.24:016][580]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-03.52.24:041][580]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-03.52.24:041][580]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-03.52.24:041][580]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-03.52.24:041][580]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-03.52.24:042][580]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-03.52.24:052][580]LogInit: FAudioDevice initialized.
+[2020.10.01-03.52.24:062][580]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-03.52.24:063][580]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-21.52.24
+[2020.10.01-03.52.24:064][580]LogWorld: Bringing up level for play took: 0.000905
+[2020.10.01-03.52.24:064][580]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2020.10.01-03.52.24:080][580]PIE: Server logged in
+[2020.10.01-03.52.24:080][580]PIE: Play in editor total start time 0.2 seconds.
+[2020.10.01-03.52.24:931][677]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.52.38:596][292]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.53.03:097][226]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.53.14:469][586]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.53.16:878][875]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.53.19:263][161]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.53.50:915][901]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.53.57:228][657]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.54.15:250][817]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-03.54.27:848][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-03.54.27:848][321]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-03.54.27:848][321]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-03.54.27:848][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-03.54.27:860][321]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-03.54.27:864][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-03.54.27:904][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-03.54.27:905][321]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023E0A0591C0), frame # 505321
+[2020.10.01-03.54.27:905][321]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023ED648B600), frame # 505321
+[2020.10.01-03.54.27:908][321]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.10.01-03.54.27:935][322]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2020.10.01-03.59.40:396][412]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.10.01-03.59.41:218][412]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/PrototypeLevel_Auto2DD199C0D41D08A36108AC891C68FF994.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Autosaves/Game/Levels/PrototypeLevel_Auto2.umap'
+[2020.10.01-03.59.41:241][412]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/PrototypeLevel' took 0.873
+[2020.10.01-03.59.41:241][412]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.873
+[2020.10.01-04.03.49:760][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bananas_pCylinder1)
+[2020.10.01-04.04.25:241][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kitchen_stove_tri_pCube11)
+[2020.10.01-04.05.05:278][410]LogAssetEditorSubsystem: Opening Asset editor for Material /Engine/BufferVisualization/BaseColor.BaseColor
+[2020.10.01-04.05.05:397][410]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2020.10.01-04.05.06:469][410]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.10.01-04.05.06:469][410]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.10.01-04.05.06:469][410]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.10.01-04.05.06:469][410]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.10.01-04.05.07:458][410]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2020.10.01-04.05.07:466][410]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.10.01-04.05.07:466][410]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.10.01-04.05.07:466][410]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.10.01-04.05.07:466][410]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.10.01-04.05.08:106][412]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.10.01-04.05.08:106][412]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.10.01-04.05.08:106][412]MaterialEditorStats: Texture samplers: 1/16
+[2020.10.01-04.05.08:106][412]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.01-04.05.17:728][566]Cmd: TRANSACTION UNDO
+[2020.10.01-04.05.17:728][566]LogEditorTransaction: Undo Replace component used material
+[2020.10.01-04.05.17:733][566]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2020.10.01-04.05.17:772][567]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.10.01-04.05.17:772][567]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.10.01-04.05.17:772][567]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.10.01-04.05.17:772][567]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.10.01-04.05.18:045][580]Cmd: TRANSACTION UNDO
+[2020.10.01-04.05.18:045][580]LogEditorTransaction: Undo Replace component used material
+[2020.10.01-04.05.18:047][580]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2020.10.01-04.05.18:079][580]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.10.01-04.05.18:079][580]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.10.01-04.05.18:079][580]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.10.01-04.05.18:079][580]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.10.01-04.05.18:383][606]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.10.01-04.05.18:383][606]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.10.01-04.05.18:383][606]MaterialEditorStats: Texture samplers: 1/16
+[2020.10.01-04.05.18:383][606]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.01-04.05.18:558][627]Cmd: TRANSACTION UNDO
+[2020.10.01-04.05.18:558][627]LogEditorTransaction: Undo Replace component used material
+[2020.10.01-04.05.18:561][627]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2020.10.01-04.05.18:575][628]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.10.01-04.05.18:575][628]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.10.01-04.05.18:575][628]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.10.01-04.05.18:575][628]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.10.01-04.05.18:899][666]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.10.01-04.05.18:899][666]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.10.01-04.05.18:899][666]MaterialEditorStats: Texture samplers: 1/16
+[2020.10.01-04.05.18:899][666]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.01-04.06.04:197][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kitchen_stove_tri_pCube12)
+[2020.10.01-04.06.08:264][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kitchen_stove_tri_pCube11)
+[2020.10.01-04.06.23:658][ 39]Cmd: TRANSACTION UNDO
+[2020.10.01-04.06.23:658][ 39]LogEditorTransaction: Undo Move Actors
+[2020.10.01-04.06.23:685][ 39]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2020.10.01-04.06.23:698][ 39]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2020.10.01-04.06.23:700][ 39]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2020.10.01-04.06.23:700][ 39]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2020.10.01-04.06.23:700][ 39]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2020.10.01-04.06.24:145][ 59]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.10.01-04.06.24:145][ 59]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.10.01-04.06.24:145][ 59]MaterialEditorStats: Texture samplers: 1/16
+[2020.10.01-04.06.24:145][ 59]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.01-04.06.24:441][ 93]Cmd: MODE GRID=1
+[2020.10.01-04.06.29:043][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bananas_pCylinder1)
+[2020.10.01-04.06.45:032][545]Cmd: EDIT COPY
+[2020.10.01-04.06.45:387][587]Cmd: EDIT PASTE
+[2020.10.01-04.06.45:784][632]Cmd: EDIT COPY
+[2020.10.01-04.06.46:070][666]Cmd: EDIT PASTE
+[2020.10.01-04.06.58:492][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bananas_pCylinder2)
+[2020.10.01-04.07.07:000][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bananas_pCylinder1)
+[2020.10.01-04.07.13:907][985]Cmd: MODE GRID=0
+[2020.10.01-04.07.20:703][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bananas_pCylinder3)
+[2020.10.01-04.07.30:675][982]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.07.30:684][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.07.30:684][982]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:07:30 PM)
+[2020.10.01-04.07.30:707][982]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.07.30:711][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004301s)
+[2020.10.01-04.07.30:737][982]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.07.30:737][982]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023E7CBD5C00), frame # 532982
+[2020.10.01-04.07.30:737][982]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023EFA822C00), frame # 532982
+[2020.10.01-04.07.30:737][982]LogPlayLevel: PIE: World Init took: (0.025601s)
+[2020.10.01-04.07.30:737][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.030685s)
+[2020.10.01-04.07.30:810][982]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.10.01-04.07.30:816][982]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.07.30:816][982]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.07.30:816][982]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.07.30:816][982]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.07.30:816][982]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.07.30:816][982]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.07.30:816][982]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.07.30:816][982]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.07.30:817][982]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.07.30:817][982]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.07.30:825][982]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.07.30:825][982]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.07.30:854][982]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.07.30:854][982]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.07.30:854][982]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.07.30:854][982]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.07.30:854][982]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.07.30:864][982]LogInit: FAudioDevice initialized.
+[2020.10.01-04.07.30:874][982]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.07.30:875][982]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.07.30
+[2020.10.01-04.07.30:875][982]LogWorld: Bringing up level for play took: 0.000961
+[2020.10.01-04.07.30:876][982]LogOnline: OSS: Creating online subsystem instance for: :Context_53
+[2020.10.01-04.07.30:888][982]PIE: Server logged in
+[2020.10.01-04.07.30:888][982]PIE: Play in editor total start time 0.205 seconds.
+[2020.10.01-04.07.33:946][348]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.08.06:447][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.08.06:447][236]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.08.06:447][236]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.08.06:447][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.08.06:454][236]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.08.06:458][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.08.06:482][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.08.06:497][236]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023E7CBD5C00), frame # 537236
+[2020.10.01-04.08.06:497][236]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023EFA822C00), frame # 537236
+[2020.10.01-04.08.06:499][236]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.10.01-04.08.06:526][237]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2020.10.01-04.08.08:207][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kitchen_stove_tri_pCube11)
+[2020.10.01-04.08.30:935][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.10.01-04.08.32:238][ 36]LogSlate: Window 'Save Content' being destroyed
+[2020.10.01-04.08.32:283][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Apple" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Apple.uasset" SILENT=true
+[2020.10.01-04.08.32:287][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Apple72D4496744EE34D1C1D76EBA75175A28.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Apple.uasset'
+[2020.10.01-04.08.32:303][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Bananas_pCylinder1" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Bananas_pCylinder1.uasset" SILENT=true
+[2020.10.01-04.08.32:306][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Bananas_pCylinder1C23F4CAC425D6937590FA2A2738A72C6.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Bananas_pCylinder1.uasset'
+[2020.10.01-04.08.32:307][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Bananas_pCylinder2" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Bananas_pCylinder2.uasset" SILENT=true
+[2020.10.01-04.08.32:310][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Bananas_pCylinder2C693AA6946D8EF0C70BB39BECFA43B3F.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Bananas_pCylinder2.uasset'
+[2020.10.01-04.08.32:311][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Bananas_pCylinder3" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Bananas_pCylinder3.uasset" SILENT=true
+[2020.10.01-04.08.32:313][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Bananas_pCylinder39CD9A52946B35626B0E6F789D12B1F7A.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Bananas_pCylinder3.uasset'
+[2020.10.01-04.08.32:314][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Carrots_pCylinder4" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Carrots_pCylinder4.uasset" SILENT=true
+[2020.10.01-04.08.32:317][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Carrots_pCylinder4DD4F3B17410FDCD7901C0DB0710E9F71.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Carrots_pCylinder4.uasset'
+[2020.10.01-04.08.32:318][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Carrots_pCylinder5" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Carrots_pCylinder5.uasset" SILENT=true
+[2020.10.01-04.08.32:321][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Carrots_pCylinder53D7999C94B5A8C99C27AC48740DD8405.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Carrots_pCylinder5.uasset'
+[2020.10.01-04.08.32:321][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Carrots_pCylinder6" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Carrots_pCylinder6.uasset" SILENT=true
+[2020.10.01-04.08.32:324][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Carrots_pCylinder6254BE51A417C8A70BE919AB3559B5110.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Carrots_pCylinder6.uasset'
+[2020.10.01-04.08.32:327][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Chicken_Breast_pCube1A146C77545FA64A364C7B1A9FA26AD6F.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Chicken_Breast_pCube1.uasset'
+[2020.10.01-04.08.32:328][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Grapefruit_pSphere6" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Grapefruit_pSphere6.uasset" SILENT=true
+[2020.10.01-04.08.32:331][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Grapefruit_pSphere6124429004F47A36FF5D12E9710973687.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Grapefruit_pSphere6.uasset'
+[2020.10.01-04.08.32:332][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/initialShadingGroup" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/initialShadingGroup.uasset" SILENT=true
+[2020.10.01-04.08.32:334][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/initialShadingGroupB2109173475A8DDC102D73B75371FCCC.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/initialShadingGroup.uasset'
+[2020.10.01-04.08.32:337][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Kitchen_knife_tri_pCube1141E9C754A0DFBC35737B888AB4BAEA5.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Kitchen_knife_tri_pCube1.uasset'
+[2020.10.01-04.08.32:342][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Kitchen_stove_tri_pCube11A9C9DF624CF2E00BC8CFFDA3AD8D91B3.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Kitchen_stove_tri_pCube11.uasset'
+[2020.10.01-04.08.32:343][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Lemon_pSphere7" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Lemon_pSphere7.uasset" SILENT=true
+[2020.10.01-04.08.32:346][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Lemon_pSphere7B7420DB14EE7F2163B282497EA6D0CB8.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Lemon_pSphere7.uasset'
+[2020.10.01-04.08.32:346][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Onion_pSphere1" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Onion_pSphere1.uasset" SILENT=true
+[2020.10.01-04.08.32:349][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Onion_pSphere1DEA3F187475FCEDE68B32F9FF2D3ACB4.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Onion_pSphere1.uasset'
+[2020.10.01-04.08.32:351][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Orange_pSphere5" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Orange_pSphere5.uasset" SILENT=true
+[2020.10.01-04.08.32:354][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Orange_pSphere53E717DA2428AFE21A43C1B9FDB83B2AF.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Orange_pSphere5.uasset'
+[2020.10.01-04.08.32:355][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/pCube11Mat" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/pCube11Mat.uasset" SILENT=true
+[2020.10.01-04.08.32:357][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/pCube11MatF8B6E9A94F6EF0FEC863949BB2FE6250.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/pCube11Mat.uasset'
+[2020.10.01-04.08.32:357][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/pCube1Mat" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/pCube1Mat.uasset" SILENT=true
+[2020.10.01-04.08.32:360][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/pCube1MatF83D676A47D4D442A339F887DC2B6064.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/pCube1Mat.uasset'
+[2020.10.01-04.08.32:361][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Salmon_pCube2" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Salmon_pCube2.uasset" SILENT=true
+[2020.10.01-04.08.32:365][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Salmon_pCube2A97A405248D7DF6D2C245F810A508E83.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Salmon_pCube2.uasset'
+[2020.10.01-04.08.32:365][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Tomato_pSphere3" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Tomato_pSphere3.uasset" SILENT=true
+[2020.10.01-04.08.32:369][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Tomato_pSphere3A3AA19AE48B86A590FE9C8BAA18295EA.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Tomato_pSphere3.uasset'
+[2020.10.01-04.08.32:395][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.10.01-04.08.32:438][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/PrototypeLevelDE31BBEC4A313431C84250B730A8B1B6.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Levels/PrototypeLevel.umap'
+[2020.10.01-04.08.32:453][ 36]LogFileHelpers: Saving map 'PrototypeLevel' took 0.084
+[2020.10.01-04.08.32:454][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrototypeLevel_BuiltData" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Levels/PrototypeLevel_BuiltData.uasset" SILENT=true
+[2020.10.01-04.08.32:506][ 36]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/PrototypeLevel_BuiltDataD41BEE9748DFB6BA82D8EDB8C702F238.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Levels/PrototypeLevel_BuiltData.uasset'
+[2020.10.01-04.08.32:605][ 36]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.01-04.08.32:605][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Apple.Apple
+[2020.10.01-04.08.32:605][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Bananas_pCylinder1.Bananas_pCylinder1
+[2020.10.01-04.08.32:605][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Bananas_pCylinder2.Bananas_pCylinder2
+[2020.10.01-04.08.32:605][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Bananas_pCylinder3.Bananas_pCylinder3
+[2020.10.01-04.08.32:605][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Carrots_pCylinder4.Carrots_pCylinder4
+[2020.10.01-04.08.32:605][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Carrots_pCylinder5.Carrots_pCylinder5
+[2020.10.01-04.08.32:605][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Carrots_pCylinder6.Carrots_pCylinder6
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Chicken_Breast_pCube1.Chicken_Breast_pCube1
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Grapefruit_pSphere6.Grapefruit_pSphere6
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating Material /Game/Assets/3DModels/initialShadingGroup.initialShadingGroup
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Kitchen_knife_tri_pCube1.Kitchen_knife_tri_pCube1
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Kitchen_stove_tri_pCube11.Kitchen_stove_tri_pCube11
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Lemon_pSphere7.Lemon_pSphere7
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Onion_pSphere1.Onion_pSphere1
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Orange_pSphere5.Orange_pSphere5
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating Material /Game/Assets/3DModels/pCube11Mat.pCube11Mat
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating Material /Game/Assets/3DModels/pCube1Mat.pCube1Mat
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Salmon_pCube2.Salmon_pCube2
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Tomato_pSphere3.Tomato_pSphere3
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating World /Game/Levels/PrototypeLevel.PrototypeLevel
+[2020.10.01-04.08.32:606][ 36]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/PrototypeLevel_BuiltData.PrototypeLevel_BuiltData
+[2020.10.01-04.08.38:548][669]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/3DModels/Kitchen_stove_tri_pCube11.Kitchen_stove_tri_pCube11
+[2020.10.01-04.08.39:397][669]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.08.39:397][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.08.39:849][670]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2020.10.01-04.09.13:157][548]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Kitchen_stove_tri_pCube116FE73A5B4ABA1977C8592AB94476A012.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Kitchen_stove_tri_pCube11.uasset'
+[2020.10.01-04.09.13:171][548]AssetCheck: New page: Asset Save: Kitchen_stove_tri_pCube11
+[2020.10.01-04.09.13:172][548]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Kitchen_stove_tri_pCube11.Kitchen_stove_tri_pCube11
+[2020.10.01-04.09.18:348][162]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.09.18:356][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.09.18:356][162]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:09:18 PM)
+[2020.10.01-04.09.18:376][162]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.09.18:381][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004261s)
+[2020.10.01-04.09.18:381][162]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.09.18:382][162]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023ED7EFC600), frame # 545162
+[2020.10.01-04.09.18:382][162]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023ED7EF3D80), frame # 545162
+[2020.10.01-04.09.18:382][162]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2020.10.01-04.09.18:382][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.005295s)
+[2020.10.01-04.09.18:463][162]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2020.10.01-04.09.18:467][162]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.09.18:467][162]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.09.18:467][162]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.09.18:467][162]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.09.18:467][162]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.09.18:467][162]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.09.18:467][162]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.09.18:467][162]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.09.18:468][162]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.09.18:468][162]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.09.18:475][162]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.09.18:475][162]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.09.18:497][162]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.09.18:497][162]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.09.18:497][162]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.09.18:497][162]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.09.18:497][162]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.09.18:508][162]LogInit: FAudioDevice initialized.
+[2020.10.01-04.09.18:522][162]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.09.18:523][162]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.09.18
+[2020.10.01-04.09.18:523][162]LogWorld: Bringing up level for play took: 0.000929
+[2020.10.01-04.09.18:524][162]LogOnline: OSS: Creating online subsystem instance for: :Context_56
+[2020.10.01-04.09.18:525][162]PIE: Server logged in
+[2020.10.01-04.09.18:526][162]PIE: Play in editor total start time 0.171 seconds.
+[2020.10.01-04.10.16:987][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.10.16:987][167]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.10.16:988][167]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.10.16:988][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.10.16:994][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.10.16:998][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.10.17:034][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.10.17:035][167]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023ED7EFC600), frame # 552167
+[2020.10.01-04.10.17:035][167]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023ED7EF3D80), frame # 552167
+[2020.10.01-04.10.17:038][167]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.10.01-04.10.17:062][168]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2020.10.01-04.10.27:434][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bananas_pCylinder1)
+[2020.10.01-04.10.31:255][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bananas_pCylinder3)
+[2020.10.01-04.10.33:272][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bananas_pCylinder2)
+[2020.10.01-04.10.34:951][247]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.10.34:960][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.10.34:960][247]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:10:34 PM)
+[2020.10.01-04.10.34:987][247]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.10.34:991][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003915s)
+[2020.10.01-04.10.34:992][247]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.10.34:992][247]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023E9D00D200), frame # 554247
+[2020.10.01-04.10.34:992][247]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023ED8873740), frame # 554247
+[2020.10.01-04.10.34:992][247]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2020.10.01-04.10.34:992][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.004862s)
+[2020.10.01-04.10.35:016][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.10.01-04.10.35:021][247]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.10.35:021][247]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.10.35:021][247]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.10.35:021][247]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.10.35:021][247]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.10.35:021][247]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.10.35:021][247]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.10.35:021][247]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.10.35:021][247]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.10.35:021][247]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.10.35:029][247]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.10.35:029][247]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.10.35:053][247]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.10.35:053][247]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.10.35:053][247]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.10.35:053][247]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.10.35:053][247]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.10.35:064][247]LogInit: FAudioDevice initialized.
+[2020.10.01-04.10.35:071][247]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.10.35:072][247]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.10.35
+[2020.10.01-04.10.35:073][247]LogWorld: Bringing up level for play took: 0.001121
+[2020.10.01-04.10.35:073][247]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2020.10.01-04.10.35:075][247]PIE: Server logged in
+[2020.10.01-04.10.35:075][247]PIE: Play in editor total start time 0.117 seconds.
+[2020.10.01-04.10.40:077][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.10.40:077][843]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.10.40:077][843]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.10.40:077][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.10.40:088][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.10.40:092][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.10.40:115][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.10.40:129][843]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023ED8873740), frame # 554843
+[2020.10.01-04.10.40:129][843]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023E9D00D200), frame # 554843
+[2020.10.01-04.10.40:131][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.10.01-04.10.40:154][844]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2020.10.01-04.10.44:929][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bananas_pCylinder3)
+[2020.10.01-04.10.49:848][998]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.10.49:856][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.10.49:856][998]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:10:49 PM)
+[2020.10.01-04.10.49:877][998]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.10.49:881][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003887s)
+[2020.10.01-04.10.49:882][998]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.10.49:882][998]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023ED4AAAA00), frame # 555998
+[2020.10.01-04.10.49:882][998]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023E1A5F5080), frame # 555998
+[2020.10.01-04.10.49:882][998]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2020.10.01-04.10.49:882][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.004919s)
+[2020.10.01-04.10.49:906][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.10.01-04.10.49:910][998]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.10.49:910][998]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.10.49:910][998]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.10.49:910][998]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.10.49:910][998]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.10.49:910][998]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.10.49:910][998]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.10.49:910][998]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.10.49:910][998]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.10.49:910][998]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.10.49:918][998]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.10.49:918][998]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.10.49:940][998]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.10.49:941][998]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.10.49:941][998]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.10.49:941][998]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.10.49:941][998]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.10.49:951][998]LogInit: FAudioDevice initialized.
+[2020.10.01-04.10.49:960][998]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.10.49:961][998]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.10.49
+[2020.10.01-04.10.49:961][998]LogWorld: Bringing up level for play took: 0.000946
+[2020.10.01-04.10.49:961][998]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2020.10.01-04.10.49:963][998]PIE: Server logged in
+[2020.10.01-04.10.49:963][998]PIE: Play in editor total start time 0.107 seconds.
+[2020.10.01-04.10.57:097][848]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.10.57:097][848]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.10.57:097][848]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.10.57:097][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.10.57:103][848]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.10.57:107][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.10.57:129][848]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.10.57:144][848]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023E1A5F5080), frame # 556848
+[2020.10.01-04.10.57:144][848]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023ED4AAAA00), frame # 556848
+[2020.10.01-04.10.57:146][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.10.01-04.10.57:169][849]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2020.10.01-04.10.59:632][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bananas_pCylinder3)
+[2020.10.01-04.11.00:726][270]Cmd: DELETE
+[2020.10.01-04.11.00:736][270]Cmd: ACTOR DELETE
+[2020.10.01-04.11.00:799][270]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.01-04.11.00:824][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.10.01-04.11.00:827][270]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2020.10.01-04.11.01:663][369]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.11.01:671][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.11.01:671][369]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:11:01 PM)
+[2020.10.01-04.11.01:697][369]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.11.01:701][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003793s)
+[2020.10.01-04.11.01:702][369]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.11.01:702][369]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023EC9A4EA00), frame # 557369
+[2020.10.01-04.11.01:702][369]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023EB6AA5300), frame # 557369
+[2020.10.01-04.11.01:702][369]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2020.10.01-04.11.01:702][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.004781s)
+[2020.10.01-04.11.01:726][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.10.01-04.11.01:727][369]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.11.01:727][369]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.11.01:727][369]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.11.01:727][369]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.11.01:727][369]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.11.01:727][369]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.11.01:727][369]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.11.01:727][369]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.11.01:728][369]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.11.01:728][369]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.11.01:735][369]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.11.01:735][369]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.11.01:757][369]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.11.01:757][369]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.11.01:757][369]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.11.01:757][369]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.11.01:758][369]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.11.01:769][369]LogInit: FAudioDevice initialized.
+[2020.10.01-04.11.01:773][369]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.11.01:774][369]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.11.01
+[2020.10.01-04.11.01:774][369]LogWorld: Bringing up level for play took: 0.000908
+[2020.10.01-04.11.01:774][369]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2020.10.01-04.11.01:776][369]PIE: Server logged in
+[2020.10.01-04.11.01:776][369]PIE: Play in editor total start time 0.106 seconds.
+[2020.10.01-04.11.05:167][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.11.05:167][771]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.11.05:167][771]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.11.05:168][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.11.05:178][771]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.11.05:181][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.11.05:204][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.11.05:218][771]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023EB6AA5300), frame # 557771
+[2020.10.01-04.11.05:218][771]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023EC9A4EA00), frame # 557771
+[2020.10.01-04.11.05:220][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.10.01-04.11.05:243][772]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2020.10.01-04.11.15:621][991]LogActorFactory: Actor Factory created Grapefruit_pSphere6
+[2020.10.01-04.11.17:187][177]LogActorFactory: Actor Factory created Grapefruit_pSphere6
+[2020.10.01-04.11.39:943][790]LogActorFactory: Actor Factory created Lemon_pSphere7
+[2020.10.01-04.11.41:423][965]LogActorFactory: Actor Factory created Lemon_pSphere7
+[2020.10.01-04.11.55:904][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Grapefruit_pSphere6)
+[2020.10.01-04.12.02:894][400]LogActorFactory: Actor Factory created Tomato_pSphere3
+[2020.10.01-04.12.03:937][523]LogActorFactory: Actor Factory created Tomato_pSphere3
+[2020.10.01-04.12.17:957][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lemon_pSphere7)
+[2020.10.01-04.12.19:937][421]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Grapefruit_pSphere6)
+[2020.10.01-04.12.36:267][259]LogActorFactory: Actor Factory created Kitchen_knife_tri_pCube1
+[2020.10.01-04.12.36:967][342]LogActorFactory: Actor Factory created Kitchen_knife_tri_pCube1
+[2020.10.01-04.12.59:778][ 52]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.12.59:787][ 52]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.12.59:787][ 52]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:12:59 PM)
+[2020.10.01-04.12.59:816][ 52]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.12.59:820][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004049s)
+[2020.10.01-04.12.59:821][ 52]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.12.59:821][ 52]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023EA36EE400), frame # 571052
+[2020.10.01-04.12.59:821][ 52]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023EA2ED1940), frame # 571052
+[2020.10.01-04.12.59:821][ 52]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2020.10.01-04.12.59:821][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.005102s)
+[2020.10.01-04.12.59:849][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.10.01-04.12.59:857][ 52]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.12.59:857][ 52]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.12.59:857][ 52]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.12.59:857][ 52]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.12.59:857][ 52]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.12.59:857][ 52]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.12.59:857][ 52]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.12.59:857][ 52]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.12.59:857][ 52]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.12.59:857][ 52]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.12.59:865][ 52]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.12.59:865][ 52]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.12.59:888][ 52]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.12.59:888][ 52]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.12.59:888][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.12.59:888][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.12.59:888][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.12.59:900][ 52]LogInit: FAudioDevice initialized.
+[2020.10.01-04.13.00:308][ 52]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.13.00:310][ 52]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.13.00
+[2020.10.01-04.13.00:310][ 52]LogWorld: Bringing up level for play took: 0.001684
+[2020.10.01-04.13.00:310][ 52]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2020.10.01-04.13.00:312][ 52]PIE: Server logged in
+[2020.10.01-04.13.00:312][ 52]PIE: Play in editor total start time 0.526 seconds.
+[2020.10.01-04.13.35:269][243]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.13.46:786][625]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.13.48:648][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.13.48:648][844]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.13.48:648][844]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.13.48:648][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.13.48:655][844]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.13.48:659][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.13.48:695][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.13.48:696][844]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023EA2ED1940), frame # 576844
+[2020.10.01-04.13.48:696][844]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023EA36EE400), frame # 576844
+[2020.10.01-04.13.48:698][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.10.01-04.13.48:722][845]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2020.10.01-04.14.50:675][341]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.14.50:683][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.14.50:683][341]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:14:50 PM)
+[2020.10.01-04.14.50:717][341]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.14.50:721][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003913s)
+[2020.10.01-04.14.50:722][341]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.14.50:722][341]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023EACDB1800), frame # 577341
+[2020.10.01-04.14.50:722][341]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023EBF7A4E00), frame # 577341
+[2020.10.01-04.14.50:722][341]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2020.10.01-04.14.50:722][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.004956s)
+[2020.10.01-04.14.50:746][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.10.01-04.14.50:748][341]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.14.50:748][341]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.14.50:748][341]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.14.50:748][341]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.14.50:748][341]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.14.50:748][341]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.14.50:748][341]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.14.50:748][341]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.14.50:748][341]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.14.50:748][341]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.14.50:756][341]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.14.50:756][341]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.14.50:781][341]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.14.50:781][341]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.14.50:781][341]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.14.50:781][341]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.14.50:782][341]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.14.50:792][341]LogInit: FAudioDevice initialized.
+[2020.10.01-04.14.50:801][341]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.14.50:802][341]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.14.50
+[2020.10.01-04.14.50:803][341]LogWorld: Bringing up level for play took: 0.000996
+[2020.10.01-04.14.50:803][341]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2020.10.01-04.14.50:804][341]PIE: Server logged in
+[2020.10.01-04.14.50:805][341]PIE: Play in editor total start time 0.123 seconds.
+[2020.10.01-04.14.51:777][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.14.51:777][451]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.14.51:777][451]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.14.51:778][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.14.51:787][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.14.51:790][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.14.51:826][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.14.51:827][451]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023EBF7A4E00), frame # 577451
+[2020.10.01-04.14.51:827][451]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023EACDB1800), frame # 577451
+[2020.10.01-04.14.51:829][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.10.01-04.14.51:850][452]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2020.10.01-04.14.52:884][572]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.14.52:892][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.14.52:892][572]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:14:52 PM)
+[2020.10.01-04.14.52:927][572]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.14.52:931][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003845s)
+[2020.10.01-04.14.52:931][572]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.14.52:932][572]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023EA6649800), frame # 577572
+[2020.10.01-04.14.52:932][572]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023E0C04A0C0), frame # 577572
+[2020.10.01-04.14.52:932][572]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2020.10.01-04.14.52:932][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.004745s)
+[2020.10.01-04.14.52:957][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.10.01-04.14.52:958][572]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.14.52:958][572]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.14.52:958][572]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.14.52:958][572]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.14.52:958][572]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.14.52:958][572]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.14.52:958][572]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.14.52:958][572]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.14.52:958][572]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.14.52:958][572]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.14.52:966][572]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.14.52:966][572]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.14.52:990][572]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.14.52:990][572]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.14.52:990][572]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.14.52:990][572]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.14.52:990][572]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.14.53:001][572]LogInit: FAudioDevice initialized.
+[2020.10.01-04.14.53:008][572]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.14.53:009][572]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.14.53
+[2020.10.01-04.14.53:009][572]LogWorld: Bringing up level for play took: 0.001027
+[2020.10.01-04.14.53:010][572]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2020.10.01-04.14.53:011][572]PIE: Server logged in
+[2020.10.01-04.14.53:012][572]PIE: Play in editor total start time 0.12 seconds.
+[2020.10.01-04.14.53:669][650]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.14.54:948][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.14.54:948][798]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.14.54:948][798]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.14.54:948][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.14.54:954][798]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.14.54:958][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.14.54:995][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.14.54:996][798]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023E0C04A0C0), frame # 577798
+[2020.10.01-04.14.54:996][798]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023EA6649800), frame # 577798
+[2020.10.01-04.14.54:998][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.10.01-04.14.55:025][799]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2020.10.01-04.15.23:716][444]LogHotReload: New module detected: UE4Editor-EscapeThePlate-0026.dll
+[2020.10.01-04.15.24:501][477]LogHotReload: Starting Hot-Reload from IDE
+[2020.10.01-04.15.24:551][477]LogHotReload: Re-instancing ChiliPepper after hot-reload.
+[2020.10.01-04.15.24:622][477]LogContentBrowser: Native class hierarchy updated for 'EscapeThePlate' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2020.10.01-04.15.24:626][477]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.01-04.15.24:704][477]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3432 classes and 823 folders.
+[2020.10.01-04.15.24:707][477]Display: HotReload took  0.2s.
+[2020.10.01-04.15.29:093][965]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.15.29:104][965]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.10.01-04.15.29:105][965]LogPlayLevel: [PlayLevel] Compiling PrototypeLevel before play...
+[2020.10.01-04.15.29:302][965]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2020.10.01-04.15.29:305][965]LogPlayLevel: PlayLevel: Blueprint regeneration took 201 ms (1 blueprints)
+[2020.10.01-04.15.29:305][965]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:15:29 PM)
+[2020.10.01-04.15.29:337][965]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.15.29:341][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004106s)
+[2020.10.01-04.15.29:342][965]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.15.29:342][965]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023E17B77A00), frame # 580965
+[2020.10.01-04.15.29:342][965]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023EC9D06980), frame # 580965
+[2020.10.01-04.15.29:342][965]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2020.10.01-04.15.29:342][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.005068s)
+[2020.10.01-04.15.29:381][965]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.10.01-04.15.29:387][965]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.15.29:387][965]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.15.29:387][965]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.15.29:387][965]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.15.29:387][965]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.15.29:387][965]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.15.29:387][965]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.15.29:387][965]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.15.29:388][965]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.15.29:388][965]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.15.29:395][965]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.15.29:395][965]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.15.29:420][965]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.15.29:420][965]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.15.29:420][965]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.15.29:420][965]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.15.29:421][965]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.15.29:431][965]LogInit: FAudioDevice initialized.
+[2020.10.01-04.15.29:442][965]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.15.29:443][965]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.15.29
+[2020.10.01-04.15.29:444][965]LogWorld: Bringing up level for play took: 0.001025
+[2020.10.01-04.15.29:444][965]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2020.10.01-04.15.29:445][965]PIE: Server logged in
+[2020.10.01-04.15.29:446][965]PIE: Play in editor total start time 0.345 seconds.
+[2020.10.01-04.15.43:647][668]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.15.46:471][  7]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.15.48:796][286]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.15.51:263][582]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.15.57:247][300]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.16.01:500][808]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.16.06:183][370]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.16.11:000][948]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.16.15:159][447]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.16.17:658][747]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.16.20:200][ 52]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.16.24:566][576]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.16.29:692][191]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.16.33:942][701]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.16.41:727][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.16.41:727][631]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.16.41:727][631]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.16.41:728][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.16.41:735][631]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.16.41:740][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.16.41:777][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.16.41:778][631]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023EC9D06980), frame # 589631
+[2020.10.01-04.16.41:778][631]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023E17B77A00), frame # 589631
+[2020.10.01-04.16.41:780][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.10.01-04.16.41:803][632]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2020.10.01-04.17.30:520][598]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.10.01-04.17.38:731][521]Cmd: DELETE
+[2020.10.01-04.17.38:731][521]Cmd: ACTOR DELETE
+[2020.10.01-04.17.38:733][521]LogEditorActor: Deleted Actor: PlayerStart
+[2020.10.01-04.17.38:759][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.10.01-04.17.38:760][521]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2020.10.01-04.17.40:440][722]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.17.40:448][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.17.40:448][722]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:17:40 PM)
+[2020.10.01-04.17.40:488][722]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.17.40:492][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004283s)
+[2020.10.01-04.17.40:493][722]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.17.40:493][722]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023EA371A800), frame # 591722
+[2020.10.01-04.17.40:493][722]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023EC9D07600), frame # 591722
+[2020.10.01-04.17.40:493][722]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2020.10.01-04.17.40:493][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.005394s)
+[2020.10.01-04.17.40:517][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.10.01-04.17.40:518][722]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.17.40:518][722]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.17.40:518][722]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.17.40:518][722]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.17.40:518][722]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.17.40:518][722]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.17.40:518][722]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.17.40:518][722]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.17.40:519][722]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.17.40:519][722]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.17.40:527][722]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.17.40:527][722]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.17.40:550][722]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.17.40:550][722]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.17.40:550][722]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.17.40:550][722]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.17.40:550][722]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.17.40:561][722]LogInit: FAudioDevice initialized.
+[2020.10.01-04.17.40:566][722]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.17.40:567][722]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.17.40
+[2020.10.01-04.17.40:567][722]LogWorld: Bringing up level for play took: 0.001085
+[2020.10.01-04.17.40:567][722]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2020.10.01-04.17.40:569][722]PIE: Server logged in
+[2020.10.01-04.17.40:570][722]PIE: Play in editor total start time 0.122 seconds.
+[2020.10.01-04.17.41:968][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.17.41:968][885]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.17.41:968][885]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.17.41:968][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.17.41:978][885]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.17.41:981][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.17.42:016][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.17.42:017][885]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023EC9D07600), frame # 591885
+[2020.10.01-04.17.42:017][885]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023EA371A800), frame # 591885
+[2020.10.01-04.17.42:019][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.10.01-04.17.42:043][886]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2020.10.01-04.17.53:187][842]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Kitchen_sink_tri.obj)
+[2020.10.01-04.17.53:195][842]LogFbx: Loading FBX Scene from C:/Users/tommy/Documents/GitHub/EscapeThePlate/OBJs/Kitchen_sink_tri.obj
+[2020.10.01-04.17.53:199][842]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.01-04.17.54:690][842]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.10.01-04.17.54:707][842]LogMaterial: Display: Missing cached shader map for material pCube6Mat, compiling. 
+[2020.10.01-04.17.54:726][842]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 15
+[2020.10.01-04.17.54:726][842]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 13
+[2020.10.01-04.17.54:726][842]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 11
+[2020.10.01-04.17.54:726][842]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 9
+[2020.10.01-04.17.54:726][842]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
+[2020.10.01-04.17.54:726][842]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2020.10.01-04.17.54:726][842]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2020.10.01-04.17.54:726][842]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2020.10.01-04.17.54:736][842]LogStaticMesh: Building static mesh Kitchen_sink_tri...
+[2020.10.01-04.17.54:740][842]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/3DModels/Kitchen_sink_tri.Kitchen_sink_tri
+[2020.10.01-04.17.57:712][ 88]LogActorFactory: Actor Factory created Kitchen_sink_tri
+[2020.10.01-04.17.58:510][183]LogActorFactory: Actor Factory created Kitchen_sink_tri
+[2020.10.01-04.19.18:315][600]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.19.18:323][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.19.18:323][600]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:19:18 PM)
+[2020.10.01-04.19.18:357][600]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.19.18:361][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003853s)
+[2020.10.01-04.19.18:361][600]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.19.18:361][600]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023EA3556000), frame # 602600
+[2020.10.01-04.19.18:361][600]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023F0B2D5D00), frame # 602600
+[2020.10.01-04.19.18:361][600]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2020.10.01-04.19.18:361][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.004729s)
+[2020.10.01-04.19.18:388][600]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2020.10.01-04.19.18:391][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.19.18:391][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.19.18:391][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.19.18:391][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.19.18:391][600]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.19.18:391][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.19.18:391][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.19.18:391][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.19.18:392][600]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.19.18:392][600]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.19.18:400][600]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.19.18:400][600]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.19.18:425][600]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.19.18:425][600]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.19.18:425][600]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.19.18:425][600]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.19.18:425][600]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.19.18:438][600]LogInit: FAudioDevice initialized.
+[2020.10.01-04.19.18:443][600]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.19.18:444][600]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.19.18
+[2020.10.01-04.19.18:445][600]LogWorld: Bringing up level for play took: 0.001010
+[2020.10.01-04.19.18:445][600]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2020.10.01-04.19.18:447][600]PIE: Server logged in
+[2020.10.01-04.19.18:447][600]PIE: Play in editor total start time 0.124 seconds.
+[2020.10.01-04.19.31:037][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.19.31:037][107]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.19.31:037][107]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.19.31:037][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.19.31:043][107]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.19.31:047][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.19.31:086][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.19.31:087][107]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023F0B2D5D00), frame # 604107
+[2020.10.01-04.19.31:087][107]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023EA3556000), frame # 604107
+[2020.10.01-04.19.31:089][107]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.10.01-04.19.31:115][108]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2020.10.01-04.19.40:278][ 89]LogActorFactory: Actor Factory created Cube
+[2020.10.01-04.19.41:845][269]LogActorFactory: Actor Factory created Cube
+[2020.10.01-04.20.12:288][894]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.20.12:298][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.20.12:299][894]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:20:12 PM)
+[2020.10.01-04.20.12:326][894]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.20.12:330][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003961s)
+[2020.10.01-04.20.12:331][894]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.20.12:331][894]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023E13AC5A00), frame # 608894
+[2020.10.01-04.20.12:331][894]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023E9585CF40), frame # 608894
+[2020.10.01-04.20.12:331][894]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2020.10.01-04.20.12:331][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.004966s)
+[2020.10.01-04.20.12:355][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.10.01-04.20.12:357][894]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.20.12:357][894]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.20.12:357][894]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.20.12:357][894]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.20.12:357][894]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.20.12:357][894]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.20.12:357][894]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.20.12:357][894]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.20.12:358][894]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.20.12:358][894]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.20.12:365][894]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.20.12:365][894]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.20.12:387][894]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.20.12:387][894]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.20.12:388][894]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.20.12:388][894]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.20.12:388][894]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.20.12:398][894]LogInit: FAudioDevice initialized.
+[2020.10.01-04.20.12:408][894]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.20.12:409][894]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.20.12
+[2020.10.01-04.20.12:410][894]LogWorld: Bringing up level for play took: 0.001023
+[2020.10.01-04.20.12:410][894]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2020.10.01-04.20.12:411][894]PIE: Server logged in
+[2020.10.01-04.20.12:412][894]PIE: Play in editor total start time 0.114 seconds.
+[2020.10.01-04.20.21:388][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.20.21:388][962]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.20.21:388][962]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.20.21:388][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.20.21:399][962]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.20.21:402][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.20.21:425][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.20.21:439][962]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023E9585CF40), frame # 609962
+[2020.10.01-04.20.21:439][962]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023E13AC5A00), frame # 609962
+[2020.10.01-04.20.21:441][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.10.01-04.20.21:464][963]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2020.10.01-04.20.24:167][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kitchen_knife_tri_pCube1)
+[2020.10.01-04.20.28:385][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.10.01-04.20.33:999][452]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.20.34:008][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.20.34:008][452]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:20:34 PM)
+[2020.10.01-04.20.34:047][452]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.20.34:051][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003952s)
+[2020.10.01-04.20.34:052][452]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.20.34:052][452]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023EACE04800), frame # 611452
+[2020.10.01-04.20.34:052][452]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023E9585CCC0), frame # 611452
+[2020.10.01-04.20.34:052][452]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2020.10.01-04.20.34:052][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.004990s)
+[2020.10.01-04.20.34:075][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.10.01-04.20.34:078][452]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.20.34:078][452]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.20.34:078][452]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.20.34:078][452]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.20.34:078][452]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.20.34:078][452]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.20.34:078][452]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.20.34:078][452]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.20.34:078][452]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.20.34:078][452]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.20.34:086][452]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.20.34:086][452]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.20.34:109][452]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.20.34:109][452]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.20.34:109][452]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.20.34:109][452]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.20.34:109][452]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.20.34:120][452]LogInit: FAudioDevice initialized.
+[2020.10.01-04.20.34:124][452]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.20.34:125][452]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.20.34
+[2020.10.01-04.20.34:125][452]LogWorld: Bringing up level for play took: 0.001064
+[2020.10.01-04.20.34:125][452]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2020.10.01-04.20.34:127][452]PIE: Server logged in
+[2020.10.01-04.20.34:128][452]PIE: Play in editor total start time 0.121 seconds.
+[2020.10.01-04.20.43:807][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.20.43:807][608]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.20.43:807][608]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.20.43:807][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.20.43:815][608]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.20.43:819][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.20.43:855][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.20.43:856][608]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023E9585CCC0), frame # 612608
+[2020.10.01-04.20.43:856][608]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023EACE04800), frame # 612608
+[2020.10.01-04.20.43:858][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.10.01-04.20.43:881][609]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2020.10.01-04.20.44:792][715]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.20.44:800][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.20.44:800][715]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:20:44 PM)
+[2020.10.01-04.20.44:800][715]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.20.44:804][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003744s)
+[2020.10.01-04.20.44:805][715]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.20.44:805][715]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023EA5649A00), frame # 612715
+[2020.10.01-04.20.44:805][715]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023E9585DE40), frame # 612715
+[2020.10.01-04.20.44:805][715]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2020.10.01-04.20.44:805][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.004738s)
+[2020.10.01-04.20.44:829][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.10.01-04.20.44:830][715]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.20.44:830][715]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.20.44:830][715]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.20.44:830][715]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.20.44:830][715]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.20.44:830][715]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.20.44:830][715]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.20.44:830][715]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.20.44:830][715]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.20.44:830][715]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.20.44:837][715]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.20.44:837][715]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.20.44:858][715]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.20.44:859][715]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.20.44:859][715]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.20.44:859][715]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.20.44:859][715]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.20.44:869][715]LogInit: FAudioDevice initialized.
+[2020.10.01-04.20.44:874][715]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.20.44:875][715]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.20.44
+[2020.10.01-04.20.44:875][715]LogWorld: Bringing up level for play took: 0.001044
+[2020.10.01-04.20.44:875][715]LogOnline: OSS: Creating online subsystem instance for: :Context_68
+[2020.10.01-04.20.44:877][715]PIE: Server logged in
+[2020.10.01-04.20.44:877][715]PIE: Play in editor total start time 0.079 seconds.
+[2020.10.01-04.20.50:607][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.20.50:607][397]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.20.50:608][397]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.20.50:608][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.20.50:618][397]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.20.50:621][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.20.50:644][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.20.50:657][397]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023E9585DE40), frame # 613397
+[2020.10.01-04.20.50:657][397]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023EA5649A00), frame # 613397
+[2020.10.01-04.20.50:659][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.10.01-04.20.50:679][398]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2020.10.01-04.20.51:771][525]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.20.51:779][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.20.51:779][525]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:20:51 PM)
+[2020.10.01-04.20.51:817][525]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.20.51:821][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004039s)
+[2020.10.01-04.20.51:822][525]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.20.51:822][525]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023F0B361800), frame # 613525
+[2020.10.01-04.20.51:822][525]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023E9585FB00), frame # 613525
+[2020.10.01-04.20.51:822][525]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2020.10.01-04.20.51:822][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.005078s)
+[2020.10.01-04.20.51:847][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.10.01-04.20.51:848][525]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.20.51:848][525]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.20.51:848][525]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.20.51:848][525]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.20.51:848][525]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.20.51:848][525]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.20.51:848][525]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.20.51:848][525]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.20.51:849][525]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.20.51:849][525]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.20.51:856][525]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.20.51:856][525]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.20.51:878][525]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.20.51:879][525]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.20.51:879][525]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.20.51:879][525]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.20.51:879][525]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.20.51:889][525]LogInit: FAudioDevice initialized.
+[2020.10.01-04.20.51:898][525]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.20.51:899][525]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.20.51
+[2020.10.01-04.20.51:899][525]LogWorld: Bringing up level for play took: 0.001015
+[2020.10.01-04.20.51:899][525]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2020.10.01-04.20.51:901][525]PIE: Server logged in
+[2020.10.01-04.20.51:901][525]PIE: Play in editor total start time 0.123 seconds.
+[2020.10.01-04.20.56:757][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.20.56:757][102]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.20.56:757][102]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.20.56:758][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.20.56:764][102]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.20.56:767][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.20.56:789][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.20.56:804][102]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023E9585FB00), frame # 614102
+[2020.10.01-04.20.56:804][102]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023F0B361800), frame # 614102
+[2020.10.01-04.20.56:806][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.10.01-04.20.56:828][103]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2020.10.01-04.20.57:954][234]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.20.57:962][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.20.57:962][234]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:20:57 PM)
+[2020.10.01-04.20.57:997][234]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.20.58:000][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003797s)
+[2020.10.01-04.20.58:001][234]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.20.58:001][234]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023EACE05A00), frame # 614234
+[2020.10.01-04.20.58:001][234]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023E9585EE80), frame # 614234
+[2020.10.01-04.20.58:001][234]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2020.10.01-04.20.58:001][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.004758s)
+[2020.10.01-04.20.58:026][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.10.01-04.20.58:027][234]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.20.58:027][234]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.20.58:027][234]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.20.58:027][234]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.20.58:027][234]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.20.58:027][234]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.20.58:027][234]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.20.58:027][234]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.20.58:028][234]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.20.58:028][234]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.20.58:036][234]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.20.58:036][234]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.20.58:057][234]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.20.58:057][234]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.20.58:057][234]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.20.58:057][234]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.20.58:058][234]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.20.58:068][234]LogInit: FAudioDevice initialized.
+[2020.10.01-04.20.58:078][234]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.20.58:079][234]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.20.58
+[2020.10.01-04.20.58:079][234]LogWorld: Bringing up level for play took: 0.000992
+[2020.10.01-04.20.58:507][234]LogOnline: OSS: Creating online subsystem instance for: :Context_70
+[2020.10.01-04.20.58:508][234]PIE: Server logged in
+[2020.10.01-04.20.58:509][234]PIE: Play in editor total start time 0.547 seconds.
+[2020.10.01-04.21.06:667][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.21.06:667][208]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.21.06:667][208]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.21.06:667][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.21.06:674][208]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.21.06:677][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.21.06:699][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.21.06:714][208]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023E9585EE80), frame # 615208
+[2020.10.01-04.21.06:714][208]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023EACE05A00), frame # 615208
+[2020.10.01-04.21.06:716][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.10.01-04.21.06:739][209]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2020.10.01-04.21.09:797][570]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.21.09:805][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.21.09:806][570]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:21:09 PM)
+[2020.10.01-04.21.09:836][570]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.21.09:840][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003997s)
+[2020.10.01-04.21.09:841][570]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.21.09:841][570]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023EA564B600), frame # 615570
+[2020.10.01-04.21.09:841][570]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023EADCDE0C0), frame # 615570
+[2020.10.01-04.21.09:841][570]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2020.10.01-04.21.09:841][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.005036s)
+[2020.10.01-04.21.09:866][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.10.01-04.21.09:868][570]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.21.09:868][570]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.21.09:868][570]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.21.09:868][570]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.21.09:868][570]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.21.09:868][570]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.21.09:868][570]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.21.09:868][570]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.21.09:868][570]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.21.09:868][570]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.21.09:875][570]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.21.09:875][570]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.21.09:898][570]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.21.09:898][570]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.21.09:898][570]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.21.09:898][570]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.21.09:899][570]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.21.09:910][570]LogInit: FAudioDevice initialized.
+[2020.10.01-04.21.09:914][570]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.21.09:915][570]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.21.09
+[2020.10.01-04.21.09:915][570]LogWorld: Bringing up level for play took: 0.001032
+[2020.10.01-04.21.09:916][570]LogOnline: OSS: Creating online subsystem instance for: :Context_71
+[2020.10.01-04.21.09:917][570]PIE: Server logged in
+[2020.10.01-04.21.09:918][570]PIE: Play in editor total start time 0.112 seconds.
+[2020.10.01-04.21.16:397][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.21.16:397][343]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.21.16:397][343]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.21.16:397][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.21.16:404][343]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.21.16:407][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.21.16:429][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.21.16:443][343]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023EADCDE0C0), frame # 616343
+[2020.10.01-04.21.16:443][343]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023EA564B600), frame # 616343
+[2020.10.01-04.21.16:445][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.10.01-04.21.16:467][344]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2020.10.01-04.21.18:478][582]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kitchen_sink_tri)
+[2020.10.01-04.21.21:160][897]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.01-04.21.21:169][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.01-04.21.21:170][897]PIE: New page: PIE session: PrototypeLevel (Sep 30, 2020, 4:21:21 PM)
+[2020.10.01-04.21.21:170][897]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.21.21:175][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004851s)
+[2020.10.01-04.21.21:176][897]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.10.01-04.21.21:176][897]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023F0879B800), frame # 616897
+[2020.10.01-04.21.21:176][897]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023EC9D05800), frame # 616897
+[2020.10.01-04.21.21:176][897]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2020.10.01-04.21.21:176][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeLevel.PrototypeLevel to /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel (0.006124s)
+[2020.10.01-04.21.21:201][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.10.01-04.21.21:202][897]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.01-04.21.21:202][897]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.01-04.21.21:202][897]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.01-04.21.21:202][897]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.01-04.21.21:202][897]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.01-04.21.21:202][897]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.01-04.21.21:202][897]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.01-04.21.21:202][897]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.01-04.21.21:203][897]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.01-04.21.21:203][897]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.01-04.21.21:210][897]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.01-04.21.21:210][897]LogAudioMixer: Display: 1: FrontRight
+[2020.10.01-04.21.21:232][897]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.01-04.21.21:232][897]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.01-04.21.21:232][897]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.01-04.21.21:232][897]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.01-04.21.21:232][897]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.01-04.21.21:243][897]LogInit: FAudioDevice initialized.
+[2020.10.01-04.21.21:247][897]LogLoad: Game class is 'PrototypeGameMode_C'
+[2020.10.01-04.21.21:249][897]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.09.30-22.21.21
+[2020.10.01-04.21.21:249][897]LogWorld: Bringing up level for play took: 0.001032
+[2020.10.01-04.21.21:249][897]LogOnline: OSS: Creating online subsystem instance for: :Context_72
+[2020.10.01-04.21.21:251][897]PIE: Server logged in
+[2020.10.01-04.21.21:251][897]PIE: Play in editor total start time 0.082 seconds.
+[2020.10.01-04.21.32:396][233]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.21.36:429][717]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.21.38:696][989]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.21.41:079][275]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.21.43:743][592]LogTemp: Warning: Velocity 0.000000, 0.000000, 0.000000
+[2020.10.01-04.22.38:967][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.22.38:967][215]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeLevel
+[2020.10.01-04.22.38:967][215]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.01-04.22.38:968][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.22.38:978][215]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.01-04.22.38:982][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.01-04.22.39:007][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.01-04.22.39:022][215]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023EC9D05800), frame # 626215
+[2020.10.01-04.22.39:022][215]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023F0879B800), frame # 626215
+[2020.10.01-04.22.39:024][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.10.01-04.22.39:047][216]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2020.10.01-04.23.56:546][195]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.10.01-04.23.58:178][195]LogSlate: Window 'Save Content' being destroyed
+[2020.10.01-04.23.58:204][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/Kitchen_sink_tri" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Kitchen_sink_tri.uasset" SILENT=true
+[2020.10.01-04.23.58:210][195]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Kitchen_sink_triED905BA34EF1011386035C9A443E4416.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/Kitchen_sink_tri.uasset'
+[2020.10.01-04.23.58:218][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3DModels/pCube6Mat" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/pCube6Mat.uasset" SILENT=true
+[2020.10.01-04.23.58:223][195]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/pCube6Mat20D10B05498DB942E3116B84DB628355.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Assets/3DModels/pCube6Mat.uasset'
+[2020.10.01-04.23.58:249][195]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.10.01-04.23.58:292][195]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/PrototypeLevel29C984E744B427C5E23FEFB517EFEE64.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Levels/PrototypeLevel.umap'
+[2020.10.01-04.23.58:308][195]LogFileHelpers: Saving map 'PrototypeLevel' took 0.084
+[2020.10.01-04.23.58:308][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrototypeLevel_BuiltData" FILE="C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Levels/PrototypeLevel_BuiltData.uasset" SILENT=true
+[2020.10.01-04.23.58:319][195]LogSavePackage: Moving 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/PrototypeLevel_BuiltData273B403A4778FBB938685187FB24DFE1.tmp' to 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Levels/PrototypeLevel_BuiltData.uasset'
+[2020.10.01-04.23.58:342][195]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.01-04.23.58:342][195]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3DModels/Kitchen_sink_tri.Kitchen_sink_tri
+[2020.10.01-04.23.58:342][195]LogContentValidation: Display: Validating Material /Game/Assets/3DModels/pCube6Mat.pCube6Mat
+[2020.10.01-04.23.58:342][195]LogContentValidation: Display: Validating World /Game/Levels/PrototypeLevel.PrototypeLevel
+[2020.10.01-04.23.58:342][195]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/PrototypeLevel_BuiltData.PrototypeLevel_BuiltData
+[2020.10.01-04.24.25:316][366]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
