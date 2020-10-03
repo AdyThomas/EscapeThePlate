@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\EscapeThePlate.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EBC5D10F-75B5-4972-BF19-E2338F795347}</UniqueIdentifier>
+      <UniqueIdentifier>{E0AC8607-2D92-486C-8F9B-124139B04C88}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EscapeThePlate.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CD656B86-F157-4706-8FDC-E1E6CF1B2551}</UniqueIdentifier>
+      <UniqueIdentifier>{751A64E3-A2A3-47A5-B9D2-B64FB1ADC0D5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\EscapeThePlate">
-      <UniqueIdentifier>{576061F5-C312-48F7-BC90-F2633C970A59}</UniqueIdentifier>
+      <UniqueIdentifier>{80393E04-283E-4CA5-8B34-99F87904324F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\EscapeThePlate\ChickenBreast.cpp">
       <Filter>Source\EscapeThePlate</Filter>
@@ -35,10 +35,22 @@
     <ClInclude Include="..\..\Source\EscapeThePlate\ChickenBreast.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\ChickenBreastCharacter.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\ChickenBreastCharacter.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\EscapeThePlate\ChiliPepper.cpp">
       <Filter>Source\EscapeThePlate</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\EscapeThePlate\ChiliPepper.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\ChiliPepperCharacter.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\ChiliPepperCharacter.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
     <None Include="..\..\Source\EscapeThePlate\EscapeThePlate.Build.cs">
@@ -50,16 +62,40 @@
     <ClInclude Include="..\..\Source\EscapeThePlate\EscapeThePlate.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\HumanBaseCharacter.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\HumanBaseCharacter.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\IngredientBaseCharacter.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\IngredientBaseCharacter.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\EscapeThePlate\IngredientBaseClass.cpp">
       <Filter>Source\EscapeThePlate</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\EscapeThePlate\IngredientBaseClass.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\IngredientBaseMovementComponent.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\IngredientBaseMovementComponent.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\EscapeThePlate\RedOnion.cpp">
       <Filter>Source\EscapeThePlate</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\EscapeThePlate\RedOnion.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\RedOnionCharacter.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\RedOnionCharacter.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
   </ItemGroup>
