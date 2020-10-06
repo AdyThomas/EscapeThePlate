@@ -7,7 +7,6 @@
 #include "Engine/World.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
-#include "IngredientBaseMovementComponent.h"
 
 AChiliPepperCharacter::AChiliPepperCharacter()
 {
