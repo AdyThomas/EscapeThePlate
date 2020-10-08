@@ -36,9 +36,10 @@ void AChickenBreastCharacter::CheckAndPerformMovement(float DeltaTime)
 
 	UE_LOG(LogTemp, Warning, TEXT("Z velocity %f"), GetCharacterMovement()->Velocity.Z)
 
-	// Reset climbing state
+	// Change climbing state
 	if (GetCharacterMovement()->Velocity.Z > 10.0)
 		bIsClimbing = true;
+
 	if (!bIsMoving || (bIsClimbing && GetCharacterMovement()->Velocity.Z < 10.0f))
 	{
 		bIsClimbing = false;
