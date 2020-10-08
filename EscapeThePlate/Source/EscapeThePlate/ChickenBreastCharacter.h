@@ -14,11 +14,25 @@ class ESCAPETHEPLATE_API AChickenBreastCharacter : public AIngredientBaseCharact
 {
 	GENERATED_BODY()
 
+private:
+	void CheckAndPerformMovement(float DeltaTime);
+
 public:
 	AChickenBreastCharacter();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement)
 	bool bIsMoving;
+
+	UPROPERTY()
+	bool bUpPressed;
+	bool bDownPressed;
+	bool bLeftPressed;
+	bool bRightPressed;
+
+	bool bIsClimbing;
+
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -30,5 +44,12 @@ public:
 	// Movement functions
 	void MoveX(float magnitude) override;
 	void MoveY(float magnitude) override;
-	
+	void UpPress();
+	void UpRelease();
+	void DownPress();
+	void DownRelease();
+	void LeftPress();
+	void LeftRelease();
+	void RightPress();
+	void RightRelease();
 };
