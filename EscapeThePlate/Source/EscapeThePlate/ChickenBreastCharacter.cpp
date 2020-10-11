@@ -34,7 +34,7 @@ void AChickenBreastCharacter::CheckAndPerformMovement(float DeltaTime)
 	// Update the moving flag for climbing
 	bIsMoving = bUpPressed || bDownPressed || bLeftPressed || bRightPressed;
 
-	UE_LOG(LogTemp, Warning, TEXT("Z velocity %f"), GetCharacterMovement()->Velocity.Z)
+	//UE_LOG(LogTemp, Warning, TEXT("Z velocity %f"), GetCharacterMovement()->Velocity.Z)
 
 	// Change climbing state
 	if (GetCharacterMovement()->Velocity.Z > 10.0)
