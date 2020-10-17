@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\EscapeThePlate.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E0AC8607-2D92-486C-8F9B-124139B04C88}</UniqueIdentifier>
+      <UniqueIdentifier>{6FE7BFB0-711A-403C-ADFD-A3B26BDF968C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EscapeThePlate.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{751A64E3-A2A3-47A5-B9D2-B64FB1ADC0D5}</UniqueIdentifier>
+      <UniqueIdentifier>{C213F472-D4A2-49C3-A098-87FA54F0D869}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,24 +27,12 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\EscapeThePlate">
-      <UniqueIdentifier>{80393E04-283E-4CA5-8B34-99F87904324F}</UniqueIdentifier>
+      <UniqueIdentifier>{A0577A82-270B-4500-AAA7-091F085234FA}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\EscapeThePlate\ChickenBreast.cpp">
-      <Filter>Source\EscapeThePlate</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\EscapeThePlate\ChickenBreast.h">
-      <Filter>Source\EscapeThePlate</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\EscapeThePlate\ChickenBreastCharacter.cpp">
       <Filter>Source\EscapeThePlate</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\EscapeThePlate\ChickenBreastCharacter.h">
-      <Filter>Source\EscapeThePlate</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\EscapeThePlate\ChiliPepper.cpp">
-      <Filter>Source\EscapeThePlate</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\EscapeThePlate\ChiliPepper.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\EscapeThePlate\ChiliPepperCharacter.cpp">
@@ -74,22 +62,10 @@
     <ClInclude Include="..\..\Source\EscapeThePlate\IngredientBaseCharacter.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\EscapeThePlate\IngredientBaseClass.cpp">
+    <ClCompile Include="..\..\Source\EscapeThePlate\IngredientDeathZone.cpp">
       <Filter>Source\EscapeThePlate</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\EscapeThePlate\IngredientBaseClass.h">
-      <Filter>Source\EscapeThePlate</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\EscapeThePlate\IngredientBaseMovementComponent.cpp">
-      <Filter>Source\EscapeThePlate</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\EscapeThePlate\IngredientBaseMovementComponent.h">
-      <Filter>Source\EscapeThePlate</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\EscapeThePlate\RedOnion.cpp">
-      <Filter>Source\EscapeThePlate</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\EscapeThePlate\RedOnion.h">
+    <ClInclude Include="..\..\Source\EscapeThePlate\IngredientDeathZone.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\EscapeThePlate\RedOnionCharacter.cpp">
