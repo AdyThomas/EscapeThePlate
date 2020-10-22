@@ -14,8 +14,8 @@ AChiliPepperCharacter::AChiliPepperCharacter()
 	MoveSpeed = 2.f;
 	AbilityCooldown = 2.f;
 	AbilityCooldownTimer = 0.f;
-	MaxJumpHeight = 1000.f;
-	AirControl = .5;
+	MaxJumpHeight = 500.f;
+	AirControl = .2;
 
 	GetCharacterMovement()->JumpZVelocity = MaxJumpHeight;
 	GetCharacterMovement()->AirControl = AirControl;

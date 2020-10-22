@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define ESCAPETHEPLATE_IngredientBaseCharacter_generated_h
 
 #define EscapeThePlate_Source_EscapeThePlate_IngredientBaseCharacter_h_12_SPARSE_DATA
-#define EscapeThePlate_Source_EscapeThePlate_IngredientBaseCharacter_h_12_RPC_WRAPPERS
-#define EscapeThePlate_Source_EscapeThePlate_IngredientBaseCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define EscapeThePlate_Source_EscapeThePlate_IngredientBaseCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execKillThisIngredient);
+
+
+#define EscapeThePlate_Source_EscapeThePlate_IngredientBaseCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execKillThisIngredient);
+
+
 #define EscapeThePlate_Source_EscapeThePlate_IngredientBaseCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAIngredientBaseCharacter(); \

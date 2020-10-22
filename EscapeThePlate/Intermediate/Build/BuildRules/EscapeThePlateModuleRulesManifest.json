@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\EscapeThePlate\\EscapeThePlate\\EscapeThePlate\\Source\\EscapeThePlate\\EscapeThePlate.Build.cs",
-		"E:\\EscapeThePlate\\EscapeThePlate\\EscapeThePlate\\Source\\EscapeThePlate.Target.cs",
-		"E:\\EscapeThePlate\\EscapeThePlate\\EscapeThePlate\\Source\\EscapeThePlateEditor.Target.cs"
+		"C:\\Users\\tommy\\Documents\\GitHub\\EscapeThePlate\\EscapeThePlate\\Source\\EscapeThePlate\\EscapeThePlate.Build.cs",
+		"C:\\Users\\tommy\\Documents\\GitHub\\EscapeThePlate\\EscapeThePlate\\Source\\EscapeThePlate.Target.cs",
+		"C:\\Users\\tommy\\Documents\\GitHub\\EscapeThePlate\\EscapeThePlate\\Source\\EscapeThePlateEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.3"
 }

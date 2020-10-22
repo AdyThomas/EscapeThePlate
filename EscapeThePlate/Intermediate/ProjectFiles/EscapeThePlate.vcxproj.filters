@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\EscapeThePlate.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6FE7BFB0-711A-403C-ADFD-A3B26BDF968C}</UniqueIdentifier>
+      <UniqueIdentifier>{CB120717-BBDD-488B-AC34-4ADC431BB43C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EscapeThePlate.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C213F472-D4A2-49C3-A098-87FA54F0D869}</UniqueIdentifier>
+      <UniqueIdentifier>{D11308F9-E768-46BE-908D-EABC5333C349}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\EscapeThePlate">
-      <UniqueIdentifier>{A0577A82-270B-4500-AAA7-091F085234FA}</UniqueIdentifier>
+      <UniqueIdentifier>{392106D1-5666-437A-9E55-4FBF6E390A9E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\EscapeThePlate\ChickenBreastCharacter.cpp">
       <Filter>Source\EscapeThePlate</Filter>

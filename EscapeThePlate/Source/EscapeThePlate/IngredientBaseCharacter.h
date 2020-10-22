@@ -25,6 +25,18 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
 		float TiltSpeed;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Health)
+		float ContaminationLevel;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Health)
+		float ContaminationRate;
+
+	UPROPERTY(BlueprintReadWrite)
+		bool bIsInContaminationZone;
+
+	UPROPERTY(BlueprintReadWrite, Category = Status)
+	bool bIsDead;
+
 	// The spring attaching the camera to the pawn
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class USpringArmComponent* SpringArm;
@@ -52,5 +64,8 @@ public:
 	// Ability/Interaction functions
 	virtual void PerformAbility();
 	virtual void PerformInteraction();
+
+	UFUNCTION(BlueprintCallable)
+	virtual void KillThisIngredient();
 
 };

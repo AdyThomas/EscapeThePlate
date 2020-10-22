@@ -18,7 +18,10 @@ AIngredientBaseCharacter::AIngredientBaseCharacter()
 	MoveSpeed = 1.0;
 	TurnSpeed = 45.f;
 	TiltSpeed = 45.f;
-
+	ContaminationLevel = 0.f;
+	ContaminationRate = 40.f;
+	bIsDead = false;
+	bIsInContaminationZone = false;
 
 	// Make springarm, connect to character
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
@@ -43,7 +46,16 @@ AIngredientBaseCharacter::AIngredientBaseCharacter()
 void AIngredientBaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	if (bIsInContaminationZone && !bIsDead)
+	{
+		
+		ContaminationLevel += ContaminationRate * DeltaTime;
 
+		UE_LOG(LogTemp, Warning, TEXT("%f"), ContaminationLevel);
+
+		if (ContaminationLevel >= 100.f)
+			KillThisIngredient();
+	}
 }
 
 // Called when the game starts or when spawned
@@ -71,6 +83,12 @@ void AIngredientBaseCharacter::Turn(float magnitude)
 void AIngredientBaseCharacter::Tilt(float magnitude)
 {
 	AddControllerPitchInput(magnitude * TiltSpeed * GetWorld()->GetDeltaSeconds());
+}
+
+void AIngredientBaseCharacter::KillThisIngredient()
+{
+	bIsDead = true;
+	GetController()->UnPossess();
 }
 
 //Pointless implementations, should be overridden by children
