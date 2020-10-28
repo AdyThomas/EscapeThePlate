@@ -1,12 +1,3 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\tommy\Documents\GitHub\EscapeThePlate).
-  Building EscapeThePlateEditor...
-  Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 16 processes...
-    [1/4] IngredientBaseCharacter.cpp
-    [2/4] UE4Editor-EscapeThePlate-0010.lib
-       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0010.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0010.exp
-    [3/4] UE4Editor-EscapeThePlate-0010.dll
-       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0010.suppressed.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0010.suppressed.exp
-    [4/4] EscapeThePlateEditor.target
-  Total time in Parallel executor: 3.35 seconds
-  Total execution time: 3.76 seconds
+  Target is up to date
+  Total execution time: 0.43 seconds

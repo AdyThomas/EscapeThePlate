@@ -7,6 +7,7 @@
 #include "Engine/World.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "EscapeThePlateGameMode.h"
 
 // Sets default values
 AIngredientBaseCharacter::AIngredientBaseCharacter()
@@ -21,6 +22,7 @@ AIngredientBaseCharacter::AIngredientBaseCharacter()
 	ContaminationLevel = 0.f;
 	ContaminationRate = 40.f;
 	bIsDead = false;
+	bIsSafe = false;
 	bIsInContaminationZone = false;
 
 	// Make springarm, connect to character
@@ -88,7 +90,34 @@ void AIngredientBaseCharacter::Tilt(float magnitude)
 void AIngredientBaseCharacter::KillThisIngredient()
 {
 	bIsDead = true;
-	GetController()->UnPossess();
+
+	if(GetController())
+		GetController()->UnPossess();
+
+	AEscapeThePlateGameMode* GameMode = Cast<AEscapeThePlateGameMode>(GetWorld()->GetAuthGameMode());
+	if (GameMode)
+	{
+		GameMode->CharacterStatusChanged();
+	}
+}
+
+void AIngredientBaseCharacter::SaveThisIngredient()
+{
+	bIsSafe = true;
+	
+	if (GetController())
+		GetController()->UnPossess();
+
+	AEscapeThePlateGameMode* GameMode = Cast<AEscapeThePlateGameMode>(GetWorld()->GetAuthGameMode());
+	if (GameMode)
+	{
+		GameMode->CharacterStatusChanged();
+	}
+}
+
+bool AIngredientBaseCharacter::IsIngredientUsable()
+{
+	return !(bIsSafe || bIsDead);
 }
 
 //Pointless implementations, should be overridden by children

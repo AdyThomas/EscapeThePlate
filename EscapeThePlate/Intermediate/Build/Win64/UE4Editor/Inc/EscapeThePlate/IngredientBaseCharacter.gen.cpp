@@ -20,6 +20,20 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AIngredientBaseCharacter::execIsIngredientUsable)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->IsIngredientUsable();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AIngredientBaseCharacter::execSaveThisIngredient)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SaveThisIngredient();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AIngredientBaseCharacter::execKillThisIngredient)
 	{
 		P_FINISH;
@@ -31,9 +45,48 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 	{
 		UClass* Class = AIngredientBaseCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "IsIngredientUsable", &AIngredientBaseCharacter::execIsIngredientUsable },
 			{ "KillThisIngredient", &AIngredientBaseCharacter::execKillThisIngredient },
+			{ "SaveThisIngredient", &AIngredientBaseCharacter::execSaveThisIngredient },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable_Statics
+	{
+		struct IngredientBaseCharacter_eventIsIngredientUsable_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((IngredientBaseCharacter_eventIsIngredientUsable_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(IngredientBaseCharacter_eventIsIngredientUsable_Parms), &Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "IngredientBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AIngredientBaseCharacter, nullptr, "IsIngredientUsable", nullptr, nullptr, sizeof(IngredientBaseCharacter_eventIsIngredientUsable_Parms), Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AIngredientBaseCharacter_KillThisIngredient_Statics
 	{
@@ -57,6 +110,28 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AIngredientBaseCharacter_SaveThisIngredient_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AIngredientBaseCharacter_SaveThisIngredient_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "IngredientBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AIngredientBaseCharacter_SaveThisIngredient_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AIngredientBaseCharacter, nullptr, "SaveThisIngredient", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AIngredientBaseCharacter_SaveThisIngredient_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AIngredientBaseCharacter_SaveThisIngredient_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AIngredientBaseCharacter_SaveThisIngredient()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AIngredientBaseCharacter_SaveThisIngredient_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AIngredientBaseCharacter_NoRegister()
 	{
 		return AIngredientBaseCharacter::StaticClass();
@@ -76,6 +151,11 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArm_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArm;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsSafe_MetaData[];
+#endif
+		static void NewProp_bIsSafe_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsSafe;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsDead_MetaData[];
 #endif
@@ -115,7 +195,9 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_EscapeThePlate,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AIngredientBaseCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AIngredientBaseCharacter_IsIngredientUsable, "IsIngredientUsable" }, // 2689368306
 		{ &Z_Construct_UFunction_AIngredientBaseCharacter_KillThisIngredient, "KillThisIngredient" }, // 2852034930
+		{ &Z_Construct_UFunction_AIngredientBaseCharacter_SaveThisIngredient, "SaveThisIngredient" }, // 3326321808
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseCharacter_Statics::Class_MetaDataParams[] = {
@@ -144,6 +226,17 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseCharacter, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_SpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_SpringArm_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsSafe_MetaData[] = {
+		{ "Category", "Status" },
+		{ "ModuleRelativePath", "IngredientBaseCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsSafe_SetBit(void* Obj)
+	{
+		((AIngredientBaseCharacter*)Obj)->bIsSafe = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsSafe = { "bIsSafe", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AIngredientBaseCharacter), &Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsSafe_SetBit, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsSafe_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsSafe_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsDead_MetaData[] = {
 		{ "Category", "Status" },
@@ -206,6 +299,7 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AIngredientBaseCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_Camera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_SpringArm,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsSafe,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsDead,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsInContaminationZone,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_ContaminationRate,
@@ -241,7 +335,7 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIngredientBaseCharacter, 2821314724);
+	IMPLEMENT_CLASS(AIngredientBaseCharacter, 695144054);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AIngredientBaseCharacter>()
 	{
 		return AIngredientBaseCharacter::StaticClass();

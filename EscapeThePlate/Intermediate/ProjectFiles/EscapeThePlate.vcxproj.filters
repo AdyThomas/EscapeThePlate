@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\EscapeThePlate.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CB120717-BBDD-488B-AC34-4ADC431BB43C}</UniqueIdentifier>
+      <UniqueIdentifier>{DC489300-4C03-4D7E-9102-9BBD6C58A630}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EscapeThePlate.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D11308F9-E768-46BE-908D-EABC5333C349}</UniqueIdentifier>
+      <UniqueIdentifier>{A0FD9C07-BE34-4BA2-9194-0910648A0959}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\EscapeThePlate">
-      <UniqueIdentifier>{392106D1-5666-437A-9E55-4FBF6E390A9E}</UniqueIdentifier>
+      <UniqueIdentifier>{111BC78C-65C8-4B60-B70A-B78E914AC75A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\EscapeThePlate\ChickenBreastCharacter.cpp">
       <Filter>Source\EscapeThePlate</Filter>
@@ -48,6 +48,12 @@
       <Filter>Source\EscapeThePlate</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\EscapeThePlate\EscapeThePlate.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\EscapeThePlateGameMode.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\EscapeThePlateGameMode.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\EscapeThePlate\HumanBaseCharacter.cpp">

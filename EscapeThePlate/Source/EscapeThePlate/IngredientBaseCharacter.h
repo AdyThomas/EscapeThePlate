@@ -37,6 +37,9 @@ public:
 	UPROPERTY(BlueprintReadWrite, Category = Status)
 	bool bIsDead;
 
+	UPROPERTY(BlueprintReadWrite, Category = Status)
+	bool bIsSafe;
+
 	// The spring attaching the camera to the pawn
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class USpringArmComponent* SpringArm;
@@ -67,5 +70,11 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	virtual void KillThisIngredient();
+
+	UFUNCTION(BlueprintCallable)
+	virtual void SaveThisIngredient();
+
+	UFUNCTION(BlueprintCallable)
+	virtual bool IsIngredientUsable();
 
 };

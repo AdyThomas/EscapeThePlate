@@ -16,11 +16,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define EscapeThePlate_Source_EscapeThePlate_IngredientBaseCharacter_h_12_SPARSE_DATA
 #define EscapeThePlate_Source_EscapeThePlate_IngredientBaseCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execIsIngredientUsable); \
+	DECLARE_FUNCTION(execSaveThisIngredient); \
 	DECLARE_FUNCTION(execKillThisIngredient);
 
 
 #define EscapeThePlate_Source_EscapeThePlate_IngredientBaseCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execIsIngredientUsable); \
+	DECLARE_FUNCTION(execSaveThisIngredient); \
 	DECLARE_FUNCTION(execKillThisIngredient);
 
 
