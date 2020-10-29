@@ -1,3 +1,23 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\tommy\Documents\GitHub\EscapeThePlate).
-  Target is up to date
-  Total execution time: 0.43 seconds
+  Parsing headers for EscapeThePlateEditor
+    Running UnrealHeaderTool "C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\EscapeThePlate.uproject" "C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\EscapeThePlateEditor\Development\EscapeThePlateEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\tommy\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for EscapeThePlateEditor in 12.0357911 seconds
+  Building EscapeThePlateEditor...
+  Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 12 actions with 16 processes...
+    [1/12] EscapeThePlateGameMode.cpp
+    [2/12] RedOnionCharacter.cpp
+    [3/12] RedOnionCharacter.gen.cpp
+    [4/12] ChiliPepperCharacter.gen.cpp
+    [5/12] IngredientBaseCharacter.gen.cpp
+    [6/12] ChickenBreastCharacter.gen.cpp
+    [7/12] ChickenBreastCharacter.cpp
+    [8/12] IngredientBaseCharacter.cpp
+    [9/12] ChiliPepperCharacter.cpp
+    [10/12] UE4Editor-EscapeThePlate-0013.lib
+       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0013.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0013.exp
+    [11/12] UE4Editor-EscapeThePlate-0013.dll
+       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0013.suppressed.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0013.suppressed.exp
+    [12/12] EscapeThePlateEditor.target
+  Total time in Parallel executor: 19.70 seconds
+  Total execution time: 34.60 seconds

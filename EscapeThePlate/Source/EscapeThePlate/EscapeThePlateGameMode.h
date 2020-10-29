@@ -16,6 +16,9 @@ class ESCAPETHEPLATE_API AEscapeThePlateGameMode : public AGameMode
 
 	public:
 
+		UPROPERTY(BlueprintReadWrite, Category = GameStatus)
+		bool bCanPlayerPause;
+
 		UPROPERTY(BlueprintReadWrite, Category = GameObjects)
 		TArray<class AIngredientBaseCharacter*> Characters;
 
@@ -48,4 +51,7 @@ class ESCAPETHEPLATE_API AEscapeThePlateGameMode : public AGameMode
 
 		UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
 		void GameOver();
+
+		UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+		void PauseGame();
 };

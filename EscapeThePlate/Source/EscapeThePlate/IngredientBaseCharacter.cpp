@@ -8,6 +8,7 @@
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "EscapeThePlateGameMode.h"
+#include "EscapeThePlateGameMode.h"
 
 // Sets default values
 AIngredientBaseCharacter::AIngredientBaseCharacter()
@@ -75,6 +76,7 @@ void AIngredientBaseCharacter::SetupPlayerInputComponent(UInputComponent* Player
 
 	PlayerInputComponent->BindAxis("Turn", this, &AIngredientBaseCharacter::Turn);
 	PlayerInputComponent->BindAxis("Tilt", this, &AIngredientBaseCharacter::Tilt);
+	PlayerInputComponent->BindAction("PauseGame", IE_Pressed, this, &AIngredientBaseCharacter::AskGameToPause);
 }
 
 void AIngredientBaseCharacter::Turn(float magnitude)
@@ -85,6 +87,12 @@ void AIngredientBaseCharacter::Turn(float magnitude)
 void AIngredientBaseCharacter::Tilt(float magnitude)
 {
 	AddControllerPitchInput(magnitude * TiltSpeed * GetWorld()->GetDeltaSeconds());
+}
+
+void AIngredientBaseCharacter::AskGameToPause()
+{
+	AEscapeThePlateGameMode* GameMode = Cast<AEscapeThePlateGameMode>(GetWorld()->GetAuthGameMode());
+	GameMode->PauseGame();
 }
 
 void AIngredientBaseCharacter::KillThisIngredient()

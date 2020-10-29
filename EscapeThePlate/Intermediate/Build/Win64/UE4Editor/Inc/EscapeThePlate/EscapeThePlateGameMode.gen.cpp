@@ -83,6 +83,11 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 	{
 		ProcessEvent(FindFunctionChecked(NAME_AEscapeThePlateGameMode_GameOver),NULL);
 	}
+	static FName NAME_AEscapeThePlateGameMode_PauseGame = FName(TEXT("PauseGame"));
+	void AEscapeThePlateGameMode::PauseGame()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AEscapeThePlateGameMode_PauseGame),NULL);
+	}
 	void AEscapeThePlateGameMode::StaticRegisterNativesAEscapeThePlateGameMode()
 	{
 		UClass* Class = AEscapeThePlateGameMode::StaticClass();
@@ -305,6 +310,28 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AEscapeThePlateGameMode_PauseGame_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEscapeThePlateGameMode_PauseGame_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EscapeThePlateGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEscapeThePlateGameMode_PauseGame_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEscapeThePlateGameMode, nullptr, "PauseGame", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEscapeThePlateGameMode_PauseGame_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEscapeThePlateGameMode_PauseGame_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEscapeThePlateGameMode_PauseGame()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEscapeThePlateGameMode_PauseGame_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterCharacterWithGame_Statics
 	{
 		struct EscapeThePlateGameMode_eventRegisterCharacterWithGame_Parms
@@ -390,6 +417,11 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Characters;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Characters_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bCanPlayerPause_MetaData[];
+#endif
+		static void NewProp_bCanPlayerPause_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bCanPlayerPause;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -406,6 +438,7 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_GameOver, "GameOver" }, // 850720122
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_GetClosestDeathZone, "GetClosestDeathZone" }, // 999074154
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_GetStarsEarned, "GetStarsEarned" }, // 2709263266
+		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_PauseGame, "PauseGame" }, // 1802859208
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterCharacterWithGame, "RegisterCharacterWithGame" }, // 1771449405
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterDeathZoneWithGame, "RegisterDeathZoneWithGame" }, // 4108094977
 	};
@@ -434,11 +467,23 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_Characters = { "Characters", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEscapeThePlateGameMode, Characters), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_Characters_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_Characters_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_Characters_Inner = { "Characters", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AIngredientBaseCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_bCanPlayerPause_MetaData[] = {
+		{ "Category", "GameStatus" },
+		{ "ModuleRelativePath", "EscapeThePlateGameMode.h" },
+	};
+#endif
+	void Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_bCanPlayerPause_SetBit(void* Obj)
+	{
+		((AEscapeThePlateGameMode*)Obj)->bCanPlayerPause = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_bCanPlayerPause = { "bCanPlayerPause", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AEscapeThePlateGameMode), &Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_bCanPlayerPause_SetBit, METADATA_PARAMS(Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_bCanPlayerPause_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_bCanPlayerPause_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEscapeThePlateGameMode_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_DeathZones,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_DeathZones_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_Characters,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_Characters_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_bCanPlayerPause,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AEscapeThePlateGameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AEscapeThePlateGameMode>::IsAbstract,
@@ -467,7 +512,7 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEscapeThePlateGameMode, 15698553);
+	IMPLEMENT_CLASS(AEscapeThePlateGameMode, 1994044184);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AEscapeThePlateGameMode>()
 	{
 		return AEscapeThePlateGameMode::StaticClass();

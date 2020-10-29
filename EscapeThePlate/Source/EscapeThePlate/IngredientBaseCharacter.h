@@ -67,6 +67,7 @@ public:
 	// Ability/Interaction functions
 	virtual void PerformAbility();
 	virtual void PerformInteraction();
+	virtual void AskGameToPause();
 
 	UFUNCTION(BlueprintCallable)
 	virtual void KillThisIngredient();
