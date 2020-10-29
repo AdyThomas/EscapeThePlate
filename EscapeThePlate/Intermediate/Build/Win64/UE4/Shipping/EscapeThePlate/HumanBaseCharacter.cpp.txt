@@ -1,0 +1,7 @@
+C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4\Shipping\EscapeThePlate\Definitions.EscapeThePlate.h
+C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Source\EscapeThePlate\HumanBaseCharacter.h
+D:\Unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\RootMotionSource.generated.h
+D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\Character.generated.h
+C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4\Inc\EscapeThePlate\HumanBaseCharacter.generated.h

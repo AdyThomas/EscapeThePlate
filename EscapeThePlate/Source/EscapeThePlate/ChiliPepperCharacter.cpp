@@ -11,11 +11,11 @@
 AChiliPepperCharacter::AChiliPepperCharacter()
 {
 	// Set instance variables to defaults
-	MoveSpeed = 2.f;
+	MoveSpeed = 1.5f;
 	AbilityCooldown = 2.f;
 	AbilityCooldownTimer = 0.f;
 	MaxJumpHeight = 500.f;
-	AirControl = .2;
+	AirControl = .1;
 
 	GetCharacterMovement()->JumpZVelocity = MaxJumpHeight;
 	GetCharacterMovement()->AirControl = AirControl;
