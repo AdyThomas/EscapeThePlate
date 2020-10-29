@@ -6127,3 +6127,177 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2020.10.29-17.54.06:292][976]LogFileHelpers: Loading map 'AsianEatery_v3' took 0.183
 [2020.10.29-17.54.28:775][669]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kitchen_first_aid)
 [2020.10.29-17.54.30:210][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kitchen_freezer_pCube9)
+[2020.10.29-18.01.54:922][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Kitchen_freezer_pCube9)
+[2020.10.29-18.34.52:711][325]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-18.34.52:724][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-18.34.52:724][325]PIE: New page: PIE session: AsianEatery_v3 (Oct 29, 2020, 6:34:52 AM)
+[2020.10.29-18.34.52:745][325]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AsianEatery_v3
+[2020.10.29-18.34.52:755][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009365s)
+[2020.10.29-18.34.52:756][325]LogAIModule: Creating AISystem for world AsianEatery_v3
+[2020.10.29-18.34.52:756][325]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002331C4F8E00), frame # 100325
+[2020.10.29-18.34.52:756][325]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002335E40EAC0), frame # 100325
+[2020.10.29-18.34.52:756][325]LogPlayLevel: PIE: World Init took: (0.001613s)
+[2020.10.29-18.34.52:756][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AsianEatery_v3.AsianEatery_v3 to /Game/Levels/UEDPIE_0_AsianEatery_v3.AsianEatery_v3 (0.011208s)
+[2020.10.29-18.34.52:779][325]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.10.29-18.34.52:783][325]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-18.34.52:783][325]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-18.34.52:783][325]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-18.34.52:783][325]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-18.34.52:783][325]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-18.34.52:783][325]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-18.34.52:783][325]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-18.34.52:783][325]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-18.34.52:783][325]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-18.34.52:783][325]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-18.34.52:792][325]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-18.34.52:792][325]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-18.34.52:817][325]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.29-18.34.52:817][325]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-18.34.52:817][325]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-18.34.52:817][325]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-18.34.52:818][325]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-18.34.52:828][325]LogInit: FAudioDevice initialized.
+[2020.10.29-18.34.52:837][325]LogLoad: Game class is 'BPEscapeThePlateGameMode_C'
+[2020.10.29-18.34.52:840][325]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AsianEatery_v3.AsianEatery_v3 up for play (max tick rate 0) at 2020.10.29-12.34.52
+[2020.10.29-18.34.52:840][325]LogWorld: Bringing up level for play took: 0.002547
+[2020.10.29-18.34.52:840][325]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.10.29-18.34.52:842][325]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.29-18.34.52:842][325]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.29-18.34.52:842][325]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.29-18.34.52:845][325]LogBlueprintUserMessages: [DebugKeys_C_0] false
+[2020.10.29-18.34.52:845][325]LogBlueprintUserMessages: [DebugKeys_C_0] false
+[2020.10.29-18.34.52:845][325]LogBlueprintUserMessages: [DebugKeys_C_0] 0
+[2020.10.29-18.34.52:845][325]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.29-18.34.52:845][325]PIE: Server logged in
+[2020.10.29-18.34.52:846][325]PIE: Play in editor total start time 0.122 seconds.
+[2020.10.29-18.34.52:846][325]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.10.29-18.35.03:239][571]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.10.29-18.35.08:131][158]LogBlueprintUserMessages: [HumanBP_2] sense changed
+[2020.10.29-18.35.08:139][159]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.08:140][159]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.08:364][186]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.08:365][186]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.08:590][213]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.08:590][213]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.08:815][240]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.08:815][240]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.09:039][267]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.09:039][267]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.09:264][294]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.09:264][294]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.09:490][321]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.09:490][321]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.09:715][348]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.09:715][348]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.09:940][375]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.09:940][375]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.10:164][402]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.10:165][402]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.10:381][428]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.10:381][428]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.10:606][455]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.10:606][455]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.10:831][482]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.10:831][482]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.11:056][509]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.11:056][509]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.11:281][536]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.11:281][536]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.11:506][563]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.11:506][563]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.11:731][590]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.11:731][590]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.11:956][617]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.11:956][617]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.12:181][644]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.12:181][644]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.12:406][671]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.12:406][671]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.12:448][676]LogBlueprintUserMessages: [HumanBP_2] sense changed
+[2020.10.29-18.35.12:456][677]LogBlueprintUserMessages: [DoSearch_C_1] Searching
+[2020.10.29-18.35.13:507][803]LogBlueprintUserMessages: [HumanBP_2] sense changed
+[2020.10.29-18.35.13:514][804]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.13:515][804]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.13:739][831]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.13:739][831]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.13:965][858]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.13:965][858]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.14:098][874]LogBlueprintUserMessages: [HumanBP_2] sense changed
+[2020.10.29-18.35.14:106][875]LogBlueprintUserMessages: [DoSearch_C_1] Searching
+[2020.10.29-18.35.16:615][176]LogBlueprintUserMessages: [HumanBP_2] sense changed
+[2020.10.29-18.35.16:623][177]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.16:623][177]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.16:848][204]LogBlueprintUserMessages: [CheckRangeToIngredient_C_1] Range checked
+[2020.10.29-18.35.16:848][204]LogBlueprintUserMessages: [FindIngredientLocation_C_0] Finding Ing
+[2020.10.29-18.35.16:998][222]LogBlueprintUserMessages: [HumanBP_2] sense changed
+[2020.10.29-18.35.17:006][223]LogBlueprintUserMessages: [DoSearch_C_1] Searching
+[2020.10.29-18.35.22:028][824]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.10.29-18.35.28:278][574]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.10.29-18.35.32:803][117]LogBlueprintUserMessages: [BPEscapeThePlateGameMode_C_0] Game Over!
+[2020.10.29-18.35.32:804][117]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2020.10.29-18.35.32:804][117]LogBlueprintUserMessages: [BPEscapeThePlateGameMode_C_0] 5
+[2020.10.29-18.35.36:511][562]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2020.10.29-18.35.36:511][562]LogGameState: Match State Changed from InProgress to LeavingMap
+[2020.10.29-18.35.36:512][562]LogNet: Browse: /Game/Levels/AsianEatery_v3
+[2020.10.29-18.35.36:512][562]LogLoad: LoadMap: /Game/Levels/AsianEatery_v3
+[2020.10.29-18.35.36:512][562]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_AsianEatery_v3
+[2020.10.29-18.35.36:512][562]LogWorld: UWorld::CleanupWorld for AsianEatery_v3, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-18.35.36:512][562]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-18.35.36:563][562]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002335E40EAC0), frame # 105562
+[2020.10.29-18.35.36:563][562]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002331C4F8E00), frame # 105562
+[2020.10.29-18.35.36:565][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2020.10.29-18.35.36:566][562]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AsianEatery_v3
+[2020.10.29-18.35.36:572][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005670s)
+[2020.10.29-18.35.36:572][562]LogAIModule: Creating AISystem for world AsianEatery_v3
+[2020.10.29-18.35.36:572][562]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002333394E200), frame # 105562
+[2020.10.29-18.35.36:572][562]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000233278C7EC0), frame # 105562
+[2020.10.29-18.35.36:572][562]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2020.10.29-18.35.36:572][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AsianEatery_v3.AsianEatery_v3 to /Game/Levels/UEDPIE_0_AsianEatery_v3.AsianEatery_v3 (0.006588s)
+[2020.10.29-18.35.36:573][562]LogLoad: Game class is 'BPEscapeThePlateGameMode_C'
+[2020.10.29-18.35.36:574][562]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AsianEatery_v3.AsianEatery_v3 up for play (max tick rate 0) at 2020.10.29-12.35.36
+[2020.10.29-18.35.36:574][562]LogWorld: Bringing up level for play took: 0.001390
+[2020.10.29-18.35.36:575][562]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.29-18.35.36:575][562]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.29-18.35.36:575][562]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.29-18.35.36:577][562]LogBlueprintUserMessages: [DebugKeys_C_0] false
+[2020.10.29-18.35.36:577][562]LogBlueprintUserMessages: [DebugKeys_C_0] false
+[2020.10.29-18.35.36:577][562]LogBlueprintUserMessages: [DebugKeys_C_0] 0
+[2020.10.29-18.35.36:577][562]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.29-18.35.36:577][562]LogLoad: Took 0.065171 seconds to LoadMap(/Game/Levels/UEDPIE_0_AsianEatery_v3)
+[2020.10.29-18.35.36:577][562]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.10.29-18.35.38:788][827]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2020.10.29-18.35.40:422][ 23]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2020.10.29-18.35.40:422][ 23]LogGameState: Match State Changed from InProgress to LeavingMap
+[2020.10.29-18.35.40:422][ 23]LogNet: Browse: /Game/Levels/StartLevel
+[2020.10.29-18.35.40:422][ 23]LogLoad: LoadMap: /Game/Levels/StartLevel
+[2020.10.29-18.35.40:422][ 23]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_AsianEatery_v3
+[2020.10.29-18.35.40:423][ 23]LogWorld: UWorld::CleanupWorld for AsianEatery_v3, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-18.35.40:423][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-18.35.40:463][ 23]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000233278C7EC0), frame # 106023
+[2020.10.29-18.35.40:464][ 23]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002333394E200), frame # 106023
+[2020.10.29-18.35.40:465][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.10.29-18.35.40:472][ 23]LogAIModule: Creating AISystem for world StartLevel
+[2020.10.29-18.35.40:472][ 23]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002333378E400), frame # 106023
+[2020.10.29-18.35.40:473][ 23]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000233278C5940), frame # 106023
+[2020.10.29-18.35.40:473][ 23]LogLoad: Game class is 'BPEscapeThePlateGameMode_C'
+[2020.10.29-18.35.40:473][ 23]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2020.10.29-12.35.40
+[2020.10.29-18.35.40:473][ 23]LogWorld: Bringing up level for play took: 0.000374
+[2020.10.29-18.35.40:474][ 23]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.10.29-18.35.40:474][ 23]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.29-18.35.40:474][ 23]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.10.29-18.35.40:474][ 23]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.10.29-18.35.40:476][ 23]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.10.29-18.35.40:476][ 23]LogLoad: Took 0.053561 seconds to LoadMap(/Game/Levels/StartLevel)
+[2020.10.29-18.35.49:797][ 89]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-18.35.49:797][ 89]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_StartLevel
+[2020.10.29-18.35.49:836][ 89]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-18.35.49:836][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-18.35.49:842][ 89]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-18.35.49:844][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-18.35.49:860][ 89]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-18.35.49:875][ 89]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000233278C5940), frame # 107089
+[2020.10.29-18.35.49:875][ 89]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002333378E400), frame # 107089
+[2020.10.29-18.35.49:876][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.10.29-18.35.49:912][ 90]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.10.29-18.46.17:922][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PlateStack_3)
+[2020.10.29-18.58.46:190][610]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
