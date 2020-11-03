@@ -104,7 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeRedOnionCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARedOnionCharacter, 891182770);
+	IMPLEMENT_CLASS(ARedOnionCharacter, 2002876283);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<ARedOnionCharacter>()
 	{
 		return ARedOnionCharacter::StaticClass();

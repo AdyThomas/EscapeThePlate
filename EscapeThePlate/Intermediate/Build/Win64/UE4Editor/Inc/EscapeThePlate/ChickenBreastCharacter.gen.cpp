@@ -109,7 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeChickenBreastCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AChickenBreastCharacter, 3994621346);
+	IMPLEMENT_CLASS(AChickenBreastCharacter, 331300932);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AChickenBreastCharacter>()
 	{
 		return AChickenBreastCharacter::StaticClass();

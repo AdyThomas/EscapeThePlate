@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeChiliPepperCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AChiliPepperCharacter, 312029812);
+	IMPLEMENT_CLASS(AChiliPepperCharacter, 3515750307);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AChiliPepperCharacter>()
 	{
 		return AChiliPepperCharacter::StaticClass();

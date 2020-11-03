@@ -1,0 +1,1927 @@
+﻿Log file open, 11/02/20 22:19:29
+LogInit: Display: Running engine for game: EscapeThePlate
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.160377
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz, GPU: NVIDIA GeForce RTX 2060 SUPER
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  /Game/Levels/PrototypeLevel -game -PIEVIACONSOLE -Multiprocess GameUserSettingsINI=C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/PIEGameUserSettings0.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -windowed -ResX=1280 -ResY=720
+LogInit: Base Directory: D:/Unreal/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.03-05.19.29:257][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2020.11.03-05.19.29:257][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.03-05.19.29:257][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Engine.ini]
+[2020.11.03-05.19.29:257][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.03-05.19.29:257][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Engine.ini]
+[2020.11.03-05.19.29:257][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Engine.ini]
+[2020.11.03-05.19.29:257][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.03-05.19.29:257][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.03-05.19.29:257][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.03-05.19.29:257][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.03-05.19.29:257][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.03-05.19.29:257][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.03-05.19.29:257][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.03-05.19.29:257][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.03-05.19.29:257][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.03-05.19.29:257][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Engine.ini]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.03-05.19.29:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Engine.ini]
+[2020.11.03-05.19.29:258][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Engine.ini]
+[2020.11.03-05.19.29:259][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.03-05.19.29:259][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.03-05.19.29:260][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.03-05.19.29:260][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.03-05.19.29:260][  0]LogHAL: Display: Platform has ~ 16 GB [17109041152 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.03-05.19.29:260][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.03-05.19.29:260][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.03-05.19.29:260][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Scalability.ini]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.03-05.19.29:261][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Config/Windows/Engine.ini]
+[2020.11.03-05.19.29:261][  0]LogInit: Computer: DESKTOP-LMU5NOS
+[2020.11.03-05.19.29:261][  0]LogInit: User: tommy
+[2020.11.03-05.19.29:261][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.11.03-05.19.29:261][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.03-05.19.29:261][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.11.03-05.19.29:261][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.03-05.19.29:261][  0]LogMemory: Process Physical Memory: 120.17 MB used, 120.18 MB peak
+[2020.11.03-05.19.29:261][  0]LogMemory: Process Virtual Memory: 102.13 MB used, 102.13 MB peak
+[2020.11.03-05.19.29:261][  0]LogMemory: Physical Memory: 12195.12 MB used,  4121.33 MB free, 16316.45 MB total
+[2020.11.03-05.19.29:261][  0]LogMemory: Virtual Memory: 5188.89 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2020.11.03-05.19.29:265][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.03-05.19.29:288][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.03-05.19.29:288][  0]LogInit: Using OS detected language (en-US).
+[2020.11.03-05.19.29:288][  0]LogInit: Using OS detected locale (en-US).
+[2020.11.03-05.19.29:289][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.11.03-05.19.29:423][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.03-05.19.29:423][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.03-05.19.29:428][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.03-05.19.29:429][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.03-05.19.29:429][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.03-05.19.29:429][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.03-05.19.29:479][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060 SUPER' (Feature Level 11_0)
+[2020.11.03-05.19.29:479][  0]LogD3D11RHI:       8031/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.11.03-05.19.29:481][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.03-05.19.29:481][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.03-05.19.29:481][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.03-05.19.29:487][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.03-05.19.29:487][  0]LogD3D11RHI:     GPU DeviceId: 0x1f06 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.03-05.19.29:487][  0]LogWindows: EnumDisplayDevices:
+[2020.11.03-05.19.29:487][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060 SUPER' (P:1 D:1)
+[2020.11.03-05.19.29:487][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2020.11.03-05.19.29:487][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2020.11.03-05.19.29:487][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2020.11.03-05.19.29:487][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.03-05.19.29:487][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060 SUPER
+[2020.11.03-05.19.29:487][  0]LogD3D11RHI:   Driver Version: 442.59 (internal:26.21.14.4259, unified:442.59)
+[2020.11.03-05.19.29:487][  0]LogD3D11RHI:      Driver Date: 3-4-2020
+[2020.11.03-05.19.29:487][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2020.11.03-05.19.29:528][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.03-05.19.29:528][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.03-05.19.29:528][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.03-05.19.29:551][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.11.03-05.19.29:755][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.03-05.19.29:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.03-05.19.29:765][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.03-05.19.29:771][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.03-05.19.29:771][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.03-05.19.29:776][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.03-05.19.29:814][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Intermediate/Shaders/WorkingDirectory/23304/).
+[2020.11.03-05.19.29:814][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tommy/AppData/Local/Temp/UnrealShaderWorkingDir/2932E938429E904ECCE958997708449B/'.
+[2020.11.03-05.19.29:814][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.03-05.19.29:814][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.03-05.19.29:814][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.03-05.19.30:398][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.03-05.19.30:437][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/tommy/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.03-05.19.30:437][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tommy/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.03-05.19.30:437][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.03-05.19.30:437][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.03-05.19.30:437][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.03-05.19.30:437][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.03-05.19.30:445][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.03-05.19.30:445][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.03-05.19.30:445][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.03-05.19.30:446][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tommy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.03-05.19.30:446][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.03-05.19.30:446][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.03-05.19.30:491][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.03-05.19.30:492][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.03-05.19.30:571][  0]LogInit: Using OS detected language (en-US).
+[2020.11.03-05.19.30:571][  0]LogInit: Using OS detected locale (en-US).
+[2020.11.03-05.19.30:571][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2020.11.03-05.19.30:571][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2020.11.03-05.19.30:571][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.11.03-05.19.30:571][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.11.03-05.19.30:572][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2020.11.03-05.19.30:574][  0]LogAssetRegistry: FAssetRegistry took 0.0011 seconds to start up
+[2020.11.03-05.19.30:711][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.000754 seconds
+[2020.11.03-05.19.32:095][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.03-05.19.32:172][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.03-05.19.32:172][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.03-05.19.32:172][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.03-05.19.32:172][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.03-05.19.32:172][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.03-05.19.32:181][  0]LogNetVersion: EscapeThePlate 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3224281851)
+[2020.11.03-05.19.32:346][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000026A83340800), frame # 0
+[2020.11.03-05.19.32:346][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026A83299E40), frame # 0
+[2020.11.03-05.19.32:347][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026A83293C00), frame # 0
+[2020.11.03-05.19.32:404][  0]LogCollectionManager: Loaded 0 collections in 0.000587 seconds
+[2020.11.03-05.19.32:405][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Saved/Collections/' took 0.00s
+[2020.11.03-05.19.32:405][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Developers/tommy/Collections/' took 0.00s
+[2020.11.03-05.19.32:405][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tommy/Documents/GitHub/EscapeThePlate/EscapeThePlate/Content/Collections/' took 0.00s
+[2020.11.03-05.19.32:405][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.11.03-05.19.32:446][  0]LogMoviePlayer: Initializing movie player
+[2020.11.03-05.19.32:571][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.03-05.19.32:573][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.03-05.19.32:601][  0]SourceControl: Source control is disabled
+[2020.11.03-05.19.32:601][  0]SourceControl: Source control is disabled
+[2020.11.03-05.19.32:605][  0]SourceControl: Source control is disabled
+[2020.11.03-05.19.32:689][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.03-05.19.32:701][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.03-05.19.32:701][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.03-05.19.32:730][  0]LogOcInput: OculusInput pre-init called
+[2020.11.03-05.19.32:741][  0]LogUObjectArray: 19116 objects as part of root set at end of initial load.
+[2020.11.03-05.19.32:741][  0]LogUObjectAllocator: 5073312 out of 0 bytes used by permanent object pool.
+[2020.11.03-05.19.32:741][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.03-05.19.32:770][  0]LogEngine: Initializing Engine...
+[2020.11.03-05.19.32:771][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.03-05.19.32:771][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.03-05.19.32:772][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.03-05.19.32:841][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.03-05.19.32:844][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.03-05.19.32:844][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.03-05.19.32:844][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.03-05.19.32:844][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.03-05.19.32:844][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.03-05.19.32:844][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.03-05.19.32:844][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.03-05.19.32:844][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.03-05.19.32:844][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.03-05.19.32:844][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.03-05.19.32:858][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.03-05.19.32:858][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.03-05.19.32:891][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.03-05.19.32:896][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.03-05.19.32:897][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.03-05.19.32:897][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.03-05.19.32:897][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.03-05.19.32:898][  0]LogInit: FAudioDevice initialized.
+[2020.11.03-05.19.32:899][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.03-05.19.32:902][  0]LogInit: Texture streaming: Enabled
+[2020.11.03-05.19.33:018][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-05.19.33:018][  0]LogInit: Display: Game Engine Initialized.
+[2020.11.03-05.19.33:030][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2020.11.03-05.19.33:048][  0]LogInit: Display: Starting Game.
+[2020.11.03-05.19.33:063][  0]LogNet: Browse: /Game/Levels/PrototypeLevel?Name=Player
+[2020.11.03-05.19.33:070][  0]LogLoad: LoadMap: /Game/Levels/PrototypeLevel?Name=Player
+[2020.11.03-05.19.33:070][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2020.11.03-05.19.33:075][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-05.19.33:076][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-05.19.33:091][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.11.03-05.19.33:282][  0]LogAIModule: Creating AISystem for world PrototypeLevel
+[2020.11.03-05.19.33:282][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026A96084E00), frame # 0
+[2020.11.03-05.19.33:282][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026A95A325C0), frame # 0
+[2020.11.03-05.19.33:282][  0]LogLoad: Game class is 'BPEscapeThePlateGameMode_C'
+[2020.11.03-05.19.33:303][  0]LogWorld: Bringing World /Game/Levels/PrototypeLevel.PrototypeLevel up for play (max tick rate 0) at 2020.11.02-22.19.33
+[2020.11.03-05.19.33:304][  0]LogWorld: Bringing up level for play took: 0.012818
+[2020.11.03-05.19.33:304][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.11.03-05.19.33:305][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.03-05.19.33:305][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.03-05.19.33:305][  0]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.11.03-05.19.33:307][  0]LogBlueprintUserMessages: [DebugKeys_C_0] false
+[2020.11.03-05.19.33:307][  0]LogBlueprintUserMessages: [DebugKeys_C_0] false
+[2020.11.03-05.19.33:307][  0]LogBlueprintUserMessages: [DebugKeys_C_0] 0
+[2020.11.03-05.19.33:307][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.11.03-05.19.33:316][  0]LogLoad: Took 0.246121 seconds to LoadMap(/Game/Levels/PrototypeLevel)
+[2020.11.03-05.19.33:335][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.03-05.19.33:355][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.11.03-05.19.33:355][  0]LogLoad: (Engine Initialization) Total time: 5.61 seconds
+[2020.11.03-05.19.33:355][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.03-05.19.33:358][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.03-05.19.33:359][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-05.19.33:443][  1]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:443][  1]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.03-05.19.33:466][  4]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:507][  7]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:526][ 10]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:533][ 13]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:540][ 16]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:547][ 19]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:555][ 22]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:562][ 25]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:568][ 28]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:575][ 31]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:582][ 34]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:589][ 37]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:596][ 40]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:604][ 43]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:611][ 46]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:619][ 49]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:625][ 52]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:633][ 55]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:639][ 58]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:646][ 61]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:653][ 64]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:660][ 67]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:668][ 70]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:675][ 73]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:682][ 76]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:689][ 79]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:696][ 82]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:704][ 85]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:711][ 88]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:719][ 91]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:727][ 94]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:734][ 97]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:741][100]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:749][103]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:756][106]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:765][109]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:773][112]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:794][115]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:801][118]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:807][121]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:813][124]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:817][127]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:823][130]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:829][133]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:835][136]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:840][139]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:845][142]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:850][145]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:855][148]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:861][151]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:867][154]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:873][157]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:879][160]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:885][163]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:891][166]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:895][169]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:901][172]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:907][175]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:912][178]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:917][181]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:921][184]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:927][187]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:932][190]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:937][193]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:942][196]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:947][199]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:952][202]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:957][205]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:962][208]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:968][211]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:975][214]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:981][217]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:987][220]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:993][223]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.33:999][226]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:005][229]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:011][232]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:017][235]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:023][238]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:029][241]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:035][244]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:042][247]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:049][250]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:055][253]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:061][256]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:068][259]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:074][262]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:081][265]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:088][268]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:093][271]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:099][274]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:104][277]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:110][280]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:116][283]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:121][286]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:127][289]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:132][292]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:137][295]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:143][298]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:148][301]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:153][304]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:158][307]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:164][310]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:170][313]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:175][316]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:180][319]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:185][322]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:190][325]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:195][328]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:200][331]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:205][334]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:211][337]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:216][340]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:221][343]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:226][346]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:232][349]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:237][352]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:243][355]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:248][358]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:253][361]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:259][364]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:263][367]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:269][370]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:274][373]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:279][376]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:284][379]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:289][382]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:295][385]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:301][388]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:305][391]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:310][394]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:315][397]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:321][400]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:325][403]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:332][406]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:336][409]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:342][412]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:347][415]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:352][418]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:358][421]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:363][424]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:368][427]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:373][430]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:385][433]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:389][436]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:395][439]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:401][442]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:406][445]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:412][448]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:417][451]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:423][454]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:429][457]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:434][460]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:440][463]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:446][466]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:451][469]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:457][472]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:463][475]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:468][478]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:473][481]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:478][484]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:484][487]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:489][490]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:494][493]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:500][496]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:505][499]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:511][502]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:516][505]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:521][508]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:526][511]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:532][514]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:537][517]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:542][520]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:548][523]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:553][526]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:558][529]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:564][532]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:568][535]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:573][538]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:579][541]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:584][544]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:589][547]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:594][550]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:600][553]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:606][556]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:611][559]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:616][562]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:621][565]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:627][568]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:632][571]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:636][574]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:643][577]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:648][580]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:653][583]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:658][586]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:664][589]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:669][592]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:674][595]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:679][598]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:684][601]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:690][604]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:695][607]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:700][610]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:705][613]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:711][616]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:716][619]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:721][622]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:726][625]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:732][628]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:737][631]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:742][634]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:748][637]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:753][640]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:759][643]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:764][646]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:769][649]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:774][652]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:780][655]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:786][658]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:791][661]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:797][664]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:802][667]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:808][670]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:813][673]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:819][676]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:824][679]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:830][682]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:835][685]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:840][688]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:846][691]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:851][694]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:856][697]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:861][700]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:867][703]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:872][706]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:878][709]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:883][712]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:888][715]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:894][718]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:899][721]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:905][724]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:910][727]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:916][730]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:921][733]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:927][736]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:932][739]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:937][742]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:942][745]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:947][748]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:952][751]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:958][754]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:963][757]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:968][760]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:974][763]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:979][766]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:985][769]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:990][772]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.34:995][775]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:000][778]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:006][781]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:011][784]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:016][787]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:022][790]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:027][793]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:032][796]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:037][799]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:043][802]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:048][805]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:053][808]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:059][811]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:064][814]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:069][817]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:075][820]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:080][823]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:086][826]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:091][829]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:096][832]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:102][835]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:107][838]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:112][841]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:117][844]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:123][847]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:129][850]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:134][853]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:140][856]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:144][859]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:150][862]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:155][865]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:161][868]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:166][871]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:172][874]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:177][877]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:182][880]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:187][883]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:193][886]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:198][889]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:204][892]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:209][895]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:214][898]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:219][901]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:225][904]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:230][907]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:235][910]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:241][913]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:247][916]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:252][919]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:257][922]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:262][925]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:267][928]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:273][931]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:278][934]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:283][937]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:289][940]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:294][943]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:300][946]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:304][949]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:310][952]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:316][955]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:321][958]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:326][961]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:332][964]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:337][967]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:343][970]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:348][973]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:353][976]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:358][979]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:364][982]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:369][985]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:374][988]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:380][991]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:385][994]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:391][997]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:396][  0]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:401][  3]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:407][  6]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:413][  9]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:418][ 12]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:423][ 15]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:428][ 18]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:434][ 21]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:439][ 24]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:444][ 27]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:449][ 30]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:455][ 33]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:461][ 36]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:467][ 39]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:472][ 42]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:478][ 45]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:483][ 48]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:489][ 51]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:494][ 54]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:500][ 57]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:505][ 60]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:511][ 63]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:516][ 66]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:521][ 69]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:527][ 72]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:532][ 75]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:538][ 78]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:543][ 81]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:548][ 84]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:553][ 87]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:559][ 90]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:564][ 93]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:569][ 96]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:575][ 99]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:580][102]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:586][105]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:591][108]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:596][111]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:601][114]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:607][117]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:613][120]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:618][123]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:623][126]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:629][129]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:635][132]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:640][135]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:645][138]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:651][141]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:656][144]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:661][147]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:666][150]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:672][153]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:678][156]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:683][159]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:689][162]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:694][165]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:699][168]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:705][171]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:710][174]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:715][177]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:721][180]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:726][183]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:732][186]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:737][189]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:743][192]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:748][195]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:754][198]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:760][201]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:765][204]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:770][207]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:776][210]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:782][213]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:788][216]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:794][219]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:799][222]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:805][225]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:811][228]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:816][231]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:821][234]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:827][237]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:832][240]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:838][243]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:844][246]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:849][249]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:854][252]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:860][255]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:865][258]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:871][261]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:876][264]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:882][267]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:886][270]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:892][273]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:897][276]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:902][279]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:907][282]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:914][285]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:920][288]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:925][291]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:929][294]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:935][297]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:940][300]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:946][303]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:951][306]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:956][309]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:962][312]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:967][315]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:972][318]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:978][321]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:984][324]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:990][327]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.35:995][330]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:000][333]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:006][336]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:011][339]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:017][342]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:022][345]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:027][348]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:032][351]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:038][354]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:043][357]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:049][360]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:055][363]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:060][366]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:065][369]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:071][372]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:076][375]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:081][378]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:087][381]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:092][384]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:097][387]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:102][390]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:107][393]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:113][396]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:118][399]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:123][402]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:129][405]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:135][408]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:141][411]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:146][414]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:151][417]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:157][420]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:162][423]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:168][426]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:173][429]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:178][432]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:184][435]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:190][438]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:195][441]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:200][444]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:206][447]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:211][450]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:217][453]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:221][456]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:227][459]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:232][462]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:238][465]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:243][468]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:248][471]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:254][474]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:259][477]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:264][480]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:269][483]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:275][486]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:280][489]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:286][492]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:291][495]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:297][498]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:302][501]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:308][504]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:313][507]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:318][510]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:323][513]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:329][516]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:335][519]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:340][522]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:345][525]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:351][528]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:356][531]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:361][534]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:366][537]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:372][540]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:377][543]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:382][546]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:388][549]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:394][552]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:399][555]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:404][558]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:410][561]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:415][564]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:421][567]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:426][570]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:431][573]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:436][576]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:442][579]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:447][582]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:452][585]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:457][588]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:462][591]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:469][594]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:474][597]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:479][600]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:485][603]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:491][606]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:497][609]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:502][612]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:508][615]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:513][618]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:519][621]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:525][624]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:531][627]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:536][630]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:541][633]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:546][636]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:552][639]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:558][642]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:563][645]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:568][648]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:573][651]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:579][654]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:584][657]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:589][660]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:595][663]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:600][666]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:606][669]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:610][672]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:616][675]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:621][678]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:626][681]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:631][684]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:637][687]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:642][690]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:648][693]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:653][696]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:658][699]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:663][702]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:669][705]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:674][708]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:680][711]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:685][714]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:691][717]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:696][720]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:701][723]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:706][726]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:712][729]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:717][732]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:722][735]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:728][738]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:733][741]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:739][744]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:744][747]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:749][750]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:754][753]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:760][756]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:765][759]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:770][762]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:775][765]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:781][768]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:786][771]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:792][774]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:798][777]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:803][780]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:808][783]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:814][786]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:819][789]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:826][792]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:831][795]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:837][798]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:842][801]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:847][804]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:853][807]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:858][810]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:864][813]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:869][816]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:874][819]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:880][822]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:886][825]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:891][828]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:896][831]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:902][834]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:908][837]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:913][840]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:919][843]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:924][846]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:930][849]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:935][852]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:941][855]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:946][858]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:952][861]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:957][864]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:963][867]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:969][870]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:974][873]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:979][876]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:985][879]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:990][882]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.36:995][885]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:000][888]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:006][891]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:011][894]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:016][897]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:021][900]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:026][903]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:032][906]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:037][909]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:042][912]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:047][915]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:052][918]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:058][921]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:064][924]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:069][927]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:074][930]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:080][933]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:085][936]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:090][939]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:095][942]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:101][945]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:106][948]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:111][951]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:117][954]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:122][957]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:127][960]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:132][963]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:137][966]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:143][969]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:148][972]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:153][975]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:159][978]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:164][981]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:170][984]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:175][987]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:180][990]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:185][993]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:191][996]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:196][999]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:201][  2]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:207][  5]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:212][  8]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:217][ 11]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:222][ 14]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:228][ 17]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:233][ 20]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:238][ 23]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:243][ 26]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:249][ 29]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:254][ 32]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:259][ 35]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:264][ 38]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:270][ 41]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:275][ 44]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:279][ 47]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:284][ 50]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:290][ 53]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:295][ 56]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:300][ 59]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:305][ 62]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:310][ 65]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:315][ 68]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:321][ 71]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:326][ 74]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:331][ 77]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:337][ 80]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:342][ 83]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:347][ 86]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:352][ 89]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:358][ 92]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:363][ 95]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:368][ 98]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:373][101]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:378][104]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:383][107]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:388][110]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:394][113]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:399][116]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:404][119]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:409][122]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:414][125]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:420][128]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:425][131]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:431][134]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:436][137]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:441][140]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:446][143]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:451][146]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:456][149]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:462][152]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:467][155]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:472][158]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:477][161]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:483][164]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:489][167]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:494][170]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:499][173]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:504][176]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:510][179]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:515][182]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:520][185]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:525][188]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:531][191]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:536][194]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:541][197]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:546][200]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:551][203]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:557][206]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:562][209]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:567][212]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:573][215]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:578][218]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:583][221]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:588][224]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:593][227]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:599][230]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:604][233]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:609][236]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:614][239]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:620][242]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:624][245]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:630][248]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:635][251]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:640][254]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:645][257]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:650][260]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:655][263]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:661][266]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:665][269]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:671][272]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:676][275]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:682][278]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:686][281]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:692][284]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:697][287]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:702][290]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:707][293]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:712][296]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:717][299]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:722][302]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:728][305]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:733][308]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:739][311]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:743][314]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:749][317]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:754][320]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:759][323]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:764][326]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:769][329]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:775][332]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:780][335]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:785][338]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:790][341]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:795][344]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:801][347]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:805][350]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:811][353]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:816][356]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:821][359]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:827][362]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:832][365]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:837][368]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:843][371]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:848][374]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:853][377]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:858][380]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:864][383]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:869][386]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:874][389]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:879][392]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:884][395]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:889][398]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:894][401]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:900][404]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:905][407]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:910][410]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:915][413]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:920][416]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:925][419]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:930][422]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:935][425]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:940][428]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:946][431]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:950][434]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:956][437]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:961][440]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:966][443]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:972][446]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:977][449]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:982][452]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:988][455]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:993][458]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.37:998][461]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:003][464]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:009][467]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:014][470]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:019][473]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:024][476]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:030][479]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:035][482]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:041][485]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:046][488]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:051][491]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:056][494]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:062][497]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:067][500]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:072][503]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:077][506]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:082][509]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:088][512]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:093][515]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:099][518]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:103][521]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:109][524]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:114][527]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:119][530]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:124][533]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:129][536]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:135][539]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:140][542]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:145][545]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:150][548]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:156][551]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:161][554]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:166][557]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:171][560]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:178][563]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:183][566]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:187][569]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:193][572]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:198][575]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:204][578]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:208][581]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:213][584]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:219][587]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:224][590]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:229][593]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:235][596]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:240][599]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:245][602]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:250][605]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:255][608]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:261][611]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:266][614]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:271][617]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:276][620]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:281][623]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:286][626]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:291][629]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:296][632]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:301][635]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:306][638]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:311][641]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:316][644]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:321][647]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:326][650]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:331][653]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:336][656]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:341][659]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:346][662]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:351][665]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:356][668]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:361][671]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:366][674]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:371][677]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:376][680]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:382][683]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:387][686]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:392][689]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:397][692]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:402][695]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:407][698]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:412][701]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:417][704]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:422][707]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:427][710]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:432][713]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:437][716]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:442][719]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:447][722]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:451][725]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:456][728]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:462][731]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:467][734]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:471][737]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:477][740]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:482][743]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:488][746]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:493][749]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:498][752]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:503][755]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:509][758]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:513][761]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:518][764]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:523][767]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:528][770]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:533][773]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:539][776]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:544][779]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:548][782]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:553][785]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:558][788]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:563][791]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:568][794]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:574][797]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:579][800]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:584][803]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:589][806]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:594][809]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:600][812]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:604][815]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:609][818]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:614][821]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:619][824]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:624][827]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:629][830]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:635][833]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:641][836]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:645][839]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:650][842]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:656][845]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:660][848]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:665][851]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:671][854]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:675][857]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:680][860]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:685][863]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:690][866]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:695][869]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:700][872]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:705][875]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:711][878]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:715][881]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:721][884]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:726][887]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:731][890]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:735][893]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:741][896]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:746][899]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:751][902]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:756][905]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:761][908]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:766][911]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:771][914]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:776][917]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:781][920]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:786][923]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:791][926]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:796][929]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:801][932]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:806][935]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:811][938]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:816][941]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:821][944]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:826][947]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:831][950]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:837][953]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:842][956]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:847][959]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:852][962]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:857][965]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:862][968]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:867][971]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:872][974]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:877][977]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:882][980]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:887][983]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:892][986]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:897][989]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:902][992]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:907][995]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:912][998]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:917][  1]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:922][  4]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:927][  7]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:933][ 10]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:937][ 13]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:943][ 16]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:948][ 19]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:953][ 22]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:958][ 25]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:963][ 28]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:968][ 31]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:973][ 34]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:978][ 37]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.38:983][ 40]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.39:006][ 43]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2020.11.03-05.19.39:011][ 43]LogBlueprintUserMessages: [GetPathNext_C_0] Getting path
+[2020.11.03-05.19.41:615][534]LogPackageName: SearchForPackageOnDisk took   0.083s to resolve StartLevel.umap.
+[2020.11.03-05.19.41:615][534]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2020.11.03-05.19.41:615][534]LogGameState: Match State Changed from InProgress to LeavingMap
+[2020.11.03-05.19.41:694][534]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve StartLevel.umap.
+[2020.11.03-05.19.41:694][534]LogNet: Browse: /Game/Levels/StartLevel
+[2020.11.03-05.19.41:694][534]LogLoad: LoadMap: /Game/Levels/StartLevel
+[2020.11.03-05.19.41:694][534]LogWorld: BeginTearingDown for /Game/Levels/PrototypeLevel
+[2020.11.03-05.19.41:694][534]LogWorld: UWorld::CleanupWorld for PrototypeLevel, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-05.19.41:695][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-05.19.41:741][534]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026A96084E00), frame # 4534
+[2020.11.03-05.19.41:741][534]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026A95A325C0), frame # 4534
+[2020.11.03-05.19.41:742][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.11.03-05.19.41:756][534]LogAIModule: Creating AISystem for world StartLevel
+[2020.11.03-05.19.41:756][534]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026A870B2600), frame # 4534
+[2020.11.03-05.19.41:756][534]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026A95959BC0), frame # 4534
+[2020.11.03-05.19.41:783][534]LogLoad: Game class is 'BPEscapeThePlateGameMode_C'
+[2020.11.03-05.19.41:784][534]LogWorld: Bringing World /Game/Levels/StartLevel.StartLevel up for play (max tick rate 0) at 2020.11.02-22.19.41
+[2020.11.03-05.19.41:784][534]LogWorld: Bringing up level for play took: 0.000251
+[2020.11.03-05.19.41:784][534]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.11.03-05.19.41:784][534]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.03-05.19.41:784][534]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.03-05.19.41:784][534]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.11.03-05.19.41:786][534]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.11.03-05.19.41:786][534]LogLoad: Took 0.091855 seconds to LoadMap(/Game/Levels/StartLevel)
+[2020.11.03-05.19.42:453][ 91]Closing by request
+[2020.11.03-05.19.42:453][ 91]LogWindows: FPlatformMisc::RequestExit(0)
+[2020.11.03-05.19.42:453][ 91]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.11.03-05.19.42:454][ 92]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.11.03-05.19.42:461][ 92]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2020.11.03-05.19.42:496][ 92]LogInit: Display: PreExit Game.
+[2020.11.03-05.19.42:541][ 92]LogWorld: BeginTearingDown for /Game/Levels/StartLevel
+[2020.11.03-05.19.42:541][ 92]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2020.11.03-05.19.42:541][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.03-05.19.42:782][ 92]LogSlate: Window 'EscapeThePlate (64-bit Development PCD3D_SM5) ' being destroyed
+[2020.11.03-05.19.42:783][ 92]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-05.19.42:785][ 92]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.03-05.19.42:789][ 92]LogExit: Preparing to exit.
+[2020.11.03-05.19.43:579][ 92]LogMoviePlayer: Shutting down movie player
+[2020.11.03-05.19.43:704][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.03-05.19.43:705][ 92]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.11.03-05.19.43:708][ 92]LogExit: Game engine shut down
+[2020.11.03-05.19.43:714][ 92]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000026A83340800), frame # 5092
+[2020.11.03-05.19.43:714][ 92]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026A83299E40), frame # 5092
+[2020.11.03-05.19.43:714][ 92]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026A83293C00), frame # 5092
+[2020.11.03-05.19.43:729][ 92]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026A95959BC0), frame # 5092
+[2020.11.03-05.19.43:729][ 92]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026A870B2600), frame # 5092
+[2020.11.03-05.19.43:746][ 92]LogExit: Object subsystem successfully closed.
+[2020.11.03-05.19.43:767][ 92]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (504)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module SequenceRecorder (502)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module AutomationController (500)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module AutomationWorker (498)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module Voice (496)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module AIModule (494)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module GameplayDebugger (493)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module AITestSuite (491)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module NavigationSystem (489)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module OculusMR (486)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (482)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module WebMMedia (480)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (478)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (476)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (474)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (472)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (470)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module PlanarCut (468)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (462)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module LiveCoding (460)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module LevelSequence (458)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (456)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module MovieScene (454)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (452)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module PortalServices (450)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module PortalRpc (448)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module MessagingRpc (446)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (444)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module AudioMixerCore (443)
+[2020.11.03-05.19.43:772][ 92]LogModuleManager: Shutting down and abandoning module ProfilerService (440)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module TaskGraph (438)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module Synthesis (436)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (434)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module OculusInput (432)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (430)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module GooglePAD (428)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module EditableMesh (426)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (424)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module CableComponent (422)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module AudioCapture (420)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (419)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module AssetTags (416)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (414)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (412)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module AppleImageUtils (410)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module AndroidPermission (408)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (406)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (404)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module TemplateSequence (402)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (400)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (398)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (396)
+[2020.11.03-05.19.44:020][ 92]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (395)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module MediaCompositing (392)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module ImgMedia (390)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (388)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (386)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (384)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (382)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (380)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (378)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module MeshConversion (376)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module DynamicMesh (374)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (372)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module GeometricObjects (370)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (368)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (367)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (363)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module GeometryCache (360)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (359)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module ChaosNiagara (356)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module ChaosCloth (354)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module BackChannel (352)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module AutomationUtils (350)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (348)
+[2020.11.03-05.19.44:022][ 92]LogModuleManager: Shutting down and abandoning module HotReload (347)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (344)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module UObjectPlugin (342)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (340)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (338)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (336)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module SourceControl (335)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (332)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (330)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module EscapeThePlate (328)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module SoundFields (326)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module SignificanceManager (324)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (322)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (320)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (316)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module ActorSequence (314)
+[2020.11.03-05.19.44:023][ 92]LogModuleManager: Shutting down and abandoning module UdpMessaging (312)
+[2020.11.03-05.19.44:124][ 92]LogModuleManager: Shutting down and abandoning module TcpMessaging (310)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (308)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (306)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (304)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (302)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (300)
+[2020.11.03-05.19.44:575][ 92]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (298)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (296)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (294)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (292)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapController (290)
+[2020.11.03-05.19.44:575][ 92]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (288)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module MagicLeapAR (286)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module AugmentedReality (285)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (282)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module Niagara (280)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module SignalProcessing (279)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module NiagaraEditor (277)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module NiagaraCore (274)
+[2020.11.03-05.19.44:575][ 92]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (272)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module FacialAnimation (270)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module TreeMap (267)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module AnimationSharing (264)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (262)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module Paper2D (260)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (258)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (256)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (254)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module PacketHandler (252)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (250)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (248)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module MediaAssets (246)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module Overlay (244)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module OverlayEditor (243)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module VREditor (240)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module StringTableEditor (238)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (236)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (234)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module FunctionalTesting (232)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (230)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module UMG (228)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module UMGEditor (227)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module Sequencer (226)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module MessageLog (223)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module MaterialEditor (221)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module ContentBrowser (220)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module CollectionManager (217)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (216)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module SlateReflector (208)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module Slate (206)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module SlateCore (204)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2020.11.03-05.19.44:576][ 92]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module Messaging (194)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (192)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (190)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module XAudio2 (188)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module Networking (186)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module Core (184)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module MovieSceneTools (182)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module KismetCompiler (180)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module MeshBuilder (178)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module MeshUtilities (176)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (175)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (174)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (173)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (171)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (169)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (158)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (156)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (119)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (117)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (115)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (113)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module InputCore (110)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module Settings (108)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.11.03-05.19.44:577][ 92]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.11.03-05.19.44:578][ 92]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.11.03-05.19.44:578][ 92]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.11.03-05.19.44:578][ 92]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.11.03-05.19.44:578][ 92]LogHMD: Freeing OpenVRDLLHandle.
+[2020.11.03-05.19.44:578][ 92]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.11.03-05.19.44:578][ 92]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.11.03-05.19.44:578][ 92]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.11.03-05.19.44:578][ 92]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.11.03-05.19.44:578][ 92]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.11.03-05.19.44:578][ 92]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.11.03-05.19.44:578][ 92]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.11.03-05.19.44:612][ 92]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.11.03-05.19.44:637][ 92]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.11.03-05.19.44:637][ 92]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.11.03-05.19.44:639][ 92]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.11.03-05.19.44:639][ 92]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.11.03-05.19.44:639][ 92]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.11.03-05.19.44:639][ 92]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.11.03-05.19.44:639][ 92]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.11.03-05.19.44:639][ 92]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.11.03-05.19.44:640][ 92]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.11.03-05.19.45:109][ 92]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.11.03-05.19.45:110][ 92]LogD3D11RHI: Shutdown
+[2020.11.03-05.19.45:110][ 92]LogD3D11RHI: CleanupD3DDevice
+[2020.11.03-05.19.45:117][ 92]LogExit: Exiting.
+[2020.11.03-05.19.45:125][ 92]Log file closed, 11/02/20 22:19:45

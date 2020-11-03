@@ -46,6 +46,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Ability)
 	float AbilityCooldown;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = UI)
+	UTexture2D* IngredientIcon;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = UI)
+	UTexture2D* AbilityIcon;
+
 	FTimerHandle AbilityCooldownHandle;
 
 	// The spring attaching the camera to the pawn
