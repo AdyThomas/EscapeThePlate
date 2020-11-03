@@ -46,7 +46,7 @@ AIngredientBaseCharacter::AIngredientBaseCharacter()
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationRoll = false;
 
-	GetCharacterMovement()->bOrientRotationToMovement = true;
+	GetCharacterMovement()->bOrientRotationToMovement = false;
 }
 
 // Called every frame
