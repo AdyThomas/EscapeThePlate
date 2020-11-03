@@ -21,6 +21,14 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ESCAPETHEPLATE_API UClass* Z_Construct_UClass_AIngredientBaseCharacter_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AEscapeThePlateGameMode::execPossessIngredient)
+	{
+		P_GET_OBJECT(AIngredientBaseCharacter,Z_Param_Character);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->PossessIngredient(Z_Param_Character);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AEscapeThePlateGameMode::execDidPlayerWin)
 	{
 		P_FINISH;
@@ -73,6 +81,11 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		P_THIS->RegisterCharacterWithGame(Z_Param_Character);
 		P_NATIVE_END;
 	}
+	static FName NAME_AEscapeThePlateGameMode_CharacterPossessionChanged = FName(TEXT("CharacterPossessionChanged"));
+	void AEscapeThePlateGameMode::CharacterPossessionChanged()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AEscapeThePlateGameMode_CharacterPossessionChanged),NULL);
+	}
 	static FName NAME_AEscapeThePlateGameMode_CharacterStatusChanged = FName(TEXT("CharacterStatusChanged"));
 	void AEscapeThePlateGameMode::CharacterStatusChanged()
 	{
@@ -97,6 +110,7 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 			{ "DidPlayerWin", &AEscapeThePlateGameMode::execDidPlayerWin },
 			{ "GetClosestDeathZone", &AEscapeThePlateGameMode::execGetClosestDeathZone },
 			{ "GetStarsEarned", &AEscapeThePlateGameMode::execGetStarsEarned },
+			{ "PossessIngredient", &AEscapeThePlateGameMode::execPossessIngredient },
 			{ "RegisterCharacterWithGame", &AEscapeThePlateGameMode::execRegisterCharacterWithGame },
 			{ "RegisterDeathZoneWithGame", &AEscapeThePlateGameMode::execRegisterDeathZoneWithGame },
 		};
@@ -121,6 +135,28 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEscapeThePlateGameMode_AutoReposessCharacter_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AEscapeThePlateGameMode_CharacterPossessionChanged_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEscapeThePlateGameMode_CharacterPossessionChanged_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EscapeThePlateGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEscapeThePlateGameMode_CharacterPossessionChanged_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEscapeThePlateGameMode, nullptr, "CharacterPossessionChanged", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEscapeThePlateGameMode_CharacterPossessionChanged_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEscapeThePlateGameMode_CharacterPossessionChanged_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEscapeThePlateGameMode_CharacterPossessionChanged()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEscapeThePlateGameMode_CharacterPossessionChanged_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -332,6 +368,38 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient_Statics
+	{
+		struct EscapeThePlateGameMode_eventPossessIngredient_Parms
+		{
+			AIngredientBaseCharacter* Character;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Character;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient_Statics::NewProp_Character = { "Character", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(EscapeThePlateGameMode_eventPossessIngredient_Parms, Character), Z_Construct_UClass_AIngredientBaseCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient_Statics::NewProp_Character,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EscapeThePlateGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEscapeThePlateGameMode, nullptr, "PossessIngredient", nullptr, nullptr, sizeof(EscapeThePlateGameMode_eventPossessIngredient_Parms), Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterCharacterWithGame_Statics
 	{
 		struct EscapeThePlateGameMode_eventRegisterCharacterWithGame_Parms
@@ -432,6 +500,7 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEscapeThePlateGameMode_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_AutoReposessCharacter, "AutoReposessCharacter" }, // 2086198453
+		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_CharacterPossessionChanged, "CharacterPossessionChanged" }, // 3855730349
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_CharacterStatusChanged, "CharacterStatusChanged" }, // 1046316298
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_CheckGameOver, "CheckGameOver" }, // 1564297967
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_DidPlayerWin, "DidPlayerWin" }, // 1387468034
@@ -439,6 +508,7 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_GetClosestDeathZone, "GetClosestDeathZone" }, // 999074154
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_GetStarsEarned, "GetStarsEarned" }, // 2709263266
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_PauseGame, "PauseGame" }, // 1802859208
+		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient, "PossessIngredient" }, // 2149214283
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterCharacterWithGame, "RegisterCharacterWithGame" }, // 1771449405
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterDeathZoneWithGame, "RegisterDeathZoneWithGame" }, // 4108094977
 	};
@@ -512,7 +582,7 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEscapeThePlateGameMode, 1994044184);
+	IMPLEMENT_CLASS(AEscapeThePlateGameMode, 4252176305);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AEscapeThePlateGameMode>()
 	{
 		return AEscapeThePlateGameMode::StaticClass();

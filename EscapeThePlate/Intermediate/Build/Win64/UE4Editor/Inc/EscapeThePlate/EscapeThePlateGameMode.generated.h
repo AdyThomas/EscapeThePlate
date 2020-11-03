@@ -8,9 +8,9 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AIngredientBaseCharacter;
 struct FVector;
 class AIngredientDeathZone;
-class AIngredientBaseCharacter;
 #ifdef ESCAPETHEPLATE_EscapeThePlateGameMode_generated_h
 #error "EscapeThePlateGameMode.generated.h already included, missing '#pragma once' in EscapeThePlateGameMode.h"
 #endif
@@ -19,6 +19,7 @@ class AIngredientBaseCharacter;
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_SPARSE_DATA
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execPossessIngredient); \
 	DECLARE_FUNCTION(execDidPlayerWin); \
 	DECLARE_FUNCTION(execGetStarsEarned); \
 	DECLARE_FUNCTION(execCheckGameOver); \
@@ -30,6 +31,7 @@ class AIngredientBaseCharacter;
 
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execPossessIngredient); \
 	DECLARE_FUNCTION(execDidPlayerWin); \
 	DECLARE_FUNCTION(execGetStarsEarned); \
 	DECLARE_FUNCTION(execCheckGameOver); \

@@ -17,15 +17,9 @@ class ESCAPETHEPLATE_API AChiliPepperCharacter : public AIngredientBaseCharacter
 public:
 	AChiliPepperCharacter();
 
-	// The cooldown of the jump ability in seconds
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Ability)
-	float AbilityCooldown;
+	// Jump control vars
 	float MaxJumpHeight;
 	float AirControl;
-
-	// The timer and flag used to trigger the ability
-	UPROPERTY()
-	float AbilityCooldownTimer;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -37,9 +31,7 @@ public:
 	void MoveX(float magnitude) override;
 	void MoveY(float magnitude) override;
 
-	// ABility functions
+	// Ability functions
 	void PerformAbility() override;
 
-private:
-	void CheckLauchVars(float DeltaTime);
 };

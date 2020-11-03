@@ -25,20 +25,24 @@ AIngredientBaseCharacter::AIngredientBaseCharacter()
 	bIsDead = false;
 	bIsSafe = false;
 	bIsInContaminationZone = false;
+	bCanPerformAbility = true;
+	AbilityCooldown = 0.f;
 
 	// Make springarm, connect to character
-	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
-	SpringArm->SetupAttachment(RootComponent);
-	SpringArm->TargetArmLength = 200.f;
-	SpringArm->bUsePawnControlRotation = true;
+	//SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
+	//SpringArm->SetupAttachment(RootComponent);
+	//SpringArm->TargetArmLength = 200.f;
+	//SpringArm->bUsePawnControlRotation = true;
 
-	// Connect camera to springarm
+	// Connect camera
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
-	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
-	Camera->bUsePawnControlRotation = false;
+	Camera->SetupAttachment(RootComponent);
+	Camera->bUsePawnControlRotation = true;
+	Camera->SetRelativeLocation(FVector(-90, 0, 90));
+	Camera->SetRelativeRotation(FRotator(0, 45, 0));
 
-	// Don't rotate when controller rotates, only camera
-	bUseControllerRotationYaw = false;
+	// Rotate only for turning
+	bUseControllerRotationYaw = true;
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationRoll = false;
 
@@ -53,8 +57,6 @@ void AIngredientBaseCharacter::Tick(float DeltaTime)
 	{
 		
 		ContaminationLevel += ContaminationRate * DeltaTime;
-
-		UE_LOG(LogTemp, Warning, TEXT("%f"), ContaminationLevel);
 
 		if (ContaminationLevel >= 100.f)
 			KillThisIngredient();
@@ -74,6 +76,7 @@ void AIngredientBaseCharacter::SetupPlayerInputComponent(UInputComponent* Player
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	check(PlayerInputComponent);
 
+	PlayerInputComponent->BindAction("Ability", IE_Pressed, this, &AIngredientBaseCharacter::ActivateAbility);
 	PlayerInputComponent->BindAxis("Turn", this, &AIngredientBaseCharacter::Turn);
 	PlayerInputComponent->BindAxis("Tilt", this, &AIngredientBaseCharacter::Tilt);
 	PlayerInputComponent->BindAction("PauseGame", IE_Pressed, this, &AIngredientBaseCharacter::AskGameToPause);
@@ -128,8 +131,31 @@ bool AIngredientBaseCharacter::IsIngredientUsable()
 	return !(bIsSafe || bIsDead);
 }
 
+void AIngredientBaseCharacter::ActivateAbility()
+{
+	if (!FMath::IsNearlyZero(AbilityCooldown) && bCanPerformAbility)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Ability Performed"))
+		PerformAbility();
+		GetWorld()->GetTimerManager().SetTimer(AbilityCooldownHandle, this, &AIngredientBaseCharacter::ResetAbility, AbilityCooldown, false);
+	}
+}
+
+/*
+* No ability implementation that should be overriden by children with abilities
+*/
+void AIngredientBaseCharacter::PerformAbility() 
+{
+	bCanPerformAbility = false;
+}
+
+void AIngredientBaseCharacter::ResetAbility()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Ability Reset"))
+	bCanPerformAbility = true;
+}
+
 //Pointless implementations, should be overridden by children
 void AIngredientBaseCharacter::MoveX(float magnitude) {}
 void AIngredientBaseCharacter::MoveY(float magnitude) {}
-void AIngredientBaseCharacter::PerformAbility() {}
 void AIngredientBaseCharacter::PerformInteraction() {}

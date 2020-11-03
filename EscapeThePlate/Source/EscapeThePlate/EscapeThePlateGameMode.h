@@ -46,6 +46,12 @@ class ESCAPETHEPLATE_API AEscapeThePlateGameMode : public AGameMode
 		UFUNCTION(BlueprintCallable)
 		bool DidPlayerWin();
 
+		UFUNCTION(BlueprintCallable)
+		void PossessIngredient(AIngredientBaseCharacter* Character);
+
+		UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+		void CharacterPossessionChanged();
+
 		UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
 		void CharacterStatusChanged();
 

@@ -8,12 +8,11 @@
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
-AChiliPepperCharacter::AChiliPepperCharacter()
+AChiliPepperCharacter::AChiliPepperCharacter() : Super()
 {
 	// Set instance variables to defaults
 	MoveSpeed = 1.5f;
 	AbilityCooldown = 2.f;
-	AbilityCooldownTimer = 0.f;
 	MaxJumpHeight = 500.f;
 	AirControl = .1;
 
@@ -25,7 +24,6 @@ AChiliPepperCharacter::AChiliPepperCharacter()
 void AChiliPepperCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	CheckLauchVars(DeltaTime);
 }
 
 // Called to bind functionality to input
@@ -34,7 +32,6 @@ void AChiliPepperCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	check(PlayerInputComponent);
 
-	PlayerInputComponent->BindAction("Ability", IE_Pressed, this, &AChiliPepperCharacter::PerformAbility);
 	PlayerInputComponent->BindAction("Ability", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAxis("MoveY", this, &AChiliPepperCharacter::MoveY);
 	PlayerInputComponent->BindAxis("MoveX", this, &AChiliPepperCharacter::MoveX);
@@ -69,23 +66,6 @@ void AChiliPepperCharacter::MoveY(float magnitude)
 //Driver for the chili pepper's propulsion ability
 void AChiliPepperCharacter::PerformAbility()
 {
-	// Only jump if cooldown has expired and if this is not ascending/descending TODO: Fix
-	if (FMath::IsNearlyZero(AbilityCooldownTimer))
-	{
-		AbilityCooldownTimer = AbilityCooldown;
-		Super::Jump();
-	}
-}
-
-// Modifies launch variables, and if able, performs the launch
-void AChiliPepperCharacter::CheckLauchVars(float DeltaTime)
-{
-
-	//Make sure to handle the ability cooldown timer
-	if (!FMath::IsNearlyZero(AbilityCooldownTimer))
-	{
-		AbilityCooldownTimer = FMath::Clamp(AbilityCooldownTimer - DeltaTime, 0.f, AbilityCooldown);
-	}
-
-
+	Super::PerformAbility();
+	Super::Jump();
 }

@@ -17,22 +17,22 @@ public:
 
 	// Movement speed values
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
-		float MoveSpeed;
+	float MoveSpeed;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
-		float TurnSpeed;
+	float TurnSpeed;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
-		float TiltSpeed;
+	float TiltSpeed;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Health)
-		float ContaminationLevel;
+	float ContaminationLevel;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Health)
-		float ContaminationRate;
+	float ContaminationRate;
 
 	UPROPERTY(BlueprintReadWrite)
-		bool bIsInContaminationZone;
+	bool bIsInContaminationZone;
 
 	UPROPERTY(BlueprintReadWrite, Category = Status)
 	bool bIsDead;
@@ -40,9 +40,17 @@ public:
 	UPROPERTY(BlueprintReadWrite, Category = Status)
 	bool bIsSafe;
 
+	UPROPERTY(BlueprintReadOnly, Category = Ability)
+	bool bCanPerformAbility;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Ability)
+	float AbilityCooldown;
+
+	FTimerHandle AbilityCooldownHandle;
+
 	// The spring attaching the camera to the pawn
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-		class USpringArmComponent* SpringArm;
+	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	//	class USpringArmComponent* SpringArm;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class UCameraComponent* Camera;
@@ -65,7 +73,10 @@ public:
 	virtual void Tilt(float magnitude);
 
 	// Ability/Interaction functions
+	virtual void ActivateAbility();
 	virtual void PerformAbility();
+	virtual void ResetAbility();
+
 	virtual void PerformInteraction();
 	virtual void AskGameToPause();
 

@@ -8,8 +8,10 @@
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
-AChickenBreastCharacter::AChickenBreastCharacter()
+AChickenBreastCharacter::AChickenBreastCharacter() : Super()
 {
+	AbilityCooldown = 0.0;
+
 	MoveSpeed = 20.f;
 	bUpPressed = false;
 	bDownPressed = false;

@@ -4,9 +4,9 @@
 #include "RedOnionCharacter.h"
 
 
-ARedOnionCharacter::ARedOnionCharacter()
+ARedOnionCharacter::ARedOnionCharacter() : Super()
 {
-	//Superclass constructor called automatically
+	AbilityCooldown = 0.0;
 
 	MoveSpeed = 1.f;
 	HorizontalAcceleration = 2;

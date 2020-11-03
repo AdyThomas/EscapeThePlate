@@ -16,6 +16,16 @@ void AEscapeThePlateGameMode::RegisterDeathZoneWithGame(AIngredientDeathZone* De
 	DeathZones.Add(DeathZone);
 }
 
+void AEscapeThePlateGameMode::PossessIngredient(AIngredientBaseCharacter* Character)
+{
+	APlayerController* Controller = UGameplayStatics::GetPlayerController(GetWorld(), 0);
+	if (Character->IsIngredientUsable())
+	{
+		Controller->Possess(Character);
+		CharacterPossessionChanged();
+	}
+}
+
 void AEscapeThePlateGameMode::AutoReposessCharacter()
 {
 	// Iterate all characters, possess first usable
@@ -27,6 +37,7 @@ void AEscapeThePlateGameMode::AutoReposessCharacter()
 		if (CurrChar->IsIngredientUsable())
 		{
 			Controller->Possess(CurrChar);
+			CharacterPossessionChanged();
 			return;
 		}
 	}
