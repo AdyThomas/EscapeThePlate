@@ -19,10 +19,13 @@ class AIngredientDeathZone;
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_SPARSE_DATA
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetRecordedTime); \
+	DECLARE_FUNCTION(execRecordGameTime); \
 	DECLARE_FUNCTION(execPossessIngredient); \
 	DECLARE_FUNCTION(execDidPlayerWin); \
 	DECLARE_FUNCTION(execGetStarsEarned); \
 	DECLARE_FUNCTION(execCheckGameOver); \
+	DECLARE_FUNCTION(execSetupLevelData); \
 	DECLARE_FUNCTION(execGetClosestDeathZone); \
 	DECLARE_FUNCTION(execAutoReposessCharacter); \
 	DECLARE_FUNCTION(execRegisterDeathZoneWithGame); \
@@ -31,10 +34,13 @@ class AIngredientDeathZone;
 
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetRecordedTime); \
+	DECLARE_FUNCTION(execRecordGameTime); \
 	DECLARE_FUNCTION(execPossessIngredient); \
 	DECLARE_FUNCTION(execDidPlayerWin); \
 	DECLARE_FUNCTION(execGetStarsEarned); \
 	DECLARE_FUNCTION(execCheckGameOver); \
+	DECLARE_FUNCTION(execSetupLevelData); \
 	DECLARE_FUNCTION(execGetClosestDeathZone); \
 	DECLARE_FUNCTION(execAutoReposessCharacter); \
 	DECLARE_FUNCTION(execRegisterDeathZoneWithGame); \

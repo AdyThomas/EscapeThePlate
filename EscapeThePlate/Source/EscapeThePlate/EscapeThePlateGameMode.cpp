@@ -5,6 +5,7 @@
 #include "IngredientBaseCharacter.h"
 #include "IngredientDeathZone.h"
 #include "Kismet/GameplayStatics.h"
+#include "Kismet/KismetSystemLibrary.h"
 
 void AEscapeThePlateGameMode::RegisterCharacterWithGame(AIngredientBaseCharacter* Character)
 {
@@ -83,9 +84,7 @@ bool AEscapeThePlateGameMode::CheckGameOver()
 uint8 AEscapeThePlateGameMode::GetStarsEarned()
 {
 	uint8 Stars = 0;
-
-	//TODO: Par time check
-	Stars++;
+	bool AllIngredientsSafe = true;
 
 	// TODO: Base off of Health left
 	float percentSafe = 0.f;
@@ -94,12 +93,19 @@ uint8 AEscapeThePlateGameMode::GetStarsEarned()
 	{
 		if (Characters[i]->bIsSafe)
 			percentSafe += 100.f;
+		else
+			AllIngredientsSafe = false;
 	}
 
 	Stars += 3 * ((percentSafe / Characters.Num()) / 100.f);
 
-	// TODO: Add challenge
-	Stars++;
+	// Par time star, requires every ingredient saved
+	if (AllIngredientsSafe && RecordedGameTime < ParTime)
+		Stars++;
+
+	// Collectible pickup star
+	if(AllIngredientsSafe && HasChallengeCompleted)
+		Stars++;
 
 	return Stars;
 }
@@ -107,4 +113,21 @@ uint8 AEscapeThePlateGameMode::GetStarsEarned()
 bool AEscapeThePlateGameMode::DidPlayerWin()
 {
 	return GetStarsEarned() >= 3;
+}
+
+void AEscapeThePlateGameMode::SetupLevelData(const FString& LevelSaveName, float NewParTime)
+{
+	LevelName = LevelSaveName;
+	ParTime = NewParTime;
+	HasChallengeCompleted = false;
+}
+
+void AEscapeThePlateGameMode::RecordGameTime()
+{
+	RecordedGameTime = UKismetSystemLibrary::GetGameTimeInSeconds(this);
+}
+
+float AEscapeThePlateGameMode::GetRecordedTime()
+{
+	return RecordedGameTime;
 }

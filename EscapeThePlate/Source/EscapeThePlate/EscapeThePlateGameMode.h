@@ -16,6 +16,18 @@ class ESCAPETHEPLATE_API AEscapeThePlateGameMode : public AGameMode
 
 	public:
 
+		UPROPERTY()
+		float RecordedGameTime;
+
+		UPROPERTY(BlueprintReadOnly, Category = LevelData)
+		FString LevelName;
+
+		UPROPERTY(BlueprintReadOnly, Category = LevelData)
+		float ParTime;
+
+		UPROPERTY(BlueprintReadWrite, Category = LevelData)
+		bool HasChallengeCompleted;
+
 		UPROPERTY(BlueprintReadWrite, Category = GameStatus)
 		bool bCanPlayerPause;
 
@@ -36,6 +48,9 @@ class ESCAPETHEPLATE_API AEscapeThePlateGameMode : public AGameMode
 
 		UFUNCTION(BlueprintCallable)
 		AIngredientDeathZone* GetClosestDeathZone(FVector ActorLocation);
+
+		UFUNCTION(BlueprintCallable)
+		void SetupLevelData(const FString& LevelSaveName, float NewParTime);
 
 		UFUNCTION(BlueprintCallable)
 		bool CheckGameOver();
@@ -60,4 +75,10 @@ class ESCAPETHEPLATE_API AEscapeThePlateGameMode : public AGameMode
 
 		UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
 		void PauseGame();
+
+		UFUNCTION(BlueprintCallable)
+		void RecordGameTime();
+
+		UFUNCTION(BlueprintCallable)
+		float GetRecordedTime();
 };

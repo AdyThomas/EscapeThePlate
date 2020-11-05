@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\EscapeThePlate.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DC489300-4C03-4D7E-9102-9BBD6C58A630}</UniqueIdentifier>
+      <UniqueIdentifier>{BB6D0AAE-1756-4AA9-B4B3-B2D51CA2F0CB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EscapeThePlate.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A0FD9C07-BE34-4BA2-9194-0910648A0959}</UniqueIdentifier>
+      <UniqueIdentifier>{DDA02C7A-3A91-4A58-B057-1E647DA5716C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\EscapeThePlate">
-      <UniqueIdentifier>{111BC78C-65C8-4B60-B70A-B78E914AC75A}</UniqueIdentifier>
+      <UniqueIdentifier>{B4FED4A5-9270-42C2-A6E7-21387EEC96EF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\EscapeThePlate\ChickenBreastCharacter.cpp">
       <Filter>Source\EscapeThePlate</Filter>
@@ -50,10 +50,22 @@
     <ClInclude Include="..\..\Source\EscapeThePlate\EscapeThePlate.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\EscapeThePlateGameInstance.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\EscapeThePlateGameInstance.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\EscapeThePlate\EscapeThePlateGameMode.cpp">
       <Filter>Source\EscapeThePlate</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\EscapeThePlate\EscapeThePlateGameMode.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\EscapeThePlateSaveGame.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\EscapeThePlateSaveGame.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\EscapeThePlate\HumanBaseCharacter.cpp">
