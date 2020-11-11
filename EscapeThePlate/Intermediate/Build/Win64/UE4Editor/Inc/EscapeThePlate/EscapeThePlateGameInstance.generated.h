@@ -19,6 +19,7 @@ struct FLevelSaveData;
  \
 	DECLARE_FUNCTION(execGetLevelRecords); \
 	DECLARE_FUNCTION(execAddDataToSave); \
+	DECLARE_FUNCTION(execClearSave); \
 	DECLARE_FUNCTION(execSaveGame);
 
 
@@ -26,6 +27,7 @@ struct FLevelSaveData;
  \
 	DECLARE_FUNCTION(execGetLevelRecords); \
 	DECLARE_FUNCTION(execAddDataToSave); \
+	DECLARE_FUNCTION(execClearSave); \
 	DECLARE_FUNCTION(execSaveGame);
 
 

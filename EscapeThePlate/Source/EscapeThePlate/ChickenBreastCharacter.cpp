@@ -12,7 +12,7 @@ AChickenBreastCharacter::AChickenBreastCharacter() : Super()
 {
 	AbilityCooldown = 0.0;
 
-	MoveSpeed = 20.f;
+	MoveSpeed = 0.3f;
 	bUpPressed = false;
 	bDownPressed = false;
 	bLeftPressed = false;
