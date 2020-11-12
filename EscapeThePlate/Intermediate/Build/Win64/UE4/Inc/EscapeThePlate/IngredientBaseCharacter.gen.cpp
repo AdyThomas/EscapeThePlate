@@ -18,7 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_EscapeThePlate();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AIngredientBaseCharacter::execIsIngredientUsable)
 	{
@@ -148,9 +148,22 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Camera;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArm_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AbilityIcon_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArm;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AbilityIcon;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IngredientIcon_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_IngredientIcon;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AbilityCooldown_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AbilityCooldown;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bCanPerformAbility_MetaData[];
+#endif
+		static void NewProp_bCanPerformAbility_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bCanPerformAbility;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsSafe_MetaData[];
 #endif
@@ -210,22 +223,45 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_Camera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
+		{ "Comment", "// The spring attaching the camera to the pawn\n//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = \"true\"))\n//\x09""class USpringArmComponent* SpringArm;\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "IngredientBaseCharacter.h" },
+		{ "ToolTip", "The spring attaching the camera to the pawn\nUPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = \"true\"))\n      class USpringArmComponent* SpringArm;" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseCharacter, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_Camera_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_SpringArm_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
-		{ "Category", "Camera" },
-		{ "Comment", "// The spring attaching the camera to the pawn\n" },
-		{ "EditInline", "true" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilityIcon_MetaData[] = {
+		{ "Category", "UI" },
 		{ "ModuleRelativePath", "IngredientBaseCharacter.h" },
-		{ "ToolTip", "The spring attaching the camera to the pawn" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseCharacter, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_SpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_SpringArm_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilityIcon = { "AbilityIcon", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseCharacter, AbilityIcon), Z_Construct_UClass_UTexture2D_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilityIcon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilityIcon_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_IngredientIcon_MetaData[] = {
+		{ "Category", "UI" },
+		{ "ModuleRelativePath", "IngredientBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_IngredientIcon = { "IngredientIcon", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseCharacter, IngredientIcon), Z_Construct_UClass_UTexture2D_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_IngredientIcon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_IngredientIcon_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilityCooldown_MetaData[] = {
+		{ "Category", "Ability" },
+		{ "ModuleRelativePath", "IngredientBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilityCooldown = { "AbilityCooldown", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseCharacter, AbilityCooldown), METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilityCooldown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilityCooldown_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bCanPerformAbility_MetaData[] = {
+		{ "Category", "Ability" },
+		{ "ModuleRelativePath", "IngredientBaseCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bCanPerformAbility_SetBit(void* Obj)
+	{
+		((AIngredientBaseCharacter*)Obj)->bCanPerformAbility = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bCanPerformAbility = { "bCanPerformAbility", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AIngredientBaseCharacter), &Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bCanPerformAbility_SetBit, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bCanPerformAbility_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bCanPerformAbility_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsSafe_MetaData[] = {
 		{ "Category", "Status" },
@@ -298,7 +334,10 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_MoveSpeed = { "MoveSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseCharacter, MoveSpeed), METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_MoveSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_MoveSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AIngredientBaseCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_Camera,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_SpringArm,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilityIcon,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_IngredientIcon,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilityCooldown,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bCanPerformAbility,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsSafe,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsDead,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_bIsInContaminationZone,
@@ -335,7 +374,7 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIngredientBaseCharacter, 695144054);
+	IMPLEMENT_CLASS(AIngredientBaseCharacter, 2717612688);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AIngredientBaseCharacter>()
 	{
 		return AIngredientBaseCharacter::StaticClass();

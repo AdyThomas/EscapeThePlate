@@ -1,0 +1,2 @@
+C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4\DebugGame\EscapeThePlate\Definitions.EscapeThePlate.h
+C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Source\EscapeThePlate\EscapeThePlate.h

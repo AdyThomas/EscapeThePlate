@@ -1,0 +1,5 @@
+C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4\Shipping\EscapeThePlate\Definitions.EscapeThePlate.h
+C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Source\EscapeThePlate\EscapeThePlateSaveGame.h
+D:\Unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SaveGame.h
+D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\SaveGame.generated.h
+C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4\Inc\EscapeThePlate\EscapeThePlateSaveGame.generated.h
