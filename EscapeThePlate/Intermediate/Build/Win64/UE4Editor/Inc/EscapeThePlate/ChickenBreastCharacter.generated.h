@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define ESCAPETHEPLATE_ChickenBreastCharacter_generated_h
 
 #define EscapeThePlate_Source_EscapeThePlate_ChickenBreastCharacter_h_15_SPARSE_DATA
-#define EscapeThePlate_Source_EscapeThePlate_ChickenBreastCharacter_h_15_RPC_WRAPPERS
-#define EscapeThePlate_Source_EscapeThePlate_ChickenBreastCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define EscapeThePlate_Source_EscapeThePlate_ChickenBreastCharacter_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetClimbing);
+
+
+#define EscapeThePlate_Source_EscapeThePlate_ChickenBreastCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetClimbing);
+
+
 #define EscapeThePlate_Source_EscapeThePlate_ChickenBreastCharacter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAChickenBreastCharacter(); \

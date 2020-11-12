@@ -34,19 +34,13 @@ void AChickenBreastCharacter::Tick(float DeltaTime)
 void AChickenBreastCharacter::CheckAndPerformMovement(float DeltaTime)
 {
 	// Update the moving flag for climbing
-	bIsMoving = bUpPressed || bDownPressed || bLeftPressed || bRightPressed;
+	//bIsMoving = bUpPressed || bDownPressed || bLeftPressed || bRightPressed;
 
-	//UE_LOG(LogTemp, Warning, TEXT("Z velocity %f"), GetCharacterMovement()->Velocity.Z)
-
-	// Change climbing state
-	if (GetCharacterMovement()->Velocity.Z > 10.0)
-		bIsClimbing = true;
-
-	if (!bIsMoving || (bIsClimbing && GetCharacterMovement()->Velocity.Z < 10.0f))
+	/*if (!bIsMoving || (bIsClimbing && GetCharacterMovement()->Velocity.Z < 10.0f))
 	{
 		bIsClimbing = false;
 		GetCharacterMovement()->MovementMode = MOVE_Walking;
-	}
+	}*/
 
 	
 	if (Controller)
@@ -58,15 +52,25 @@ void AChickenBreastCharacter::CheckAndPerformMovement(float DeltaTime)
 		
 
 		// Forward movement
-		if (bUpPressed)
+		if (bUpPressed && !bIsClimbing)
 		{
 			const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 			AddMovementInput(ForwardDirection, MoveSpeed);
 		}
-		else if (bDownPressed)
+		else if (bUpPressed && bIsClimbing)
+		{
+			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Z);
+			AddMovementInput(Direction, MoveSpeed);
+		}
+		else if (bDownPressed && !bIsClimbing)
 		{
 			const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 			AddMovementInput(ForwardDirection, -1 * MoveSpeed);
+		}
+		else if (bDownPressed && bIsClimbing)
+		{
+			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Z);
+			AddMovementInput(Direction, -1*MoveSpeed);
 		}
 
 		// Horizontal movement
@@ -102,11 +106,26 @@ void AChickenBreastCharacter::SetupPlayerInputComponent(UInputComponent* PlayerI
 	PlayerInputComponent->BindAction("MoveRight", IE_Released, this, &AChickenBreastCharacter::RightRelease);
 }
 
+void AChickenBreastCharacter::SetClimbing(bool CanClimb)
+{
+	bIsClimbing = CanClimb;
+	if (CanClimb)
+	{
+		GetCharacterMovement()->bCheatFlying = true;
+		GetCharacterMovement()->MovementMode = MOVE_Flying;
+	}
+	else
+	{
+		GetCharacterMovement()->bCheatFlying = false;
+		GetCharacterMovement()->MovementMode = MOVE_Walking;
+	}
+}
+
 // Handle hit events in this class to allow to scale walls
 void AChickenBreastCharacter::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation,
 	FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Hit event and other %x"), Other)
+	/*UE_LOG(LogTemp, Warning, TEXT("Hit event and other %x"), Other)
 	//Super::NotifyHit(MyComp, Other, OtherComp, bSelfMoved, HitLocation, HitNormal, NormalImpulse, Hit);
 
 
@@ -125,7 +144,7 @@ void AChickenBreastCharacter::NotifyHit(UPrimitiveComponent* MyComp, AActor* Oth
 			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Z);
 			AddMovementInput(Direction, MoveSpeed);
 		}
-	}
+	}*/
 }
 
 // Movement in the X direction with a magnitude
