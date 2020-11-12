@@ -10,8 +10,12 @@ UEscapeThePlateGameInstance::UEscapeThePlateGameInstance()
 	SaveSlotName = TEXT("DefaultSlot");
 
 	// Unfortunately, currently only object storing level info
-	LevelNames.Add(TEXT("Asian Takeout"));
+	LevelNames.Add(TEXT("Tutorial"));
+	LevelSaveNames.Add(TEXT("TutorialLevel"));
+	LevelParTimes.Add(600.f);
+	LevelNames.Add(TEXT("The Noodle Shop"));
 	LevelSaveNames.Add(TEXT("AsianEatery_v3"));
+	LevelParTimes.Add(30.f);
 }
 
 void UEscapeThePlateGameInstance::Init()
@@ -32,6 +36,12 @@ void UEscapeThePlateGameInstance::SaveGame()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Saving"))
 	UGameplayStatics::SaveGameToSlot(SaveGameData, SaveSlotName, 0);
+}
+
+void UEscapeThePlateGameInstance::ClearSave()
+{
+	UGameplayStatics::DeleteGameInSlot(SaveSlotName, 0);
+	SaveGameData = Cast<UEscapeThePlateSaveGame>(UGameplayStatics::CreateSaveGameObject(UEscapeThePlateSaveGame::StaticClass()));
 }
 
 void UEscapeThePlateGameInstance::AddDataToSave(FLevelSaveData NewData)

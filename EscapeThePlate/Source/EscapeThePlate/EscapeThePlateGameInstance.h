@@ -28,11 +28,17 @@ class ESCAPETHEPLATE_API UEscapeThePlateGameInstance : public UGameInstance
 		UPROPERTY(BlueprintReadOnly)
 		TArray<FString> LevelSaveNames;
 
+		UPROPERTY(BlueprintReadOnly)
+		TArray<float> LevelParTimes;
+
 		UPROPERTY(EditAnywhere)
 		FString SaveSlotName;
 
 		UFUNCTION(BlueprintCallable)
 		void SaveGame();
+
+		UFUNCTION(BlueprintCallable)
+		void ClearSave();
 
 		UFUNCTION(BlueprintCallable)
 		void AddDataToSave(FLevelSaveData NewData);

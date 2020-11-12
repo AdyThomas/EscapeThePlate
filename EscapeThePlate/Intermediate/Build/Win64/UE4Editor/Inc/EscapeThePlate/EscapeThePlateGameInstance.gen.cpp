@@ -36,6 +36,13 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameInstance() {}
 		P_THIS->AddDataToSave(Z_Param_NewData);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(UEscapeThePlateGameInstance::execClearSave)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ClearSave();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UEscapeThePlateGameInstance::execSaveGame)
 	{
 		P_FINISH;
@@ -48,6 +55,7 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameInstance() {}
 		UClass* Class = UEscapeThePlateGameInstance::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AddDataToSave", &UEscapeThePlateGameInstance::execAddDataToSave },
+			{ "ClearSave", &UEscapeThePlateGameInstance::execClearSave },
 			{ "GetLevelRecords", &UEscapeThePlateGameInstance::execGetLevelRecords },
 			{ "SaveGame", &UEscapeThePlateGameInstance::execSaveGame },
 		};
@@ -82,6 +90,28 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameInstance() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UEscapeThePlateGameInstance_AddDataToSave_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UEscapeThePlateGameInstance_ClearSave_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UEscapeThePlateGameInstance_ClearSave_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EscapeThePlateGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UEscapeThePlateGameInstance_ClearSave_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UEscapeThePlateGameInstance, nullptr, "ClearSave", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UEscapeThePlateGameInstance_ClearSave_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UEscapeThePlateGameInstance_ClearSave_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UEscapeThePlateGameInstance_ClearSave()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UEscapeThePlateGameInstance_ClearSave_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -167,6 +197,11 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameInstance() {}
 #endif
 		static const UE4CodeGen_Private::FStrPropertyParams NewProp_SaveSlotName;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LevelParTimes_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_LevelParTimes;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LevelParTimes_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LevelSaveNames_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_LevelSaveNames;
@@ -190,6 +225,7 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameInstance() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UEscapeThePlateGameInstance_AddDataToSave, "AddDataToSave" }, // 1236200178
+		{ &Z_Construct_UFunction_UEscapeThePlateGameInstance_ClearSave, "ClearSave" }, // 158800305
 		{ &Z_Construct_UFunction_UEscapeThePlateGameInstance_GetLevelRecords, "GetLevelRecords" }, // 3734990860
 		{ &Z_Construct_UFunction_UEscapeThePlateGameInstance_SaveGame, "SaveGame" }, // 1653708456
 	};
@@ -207,6 +243,14 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameInstance() {}
 	};
 #endif
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_SaveSlotName = { "SaveSlotName", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UEscapeThePlateGameInstance, SaveSlotName), METADATA_PARAMS(Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_SaveSlotName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_SaveSlotName_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_LevelParTimes_MetaData[] = {
+		{ "Category", "EscapeThePlateGameInstance" },
+		{ "ModuleRelativePath", "EscapeThePlateGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_LevelParTimes = { "LevelParTimes", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UEscapeThePlateGameInstance, LevelParTimes), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_LevelParTimes_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_LevelParTimes_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_LevelParTimes_Inner = { "LevelParTimes", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_LevelSaveNames_MetaData[] = {
 		{ "Category", "EscapeThePlateGameInstance" },
@@ -232,6 +276,8 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameInstance() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_SaveGameData = { "SaveGameData", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UEscapeThePlateGameInstance, SaveGameData), Z_Construct_UClass_UEscapeThePlateSaveGame_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_SaveGameData_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_SaveGameData_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_SaveSlotName,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_LevelParTimes,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_LevelParTimes_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_LevelSaveNames,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_LevelSaveNames_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEscapeThePlateGameInstance_Statics::NewProp_LevelNames,
@@ -265,7 +311,7 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UEscapeThePlateGameInstance, 471181025);
+	IMPLEMENT_CLASS(UEscapeThePlateGameInstance, 1928338574);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<UEscapeThePlateGameInstance>()
 	{
 		return UEscapeThePlateGameInstance::StaticClass();
