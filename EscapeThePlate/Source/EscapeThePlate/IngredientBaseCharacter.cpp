@@ -18,8 +18,8 @@ AIngredientBaseCharacter::AIngredientBaseCharacter()
 
 	// Preset variables
 	MoveSpeed = 1.0;
-	TurnSpeed = 45.f;
-	TiltSpeed = 45.f;
+	TurnSpeed = 30.f;
+	TiltSpeed = 30.f;
 	ContaminationLevel = 0.f;
 	ContaminationRate = 40.f;
 	bIsDead = false;

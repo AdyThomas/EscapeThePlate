@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\EscapeThePlate.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BB6D0AAE-1756-4AA9-B4B3-B2D51CA2F0CB}</UniqueIdentifier>
+      <UniqueIdentifier>{DBF2B0FF-2F2A-4AF9-ADF4-082C60AA097F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EscapeThePlate.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DDA02C7A-3A91-4A58-B057-1E647DA5716C}</UniqueIdentifier>
+      <UniqueIdentifier>{4BFACB78-A74F-4F73-8153-18060B7AA32B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\EscapeThePlate">
-      <UniqueIdentifier>{B4FED4A5-9270-42C2-A6E7-21387EEC96EF}</UniqueIdentifier>
+      <UniqueIdentifier>{D7E024EC-14E6-4139-ABD3-383297E70FCF}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\EscapeThePlate\BaguetteCharacter.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\BaguetteCharacter.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\EscapeThePlate\ChickenBreastCharacter.cpp">
       <Filter>Source\EscapeThePlate</Filter>
     </ClCompile>
@@ -86,10 +92,28 @@
     <ClInclude Include="..\..\Source\EscapeThePlate\IngredientDeathZone.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\OctopusCharacter.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\OctopusCharacter.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\EscapeThePlate\RedOnionCharacter.cpp">
       <Filter>Source\EscapeThePlate</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\EscapeThePlate\RedOnionCharacter.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\SalmonCharacter.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\SalmonCharacter.h">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeThePlate\TofuCharacter.cpp">
+      <Filter>Source\EscapeThePlate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeThePlate\TofuCharacter.h">
       <Filter>Source\EscapeThePlate</Filter>
     </ClInclude>
   </ItemGroup>

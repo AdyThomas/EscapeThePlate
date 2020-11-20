@@ -9,12 +9,12 @@ ARedOnionCharacter::ARedOnionCharacter() : Super()
 	AbilityCooldown = 0.0;
 
 	MoveSpeed = 1.f;
-	HorizontalAcceleration = 2;
-	ForwardAcceleration = 2;
+	HorizontalAcceleration = 4;
+	ForwardAcceleration = 4;
 	MaxSpeed = 20.0;
 	ForwardSpeed = 0;
 	HorizontalSpeed = 0;
-	Friction = 2.f;
+	Friction = 6.f;
 	bUpPressed = false;
 	bDownPressed = false;
 	bLeftPressed = false;

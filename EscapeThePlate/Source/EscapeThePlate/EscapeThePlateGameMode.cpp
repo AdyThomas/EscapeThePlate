@@ -104,7 +104,7 @@ uint8 AEscapeThePlateGameMode::GetStarsEarned()
 		Stars++;
 
 	// Collectible pickup star
-	if(AllIngredientsSafe && HasChallengeCompleted)
+	if(HasChallengeCompleted)
 		Stars++;
 
 	return Stars;
