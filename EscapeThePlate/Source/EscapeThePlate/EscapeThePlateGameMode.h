@@ -14,7 +14,17 @@ class ESCAPETHEPLATE_API AEscapeThePlateGameMode : public AGameMode
 {
 	GENERATED_BODY()
 
+	protected:
+
+		class UAudioComponent* BackgroundMusicComponent;
+		class UAudioComponent* ChaseMusicComponent;
+
+		void BeginPlay() override;
+
 	public:
+
+		UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Sound)
+		class USoundCue* ChaseMusic;
 
 		UPROPERTY()
 		float RecordedGameTime;
@@ -81,4 +91,13 @@ class ESCAPETHEPLATE_API AEscapeThePlateGameMode : public AGameMode
 
 		UFUNCTION(BlueprintCallable)
 		float GetRecordedTime();
+
+		UFUNCTION(BlueprintCallable)
+		void RegisterAndStartBackgroundMusic(USoundCue* Music);
+
+		UFUNCTION(BlueprintCallable)
+		void ToggleMusic();
+
+		UFUNCTION(BlueprintCallable)
+		void PauseMusic();
 };

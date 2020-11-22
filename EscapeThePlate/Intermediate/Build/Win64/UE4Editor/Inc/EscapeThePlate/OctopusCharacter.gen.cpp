@@ -120,7 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeOctopusCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AOctopusCharacter, 3687273672);
+	IMPLEMENT_CLASS(AOctopusCharacter, 3878841469);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AOctopusCharacter>()
 	{
 		return AOctopusCharacter::StaticClass();

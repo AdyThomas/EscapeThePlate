@@ -2,6 +2,8 @@
 
 
 #include "OctopusCharacter.h"
+#include "Kismet/GameplayStatics.h"
+#include "Sound/SoundCue.h"
 
 AOctopusCharacter::AOctopusCharacter()
 {

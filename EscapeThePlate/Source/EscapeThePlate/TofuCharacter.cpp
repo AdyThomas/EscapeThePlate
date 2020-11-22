@@ -8,6 +8,8 @@
 #include "Engine/World.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "Sound/SoundCue.h"
 
 ATofuCharacter::ATofuCharacter()
 {
@@ -75,12 +77,22 @@ void ATofuCharacter::PerformAbility()
 		Super::PerformAbility();
 		Super::Jump();
 		JumpCount++;
+
+		if (AbilitySound)
+		{
+			UGameplayStatics::PlaySoundAtLocation(GetWorld(), AbilitySound, GetActorLocation());
+		}
 	}
 	else if (JumpCount == 1)
 	{
 		Super::PerformAbility();
 		LaunchCharacter(FVector(0, 0, MaxJumpHeight), false, false);
 		JumpCount++;
+
+		if (AbilitySecondSound)
+		{
+			UGameplayStatics::PlaySoundAtLocation(GetWorld(), AbilitySecondSound, GetActorLocation());
+		}
 	}
 
 }

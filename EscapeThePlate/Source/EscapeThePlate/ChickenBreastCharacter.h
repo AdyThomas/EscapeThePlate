@@ -23,12 +23,6 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement)
 	bool bIsMoving;
 
-	UPROPERTY()
-	bool bUpPressed;
-	bool bDownPressed;
-	bool bLeftPressed;
-	bool bRightPressed;
-
 	bool bIsClimbing;
 
 	// Called every frame
@@ -47,12 +41,4 @@ public:
 	// Movement functions
 	void MoveX(float magnitude) override;
 	void MoveY(float magnitude) override;
-	void UpPress();
-	void UpRelease();
-	void DownPress();
-	void DownRelease();
-	void LeftPress();
-	void LeftRelease();
-	void RightPress();
-	void RightRelease();
 };

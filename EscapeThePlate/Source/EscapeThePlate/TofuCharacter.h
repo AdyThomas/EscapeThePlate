@@ -21,6 +21,9 @@ class ESCAPETHEPLATE_API ATofuCharacter : public AIngredientBaseCharacter
 
 	public:
 
+		UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Sound)
+		class USoundCue* AbilitySecondSound;
+
 		// Jump control vars
 		float MaxJumpHeight;
 		float AirControl;

@@ -93,17 +93,6 @@ void AChickenBreastCharacter::SetupPlayerInputComponent(UInputComponent* PlayerI
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	check(PlayerInputComponent);
-
-	//PlayerInputComponent->BindAxis("MoveY", this, &AChickenBreastCharacter::MoveY);
-	//PlayerInputComponent->BindAxis("MoveX", this, &AChickenBreastCharacter::MoveX);
-	PlayerInputComponent->BindAction("MoveUp", IE_Pressed, this, &AChickenBreastCharacter::UpPress);
-	PlayerInputComponent->BindAction("MoveUp", IE_Released, this, &AChickenBreastCharacter::UpRelease);
-	PlayerInputComponent->BindAction("MoveDown", IE_Pressed, this, &AChickenBreastCharacter::DownPress);
-	PlayerInputComponent->BindAction("MoveDown", IE_Released, this, &AChickenBreastCharacter::DownRelease);
-	PlayerInputComponent->BindAction("MoveLeft", IE_Pressed, this, &AChickenBreastCharacter::LeftPress);
-	PlayerInputComponent->BindAction("MoveLeft", IE_Released, this, &AChickenBreastCharacter::LeftRelease);
-	PlayerInputComponent->BindAction("MoveRight", IE_Pressed, this, &AChickenBreastCharacter::RightPress);
-	PlayerInputComponent->BindAction("MoveRight", IE_Released, this, &AChickenBreastCharacter::RightRelease);
 }
 
 void AChickenBreastCharacter::SetClimbing(bool CanClimb)
@@ -171,50 +160,4 @@ void AChickenBreastCharacter::MoveY(float magnitude)
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 		AddMovementInput(Direction, magnitude * MoveSpeed);
 	}
-}
-
-void AChickenBreastCharacter::UpPress()
-{
-	bUpPressed = true;
-}
-
-void AChickenBreastCharacter::UpRelease()
-{
-	bUpPressed = false;
-}
-
-
-void AChickenBreastCharacter::DownPress()
-{
-	bDownPressed = true;
-}
-
-
-void AChickenBreastCharacter::DownRelease()
-{
-	bDownPressed = false;
-}
-
-
-void AChickenBreastCharacter::LeftPress()
-{
-	bLeftPressed = true;
-}
-
-
-void AChickenBreastCharacter::LeftRelease()
-{
-	bLeftPressed = false;
-}
-
-
-void AChickenBreastCharacter::RightPress()
-{
-	bRightPressed = true;
-}
-
-
-void AChickenBreastCharacter::RightRelease()
-{
-	bRightPressed = false;
 }

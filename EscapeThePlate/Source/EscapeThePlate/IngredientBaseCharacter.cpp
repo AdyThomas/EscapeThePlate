@@ -8,7 +8,9 @@
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "EscapeThePlateGameMode.h"
-#include "EscapeThePlateGameMode.h"
+#include "Sound/SoundCue.h"
+#include "Components/AudioComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AIngredientBaseCharacter::AIngredientBaseCharacter()
@@ -47,6 +49,11 @@ AIngredientBaseCharacter::AIngredientBaseCharacter()
 	bUseControllerRotationRoll = false;
 
 	GetCharacterMovement()->bOrientRotationToMovement = false;
+
+	if (MoveSound)
+	{
+		MoveAudioComponent = UGameplayStatics::SpawnSound2D(this, MoveSound);
+	}
 }
 
 // Called every frame
@@ -80,6 +87,15 @@ void AIngredientBaseCharacter::SetupPlayerInputComponent(UInputComponent* Player
 	PlayerInputComponent->BindAxis("Turn", this, &AIngredientBaseCharacter::Turn);
 	PlayerInputComponent->BindAxis("Tilt", this, &AIngredientBaseCharacter::Tilt);
 	PlayerInputComponent->BindAction("PauseGame", IE_Pressed, this, &AIngredientBaseCharacter::AskGameToPause);
+
+	PlayerInputComponent->BindAction("MoveUp", IE_Pressed, this, &AIngredientBaseCharacter::UpPress);
+	PlayerInputComponent->BindAction("MoveUp", IE_Released, this, &AIngredientBaseCharacter::UpRelease);
+	PlayerInputComponent->BindAction("MoveDown", IE_Pressed, this, &AIngredientBaseCharacter::DownPress);
+	PlayerInputComponent->BindAction("MoveDown", IE_Released, this, &AIngredientBaseCharacter::DownRelease);
+	PlayerInputComponent->BindAction("MoveLeft", IE_Pressed, this, &AIngredientBaseCharacter::LeftPress);
+	PlayerInputComponent->BindAction("MoveLeft", IE_Released, this, &AIngredientBaseCharacter::LeftRelease);
+	PlayerInputComponent->BindAction("MoveRight", IE_Pressed, this, &AIngredientBaseCharacter::RightPress);
+	PlayerInputComponent->BindAction("MoveRight", IE_Released, this, &AIngredientBaseCharacter::RightRelease);
 }
 
 void AIngredientBaseCharacter::Turn(float magnitude)
@@ -153,6 +169,84 @@ void AIngredientBaseCharacter::ResetAbility()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Ability Reset"))
 	bCanPerformAbility = true;
+}
+
+void AIngredientBaseCharacter::CheckAndPlayMoveAudio()
+{
+	if (!MoveAudioComponent && MoveSound)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Making noise"))
+		MoveAudioComponent = UGameplayStatics::SpawnSound2D(this, MoveSound);
+	}
+
+	if (MoveAudioComponent)
+		if (!bIsMoveSoundPlaying)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Play"))
+			MoveAudioComponent->Play();
+			MoveAudioComponent->SetPaused(false);
+			bIsMoveSoundPlaying = true;
+		}
+		else if (!bUpPressed && !bDownPressed && !bLeftPressed && !bRightPressed)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Stop"))
+			bIsMoveSoundPlaying = false;
+			MoveAudioComponent->SetPaused(true);
+		}
+}
+
+void AIngredientBaseCharacter::UpPress()
+{
+	bUpPressed = true;
+	CheckAndPlayMoveAudio();
+}
+
+void AIngredientBaseCharacter::UpRelease()
+{
+	bUpPressed = false;
+	CheckAndPlayMoveAudio();
+}
+
+
+void AIngredientBaseCharacter::DownPress()
+{
+	bDownPressed = true;
+	CheckAndPlayMoveAudio();
+}
+
+
+void AIngredientBaseCharacter::DownRelease()
+{
+	bDownPressed = false;
+	CheckAndPlayMoveAudio();
+}
+
+
+void AIngredientBaseCharacter::LeftPress()
+{
+	bLeftPressed = true;
+	CheckAndPlayMoveAudio();
+}
+
+
+void AIngredientBaseCharacter::LeftRelease()
+{
+	bLeftPressed = false;
+	CheckAndPlayMoveAudio();
+}
+
+
+void AIngredientBaseCharacter::RightPress()
+{
+	bRightPressed = true;
+	CheckAndPlayMoveAudio();
+}
+
+
+void AIngredientBaseCharacter::RightRelease()
+{
+	bRightPressed = false;
+	CheckAndPlayMoveAudio();
 }
 
 //Pointless implementations, should be overridden by children

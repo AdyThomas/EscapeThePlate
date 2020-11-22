@@ -52,6 +52,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = UI)
 	UTexture2D* AbilityIcon;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Sound)
+	class USoundCue* AbilitySound;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Sound)
+	class USoundCue* MoveSound;
+
 	FTimerHandle AbilityCooldownHandle;
 
 	// The spring attaching the camera to the pawn
@@ -62,8 +68,20 @@ public:
 		class UCameraComponent* Camera;
 
 protected:
+
+	bool bUpPressed;
+	bool bDownPressed;
+	bool bLeftPressed;
+	bool bRightPressed;
+
+	bool bIsMoveSoundPlaying;
+
+	class UAudioComponent* MoveAudioComponent;
+
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	void CheckAndPlayMoveAudio();
 
 public:
 	// Called every frame
@@ -95,4 +113,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 	virtual bool IsIngredientUsable();
 
+	void UpPress();
+	void UpRelease();
+	void DownPress();
+	void DownRelease();
+	void LeftPress();
+	void LeftRelease();
+	void RightPress();
+	void RightRelease();
 };

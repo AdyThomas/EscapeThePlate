@@ -7,6 +7,8 @@
 #include "Engine/World.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "Sound/SoundCue.h"
 
 AChiliPepperCharacter::AChiliPepperCharacter() : Super()
 {
@@ -68,4 +70,9 @@ void AChiliPepperCharacter::PerformAbility()
 {
 	Super::PerformAbility();
 	Super::Jump();
+
+	if (AbilitySound)
+	{
+		UGameplayStatics::PlaySoundAtLocation(GetWorld(), AbilitySound, GetActorLocation());
+	}
 }

@@ -6,6 +6,17 @@
 #include "IngredientDeathZone.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "Sound/SoundCue.h"
+#include "Components/AudioComponent.h"
+
+void AEscapeThePlateGameMode::BeginPlay()
+{
+	if (ChaseMusic)
+	{
+		ChaseMusicComponent = UGameplayStatics::SpawnSound2D(this, ChaseMusic);
+		ChaseMusicComponent->SetPaused(true);
+	}
+}
 
 void AEscapeThePlateGameMode::RegisterCharacterWithGame(AIngredientBaseCharacter* Character)
 {
@@ -130,4 +141,26 @@ void AEscapeThePlateGameMode::RecordGameTime()
 float AEscapeThePlateGameMode::GetRecordedTime()
 {
 	return RecordedGameTime;
+}
+
+void AEscapeThePlateGameMode::RegisterAndStartBackgroundMusic(USoundCue* Music)
+{
+	BackgroundMusicComponent = UGameplayStatics::SpawnSound2D(this, Music);
+	BackgroundMusicComponent->Play();
+}
+
+void AEscapeThePlateGameMode::ToggleMusic()
+{
+	if(BackgroundMusicComponent)
+		BackgroundMusicComponent->SetPaused(!BackgroundMusicComponent->bIsPaused);
+	if(ChaseMusicComponent)
+		ChaseMusicComponent->SetPaused(!ChaseMusicComponent->bIsPaused);
+}
+
+void AEscapeThePlateGameMode::PauseMusic()
+{
+	if (BackgroundMusicComponent)
+		BackgroundMusicComponent->SetPaused(true);
+	if (ChaseMusicComponent)
+		ChaseMusicComponent->SetPaused(true);
 }

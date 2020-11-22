@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class USoundCue;
 class AIngredientBaseCharacter;
 struct FVector;
 class AIngredientDeathZone;
@@ -19,6 +20,9 @@ class AIngredientDeathZone;
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_SPARSE_DATA
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execPauseMusic); \
+	DECLARE_FUNCTION(execToggleMusic); \
+	DECLARE_FUNCTION(execRegisterAndStartBackgroundMusic); \
 	DECLARE_FUNCTION(execGetRecordedTime); \
 	DECLARE_FUNCTION(execRecordGameTime); \
 	DECLARE_FUNCTION(execPossessIngredient); \
@@ -34,6 +38,9 @@ class AIngredientDeathZone;
 
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execPauseMusic); \
+	DECLARE_FUNCTION(execToggleMusic); \
+	DECLARE_FUNCTION(execRegisterAndStartBackgroundMusic); \
 	DECLARE_FUNCTION(execGetRecordedTime); \
 	DECLARE_FUNCTION(execRecordGameTime); \
 	DECLARE_FUNCTION(execPossessIngredient); \

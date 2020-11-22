@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_EscapeThePlate();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USoundCue_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AIngredientBaseCharacter::execIsIngredientUsable)
@@ -148,6 +149,14 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Camera;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoveSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MoveSound;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AbilitySound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AbilitySound;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AbilityIcon_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AbilityIcon;
@@ -230,6 +239,20 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseCharacter, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_Camera_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_MoveSound_MetaData[] = {
+		{ "Category", "Sound" },
+		{ "ModuleRelativePath", "IngredientBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_MoveSound = { "MoveSound", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseCharacter, MoveSound), Z_Construct_UClass_USoundCue_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_MoveSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_MoveSound_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilitySound_MetaData[] = {
+		{ "Category", "Sound" },
+		{ "ModuleRelativePath", "IngredientBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilitySound = { "AbilitySound", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseCharacter, AbilitySound), Z_Construct_UClass_USoundCue_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilitySound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilitySound_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilityIcon_MetaData[] = {
 		{ "Category", "UI" },
@@ -334,6 +357,8 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_MoveSpeed = { "MoveSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIngredientBaseCharacter, MoveSpeed), METADATA_PARAMS(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_MoveSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_MoveSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AIngredientBaseCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_Camera,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_MoveSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilitySound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilityIcon,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_IngredientIcon,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIngredientBaseCharacter_Statics::NewProp_AbilityCooldown,
@@ -374,7 +399,7 @@ void EmptyLinkFunctionForGeneratedCodeIngredientBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIngredientBaseCharacter, 2717612688);
+	IMPLEMENT_CLASS(AIngredientBaseCharacter, 3416908220);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AIngredientBaseCharacter>()
 	{
 		return AIngredientBaseCharacter::StaticClass();

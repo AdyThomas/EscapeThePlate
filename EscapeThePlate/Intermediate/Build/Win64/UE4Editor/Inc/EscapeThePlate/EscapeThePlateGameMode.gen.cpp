@@ -20,7 +20,30 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 	ESCAPETHEPLATE_API UClass* Z_Construct_UClass_AIngredientDeathZone_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ESCAPETHEPLATE_API UClass* Z_Construct_UClass_AIngredientBaseCharacter_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USoundCue_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AEscapeThePlateGameMode::execPauseMusic)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->PauseMusic();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AEscapeThePlateGameMode::execToggleMusic)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ToggleMusic();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AEscapeThePlateGameMode::execRegisterAndStartBackgroundMusic)
+	{
+		P_GET_OBJECT(USoundCue,Z_Param_Music);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->RegisterAndStartBackgroundMusic(Z_Param_Music);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AEscapeThePlateGameMode::execGetRecordedTime)
 	{
 		P_FINISH;
@@ -134,11 +157,14 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 			{ "GetClosestDeathZone", &AEscapeThePlateGameMode::execGetClosestDeathZone },
 			{ "GetRecordedTime", &AEscapeThePlateGameMode::execGetRecordedTime },
 			{ "GetStarsEarned", &AEscapeThePlateGameMode::execGetStarsEarned },
+			{ "PauseMusic", &AEscapeThePlateGameMode::execPauseMusic },
 			{ "PossessIngredient", &AEscapeThePlateGameMode::execPossessIngredient },
 			{ "RecordGameTime", &AEscapeThePlateGameMode::execRecordGameTime },
+			{ "RegisterAndStartBackgroundMusic", &AEscapeThePlateGameMode::execRegisterAndStartBackgroundMusic },
 			{ "RegisterCharacterWithGame", &AEscapeThePlateGameMode::execRegisterCharacterWithGame },
 			{ "RegisterDeathZoneWithGame", &AEscapeThePlateGameMode::execRegisterDeathZoneWithGame },
 			{ "SetupLevelData", &AEscapeThePlateGameMode::execSetupLevelData },
+			{ "ToggleMusic", &AEscapeThePlateGameMode::execToggleMusic },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -426,6 +452,28 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AEscapeThePlateGameMode_PauseMusic_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEscapeThePlateGameMode_PauseMusic_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EscapeThePlateGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEscapeThePlateGameMode_PauseMusic_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEscapeThePlateGameMode, nullptr, "PauseMusic", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEscapeThePlateGameMode_PauseMusic_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEscapeThePlateGameMode_PauseMusic_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEscapeThePlateGameMode_PauseMusic()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEscapeThePlateGameMode_PauseMusic_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient_Statics
 	{
 		struct EscapeThePlateGameMode_eventPossessIngredient_Parms
@@ -477,6 +525,38 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEscapeThePlateGameMode_RecordGameTime_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterAndStartBackgroundMusic_Statics
+	{
+		struct EscapeThePlateGameMode_eventRegisterAndStartBackgroundMusic_Parms
+		{
+			USoundCue* Music;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Music;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterAndStartBackgroundMusic_Statics::NewProp_Music = { "Music", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(EscapeThePlateGameMode_eventRegisterAndStartBackgroundMusic_Parms, Music), Z_Construct_UClass_USoundCue_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterAndStartBackgroundMusic_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterAndStartBackgroundMusic_Statics::NewProp_Music,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterAndStartBackgroundMusic_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EscapeThePlateGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterAndStartBackgroundMusic_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEscapeThePlateGameMode, nullptr, "RegisterAndStartBackgroundMusic", nullptr, nullptr, sizeof(EscapeThePlateGameMode_eventRegisterAndStartBackgroundMusic_Parms), Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterAndStartBackgroundMusic_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterAndStartBackgroundMusic_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterAndStartBackgroundMusic_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterAndStartBackgroundMusic_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterAndStartBackgroundMusic()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterAndStartBackgroundMusic_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -588,6 +668,28 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AEscapeThePlateGameMode_ToggleMusic_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEscapeThePlateGameMode_ToggleMusic_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EscapeThePlateGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEscapeThePlateGameMode_ToggleMusic_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEscapeThePlateGameMode, nullptr, "ToggleMusic", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEscapeThePlateGameMode_ToggleMusic_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEscapeThePlateGameMode_ToggleMusic_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEscapeThePlateGameMode_ToggleMusic()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEscapeThePlateGameMode_ToggleMusic_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AEscapeThePlateGameMode_NoRegister()
 	{
 		return AEscapeThePlateGameMode::StaticClass();
@@ -631,6 +733,10 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RecordedGameTime_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RecordedGameTime;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ChaseMusic_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ChaseMusic;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -650,11 +756,14 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_GetRecordedTime, "GetRecordedTime" }, // 1861002944
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_GetStarsEarned, "GetStarsEarned" }, // 2709263266
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_PauseGame, "PauseGame" }, // 1802859208
+		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_PauseMusic, "PauseMusic" }, // 3804887282
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_PossessIngredient, "PossessIngredient" }, // 2149214283
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_RecordGameTime, "RecordGameTime" }, // 3889324183
+		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterAndStartBackgroundMusic, "RegisterAndStartBackgroundMusic" }, // 3096200152
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterCharacterWithGame, "RegisterCharacterWithGame" }, // 1771449405
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_RegisterDeathZoneWithGame, "RegisterDeathZoneWithGame" }, // 4108094977
 		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_SetupLevelData, "SetupLevelData" }, // 2216717059
+		{ &Z_Construct_UFunction_AEscapeThePlateGameMode_ToggleMusic, "ToggleMusic" }, // 3271928899
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEscapeThePlateGameMode_Statics::Class_MetaDataParams[] = {
@@ -723,6 +832,13 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_RecordedGameTime = { "RecordedGameTime", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEscapeThePlateGameMode, RecordedGameTime), METADATA_PARAMS(Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_RecordedGameTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_RecordedGameTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_ChaseMusic_MetaData[] = {
+		{ "Category", "Sound" },
+		{ "ModuleRelativePath", "EscapeThePlateGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_ChaseMusic = { "ChaseMusic", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEscapeThePlateGameMode, ChaseMusic), Z_Construct_UClass_USoundCue_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_ChaseMusic_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_ChaseMusic_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEscapeThePlateGameMode_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_DeathZones,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_DeathZones_Inner,
@@ -733,6 +849,7 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_ParTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_LevelName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_RecordedGameTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEscapeThePlateGameMode_Statics::NewProp_ChaseMusic,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AEscapeThePlateGameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AEscapeThePlateGameMode>::IsAbstract,
@@ -761,7 +878,7 @@ void EmptyLinkFunctionForGeneratedCodeEscapeThePlateGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEscapeThePlateGameMode, 3238763182);
+	IMPLEMENT_CLASS(AEscapeThePlateGameMode, 2797130412);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AEscapeThePlateGameMode>()
 	{
 		return AEscapeThePlateGameMode::StaticClass();

@@ -93,7 +93,7 @@ void EmptyLinkFunctionForGeneratedCodeSalmonCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASalmonCharacter, 3075977535);
+	IMPLEMENT_CLASS(ASalmonCharacter, 3916019330);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<ASalmonCharacter>()
 	{
 		return ASalmonCharacter::StaticClass();
