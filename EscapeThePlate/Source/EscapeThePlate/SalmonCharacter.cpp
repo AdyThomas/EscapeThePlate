@@ -62,4 +62,6 @@ void ASalmonCharacter::PerformAbility()
 	{
 		UGameplayStatics::PlaySoundAtLocation(GetWorld(), AbilitySecondSound, GetActorLocation());
 	}
+
+	OnAbilityPerformed();
 }

@@ -6,15 +6,12 @@
 
 ARedOnionCharacter::ARedOnionCharacter() : Super()
 {
-	AbilityCooldown = 0.0;
+	AbilityCooldown = 4.0;
 
-	MoveSpeed = 1.f;
-	HorizontalAcceleration = 4;
-	ForwardAcceleration = 4;
-	MaxSpeed = 20.0;
-	ForwardSpeed = 0;
-	HorizontalSpeed = 0;
-	Friction = 12.f;
+	BaseSpeed = 1.f;
+	BoostSpeed = 4.f;
+
+	MoveSpeed = BaseSpeed;
 	bUpPressed = false;
 	bDownPressed = false;
 	bLeftPressed = false;
@@ -26,62 +23,8 @@ void ARedOnionCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	CheckAndPerformMovement(DeltaTime);
 }
 
-// Checks if keys are pressed, and performs corresponding acceleration and movement if so
-void ARedOnionCharacter::CheckAndPerformMovement(float DeltaTime)
-{
-	// Handle forward movement
-	if (bUpPressed)
-	{
-		ForwardSpeed = FMath::Clamp(ForwardSpeed + ForwardAcceleration * DeltaTime, -1 * MaxSpeed, MaxSpeed);
-	}
-	else if (bDownPressed)
-	{
-		ForwardSpeed = FMath::Clamp(ForwardSpeed - ForwardAcceleration * DeltaTime, -1 * MaxSpeed, MaxSpeed);
-	}
-	//Deceleration
-	else if (ForwardSpeed < 0.f)
-	{
-		ForwardSpeed = FMath::Clamp(ForwardSpeed + Friction * DeltaTime, -1 * MaxSpeed, 0.f);
-	}
-	else if (ForwardSpeed > 0.f)
-	{
-		ForwardSpeed = FMath::Clamp(ForwardSpeed - Friction * DeltaTime, 0.f, MaxSpeed);
-	}
-
-	// Handle sideways movement
-	if (bLeftPressed)
-	{
-		HorizontalSpeed = FMath::Clamp(HorizontalSpeed - HorizontalAcceleration * DeltaTime, -1 * MaxSpeed, MaxSpeed);
-	}
-	else if (bRightPressed)
-	{
-		HorizontalSpeed = FMath::Clamp(HorizontalSpeed + HorizontalAcceleration * DeltaTime, -1 * MaxSpeed, MaxSpeed);
-	}
-	// Deceleration
-	else if (HorizontalSpeed < 0.f)
-	{
-		HorizontalSpeed = FMath::Clamp(HorizontalSpeed + Friction * DeltaTime, -1 * MaxSpeed, 0.f);
-	}
-	else if (HorizontalSpeed > 0.f)
-	{
-		HorizontalSpeed = FMath::Clamp(HorizontalSpeed - Friction * DeltaTime, 0.f, MaxSpeed);
-	}
-
-	if (Controller)
-	{
-		// Perform Movement
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
-
-		const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		AddMovementInput(ForwardDirection, ForwardSpeed);
-		const FVector HorizDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		AddMovementInput(HorizDirection, HorizontalSpeed);
-	}
-}
 
 // Called to bind functionality to input
 void ARedOnionCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -89,16 +32,8 @@ void ARedOnionCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputC
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	check(PlayerInputComponent);
 
-	//PlayerInputComponent->BindAxis("MoveY", this, &ARedOnion::MoveY);
-	//PlayerInputComponent->BindAxis("MoveX", this, &ARedOnion::MoveX);
-	PlayerInputComponent->BindAction("MoveUp", IE_Pressed, this, &ARedOnionCharacter::UpPress);
-	PlayerInputComponent->BindAction("MoveUp", IE_Released, this, &ARedOnionCharacter::UpRelease);
-	PlayerInputComponent->BindAction("MoveDown", IE_Pressed, this, &ARedOnionCharacter::DownPress);
-	PlayerInputComponent->BindAction("MoveDown", IE_Released, this, &ARedOnionCharacter::DownRelease);
-	PlayerInputComponent->BindAction("MoveLeft", IE_Pressed, this, &ARedOnionCharacter::LeftPress);
-	PlayerInputComponent->BindAction("MoveLeft", IE_Released, this, &ARedOnionCharacter::LeftRelease);
-	PlayerInputComponent->BindAction("MoveRight", IE_Pressed, this, &ARedOnionCharacter::RightPress);
-	PlayerInputComponent->BindAction("MoveRight", IE_Released, this, &ARedOnionCharacter::RightRelease);
+	PlayerInputComponent->BindAxis("MoveY", this, &ARedOnionCharacter::MoveY);
+	PlayerInputComponent->BindAxis("MoveX", this, &ARedOnionCharacter::MoveX);
 }
 
 // Movement in the X direction with a magnitude
@@ -106,6 +41,7 @@ void ARedOnionCharacter::MoveX(float magnitude)
 {
 	if (Controller)
 	{
+		UE_LOG(LogTemp, Warning, TEXT("%f"), MoveSpeed);
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
 
@@ -127,48 +63,14 @@ void ARedOnionCharacter::MoveY(float magnitude)
 	}
 }
 
-void ARedOnionCharacter::UpPress()
+void ARedOnionCharacter::PerformAbility()
 {
-	bUpPressed = true;
+	Super::PerformAbility();
+	MoveSpeed = BoostSpeed;
 }
 
-void ARedOnionCharacter::UpRelease()
+void ARedOnionCharacter::ResetAbility()
 {
-	bUpPressed = false;
-}
-
-
-void ARedOnionCharacter::DownPress()
-{
-	bDownPressed = true;
-}
-
-
-void ARedOnionCharacter::DownRelease()
-{
-	bDownPressed = false;
-}
-
-
-void ARedOnionCharacter::LeftPress()
-{
-	bLeftPressed = true;
-}
-
-
-void ARedOnionCharacter::LeftRelease()
-{
-	bLeftPressed = false;
-}
-
-
-void ARedOnionCharacter::RightPress()
-{
-	bRightPressed = true;
-}
-
-
-void ARedOnionCharacter::RightRelease()
-{
-	bRightPressed = false;
+	Super::ResetAbility();
+	MoveSpeed = BaseSpeed;
 }

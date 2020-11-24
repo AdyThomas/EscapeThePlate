@@ -14,25 +14,13 @@ class ESCAPETHEPLATE_API ARedOnionCharacter : public AIngredientBaseCharacter
 {
 	GENERATED_BODY()
 	
-private:
-	void CheckAndPerformMovement(float DeltaTime);
 
 public:
 	ARedOnionCharacter();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
-	float HorizontalAcceleration;
-	float ForwardAcceleration;
-	float MaxSpeed;
-	float ForwardSpeed;
-	float HorizontalSpeed;
-	float Friction;
-
-	UPROPERTY()
-	bool bUpPressed;
-	bool bDownPressed;
-	bool bLeftPressed;
-	bool bRightPressed;
+	float BoostSpeed;
+	float BaseSpeed;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -43,12 +31,7 @@ public:
 	// Movement functions
 	void MoveX(float magnitude) override;
 	void MoveY(float magnitude) override;
-	void UpPress();
-	void UpRelease();
-	void DownPress();
-	void DownRelease();
-	void LeftPress();
-	void LeftRelease();
-	void RightPress();
-	void RightRelease();
+
+	void PerformAbility() override;
+	void ResetAbility() override;
 };

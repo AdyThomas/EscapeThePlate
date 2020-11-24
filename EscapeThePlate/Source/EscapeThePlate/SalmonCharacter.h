@@ -16,7 +16,7 @@ class ESCAPETHEPLATE_API ASalmonCharacter : public AIngredientBaseCharacter
 	
 	public:
 
-		UPROPERTY(BlueprintReadOnly)
+		UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		bool bIsSneaking;
 
 		UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Sound)
@@ -33,5 +33,8 @@ class ESCAPETHEPLATE_API ASalmonCharacter : public AIngredientBaseCharacter
 
 		// Ability functions
 		void PerformAbility() override;
+
+		UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+		void OnAbilityPerformed();
 
 };
