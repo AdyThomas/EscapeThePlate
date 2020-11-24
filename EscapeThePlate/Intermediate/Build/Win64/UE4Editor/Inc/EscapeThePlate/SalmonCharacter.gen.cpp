@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeSalmonCharacter() {}
 	ESCAPETHEPLATE_API UClass* Z_Construct_UClass_ASalmonCharacter();
 	ESCAPETHEPLATE_API UClass* Z_Construct_UClass_AIngredientBaseCharacter();
 	UPackage* Z_Construct_UPackage__Script_EscapeThePlate();
+	ENGINE_API UClass* Z_Construct_UClass_USoundCue_NoRegister();
 // End Cross Module References
 	void ASalmonCharacter::StaticRegisterNativesASalmonCharacter()
 	{
@@ -31,6 +32,10 @@ void EmptyLinkFunctionForGeneratedCodeSalmonCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AbilitySecondSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AbilitySecondSound;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsSneaking_MetaData[];
 #endif
@@ -53,6 +58,13 @@ void EmptyLinkFunctionForGeneratedCodeSalmonCharacter() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASalmonCharacter_Statics::NewProp_AbilitySecondSound_MetaData[] = {
+		{ "Category", "Sound" },
+		{ "ModuleRelativePath", "SalmonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASalmonCharacter_Statics::NewProp_AbilitySecondSound = { "AbilitySecondSound", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASalmonCharacter, AbilitySecondSound), Z_Construct_UClass_USoundCue_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASalmonCharacter_Statics::NewProp_AbilitySecondSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASalmonCharacter_Statics::NewProp_AbilitySecondSound_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASalmonCharacter_Statics::NewProp_bIsSneaking_MetaData[] = {
 		{ "Category", "SalmonCharacter" },
 		{ "ModuleRelativePath", "SalmonCharacter.h" },
@@ -64,6 +76,7 @@ void EmptyLinkFunctionForGeneratedCodeSalmonCharacter() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ASalmonCharacter_Statics::NewProp_bIsSneaking = { "bIsSneaking", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ASalmonCharacter), &Z_Construct_UClass_ASalmonCharacter_Statics::NewProp_bIsSneaking_SetBit, METADATA_PARAMS(Z_Construct_UClass_ASalmonCharacter_Statics::NewProp_bIsSneaking_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASalmonCharacter_Statics::NewProp_bIsSneaking_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASalmonCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASalmonCharacter_Statics::NewProp_AbilitySecondSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASalmonCharacter_Statics::NewProp_bIsSneaking,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASalmonCharacter_Statics::StaticCppClassTypeInfo = {
@@ -93,7 +106,7 @@ void EmptyLinkFunctionForGeneratedCodeSalmonCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASalmonCharacter, 3916019330);
+	IMPLEMENT_CLASS(ASalmonCharacter, 1069284290);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<ASalmonCharacter>()
 	{
 		return ASalmonCharacter::StaticClass();

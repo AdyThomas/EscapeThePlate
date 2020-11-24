@@ -9,13 +9,8 @@
 #include "Sound/SoundCue.h"
 #include "Components/AudioComponent.h"
 
-void AEscapeThePlateGameMode::BeginPlay()
+AEscapeThePlateGameMode::AEscapeThePlateGameMode()
 {
-	if (ChaseMusic)
-	{
-		ChaseMusicComponent = UGameplayStatics::SpawnSound2D(this, ChaseMusic);
-		ChaseMusicComponent->SetPaused(true);
-	}
 }
 
 void AEscapeThePlateGameMode::RegisterCharacterWithGame(AIngredientBaseCharacter* Character)
@@ -149,12 +144,34 @@ void AEscapeThePlateGameMode::RegisterAndStartBackgroundMusic(USoundCue* Music)
 	BackgroundMusicComponent->Play();
 }
 
-void AEscapeThePlateGameMode::ToggleMusic()
+void AEscapeThePlateGameMode::MakeChaseMusic()
 {
-	if(BackgroundMusicComponent)
-		BackgroundMusicComponent->SetPaused(!BackgroundMusicComponent->bIsPaused);
-	if(ChaseMusicComponent)
-		ChaseMusicComponent->SetPaused(!ChaseMusicComponent->bIsPaused);
+	bIsChasePlaying = false;
+	if (ChaseMusic)
+	{
+		ChaseMusicComponent = UGameplayStatics::SpawnSound2D(this, ChaseMusic);
+		ChaseMusicComponent->SetPaused(true);
+	}
+}
+
+void AEscapeThePlateGameMode::ToggleMusic(bool bTryPlayChase)
+{
+	if (bTryPlayChase && !bIsChasePlaying)
+	{
+		bIsChasePlaying = true;
+		if (BackgroundMusicComponent)
+			BackgroundMusicComponent->SetPaused(true);
+		if (ChaseMusicComponent)
+			ChaseMusicComponent->SetPaused(false);
+	}
+	else if (!bTryPlayChase && bIsChasePlaying)
+	{
+		bIsChasePlaying = false;
+		if (BackgroundMusicComponent)
+			BackgroundMusicComponent->SetPaused(false);
+		if (ChaseMusicComponent)
+			ChaseMusicComponent->SetPaused(true);
+	}
 }
 
 void AEscapeThePlateGameMode::PauseMusic()
@@ -163,4 +180,37 @@ void AEscapeThePlateGameMode::PauseMusic()
 		BackgroundMusicComponent->SetPaused(true);
 	if (ChaseMusicComponent)
 		ChaseMusicComponent->SetPaused(true);
+}
+
+void AEscapeThePlateGameMode::PlayGameOverMusic(bool bDidPlayerWin)
+{
+	PauseMusic();
+
+	if (bDidPlayerWin && SuccessMusic)
+	{
+		UGameplayStatics::PlaySound2D(this, SuccessMusic);
+	}
+	else if (!bDidPlayerWin && FailureMusic)
+	{
+		UGameplayStatics::PlaySound2D(this, FailureMusic);
+	}
+}
+
+void AEscapeThePlateGameMode::AddTask(const FString& Task)
+{
+	Tasks.Add(Task);
+}
+
+void AEscapeThePlateGameMode::NextTask()
+{
+	if(TaskIndex < Tasks.Num())
+		TaskIndex++;
+}
+
+FString AEscapeThePlateGameMode::GetCurrentTask()
+{
+	if (TaskIndex == Tasks.Num())
+		return TEXT("Escape!");
+
+	return Tasks[TaskIndex];
 }

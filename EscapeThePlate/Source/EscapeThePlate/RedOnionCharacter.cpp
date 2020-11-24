@@ -14,7 +14,7 @@ ARedOnionCharacter::ARedOnionCharacter() : Super()
 	MaxSpeed = 20.0;
 	ForwardSpeed = 0;
 	HorizontalSpeed = 0;
-	Friction = 6.f;
+	Friction = 12.f;
 	bUpPressed = false;
 	bDownPressed = false;
 	bLeftPressed = false;

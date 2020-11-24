@@ -20,8 +20,13 @@ class AIngredientDeathZone;
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_SPARSE_DATA
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetCurrentTask); \
+	DECLARE_FUNCTION(execNextTask); \
+	DECLARE_FUNCTION(execAddTask); \
+	DECLARE_FUNCTION(execPlayGameOverMusic); \
 	DECLARE_FUNCTION(execPauseMusic); \
 	DECLARE_FUNCTION(execToggleMusic); \
+	DECLARE_FUNCTION(execMakeChaseMusic); \
 	DECLARE_FUNCTION(execRegisterAndStartBackgroundMusic); \
 	DECLARE_FUNCTION(execGetRecordedTime); \
 	DECLARE_FUNCTION(execRecordGameTime); \
@@ -38,8 +43,13 @@ class AIngredientDeathZone;
 
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetCurrentTask); \
+	DECLARE_FUNCTION(execNextTask); \
+	DECLARE_FUNCTION(execAddTask); \
+	DECLARE_FUNCTION(execPlayGameOverMusic); \
 	DECLARE_FUNCTION(execPauseMusic); \
 	DECLARE_FUNCTION(execToggleMusic); \
+	DECLARE_FUNCTION(execMakeChaseMusic); \
 	DECLARE_FUNCTION(execRegisterAndStartBackgroundMusic); \
 	DECLARE_FUNCTION(execGetRecordedTime); \
 	DECLARE_FUNCTION(execRecordGameTime); \
@@ -76,7 +86,7 @@ public: \
 
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AEscapeThePlateGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AEscapeThePlateGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEscapeThePlateGameMode) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEscapeThePlateGameMode); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEscapeThePlateGameMode); \
@@ -88,8 +98,6 @@ public:
 
 
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AEscapeThePlateGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEscapeThePlateGameMode(AEscapeThePlateGameMode&&); \
@@ -97,7 +105,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEscapeThePlateGameMode); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEscapeThePlateGameMode); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEscapeThePlateGameMode)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEscapeThePlateGameMode)
 
 
 #define EscapeThePlate_Source_EscapeThePlate_EscapeThePlateGameMode_h_15_PRIVATE_PROPERTY_OFFSET

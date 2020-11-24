@@ -1,12 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\tommy\Documents\GitHub\EscapeThePlate).
+  Parsing headers for EscapeThePlateEditor
+    Running UnrealHeaderTool "C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\EscapeThePlate.uproject" "C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\EscapeThePlateEditor\Development\EscapeThePlateEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\tommy\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for EscapeThePlateEditor in 5.0721761 seconds
   Building EscapeThePlateEditor...
   Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 16 processes...
-    [1/4] EscapeThePlateGameMode.cpp
-    [2/4] UE4Editor-EscapeThePlate-0021.lib
-       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0021.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0021.exp
-    [3/4] UE4Editor-EscapeThePlate-0021.dll
-       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0021.suppressed.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0021.suppressed.exp
-    [4/4] EscapeThePlateEditor.target
-  Total time in Parallel executor: 1.17 seconds
-  Total execution time: 1.64 seconds
+  Building 7 actions with 16 processes...
+    [1/7] EscapeThePlate.init.gen.cpp
+    [2/7] EscapeThePlateGameMode.gen.cpp
+    [3/7] EscapeThePlateGameMode.cpp
+    [4/7] IngredientBaseCharacter.cpp
+    [5/7] UE4Editor-EscapeThePlate-0037.lib
+       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0037.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0037.exp
+    [6/7] UE4Editor-EscapeThePlate-0037.dll
+       Creating library C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0037.suppressed.lib and object C:\Users\tommy\Documents\GitHub\EscapeThePlate\EscapeThePlate\Intermediate\Build\Win64\UE4Editor\Development\EscapeThePlate\UE4Editor-EscapeThePlate-0037.suppressed.exp
+    [7/7] EscapeThePlateEditor.target
+  Total time in Parallel executor: 3.57 seconds
+  Total execution time: 9.51 seconds

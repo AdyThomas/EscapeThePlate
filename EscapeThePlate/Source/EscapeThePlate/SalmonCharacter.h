@@ -19,6 +19,9 @@ class ESCAPETHEPLATE_API ASalmonCharacter : public AIngredientBaseCharacter
 		UPROPERTY(BlueprintReadOnly)
 		bool bIsSneaking;
 
+		UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Sound)
+		class USoundCue* AbilitySecondSound;
+
 		ASalmonCharacter();
 
 		// Called to bind functionality to input

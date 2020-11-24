@@ -118,8 +118,14 @@ void AIngredientBaseCharacter::KillThisIngredient()
 {
 	bIsDead = true;
 
+
 	if(GetController())
 		GetController()->UnPossess();
+
+	GetCapsuleComponent()->SetVisibility(false, true);
+
+	if (MoveAudioComponent)
+		MoveAudioComponent->SetPaused(true);
 
 	AEscapeThePlateGameMode* GameMode = Cast<AEscapeThePlateGameMode>(GetWorld()->GetAuthGameMode());
 	if (GameMode)
@@ -131,9 +137,15 @@ void AIngredientBaseCharacter::KillThisIngredient()
 void AIngredientBaseCharacter::SaveThisIngredient()
 {
 	bIsSafe = true;
+
 	
 	if (GetController())
 		GetController()->UnPossess();
+
+	GetCapsuleComponent()->SetVisibility(false, true);
+
+	if(MoveAudioComponent)
+		MoveAudioComponent->SetPaused(true);
 
 	AEscapeThePlateGameMode* GameMode = Cast<AEscapeThePlateGameMode>(GetWorld()->GetAuthGameMode());
 	if (GameMode)
@@ -177,13 +189,13 @@ void AIngredientBaseCharacter::CheckAndPlayMoveAudio()
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Making noise"))
 		MoveAudioComponent = UGameplayStatics::SpawnSound2D(this, MoveSound);
+		MoveAudioComponent->SetPaused(true);
 	}
 
 	if (MoveAudioComponent)
 		if (!bIsMoveSoundPlaying)
 		{
 			UE_LOG(LogTemp, Warning, TEXT("Play"))
-			MoveAudioComponent->Play();
 			MoveAudioComponent->SetPaused(false);
 			bIsMoveSoundPlaying = true;
 		}

@@ -19,12 +19,25 @@ class ESCAPETHEPLATE_API AEscapeThePlateGameMode : public AGameMode
 		class UAudioComponent* BackgroundMusicComponent;
 		class UAudioComponent* ChaseMusicComponent;
 
-		void BeginPlay() override;
+		bool bIsChasePlaying;
+
+		uint8 TaskIndex;
+		TArray<FString> Tasks;
+
+		//void BeginPlay() override;
 
 	public:
 
+		AEscapeThePlateGameMode();
+
 		UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Sound)
 		class USoundCue* ChaseMusic;
+
+		UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Sound)
+		class USoundCue* SuccessMusic;
+
+		UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Sound)
+		class USoundCue* FailureMusic;
 
 		UPROPERTY()
 		float RecordedGameTime;
@@ -96,8 +109,23 @@ class ESCAPETHEPLATE_API AEscapeThePlateGameMode : public AGameMode
 		void RegisterAndStartBackgroundMusic(USoundCue* Music);
 
 		UFUNCTION(BlueprintCallable)
-		void ToggleMusic();
+		void MakeChaseMusic();
+
+		UFUNCTION(BlueprintCallable)
+		void ToggleMusic(bool bTryPlayChase);
 
 		UFUNCTION(BlueprintCallable)
 		void PauseMusic();
+
+		UFUNCTION(BlueprintCallable)
+		void PlayGameOverMusic(bool bDidPlayerWin);
+
+		UFUNCTION(BlueprintCallable)
+		void AddTask(const FString& Task);
+
+		UFUNCTION(BlueprintCallable)
+		void NextTask();
+
+		UFUNCTION(BlueprintCallable)
+		FString GetCurrentTask();
 };

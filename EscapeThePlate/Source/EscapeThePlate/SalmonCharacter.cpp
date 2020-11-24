@@ -2,6 +2,8 @@
 
 
 #include "SalmonCharacter.h"
+#include "Kismet/GameplayStatics.h"
+#include "Sound/SoundCue.h"
 
 ASalmonCharacter::ASalmonCharacter() : Super()
 {
@@ -51,4 +53,13 @@ void ASalmonCharacter::PerformAbility()
 {
 	Super::PerformAbility();
 	bIsSneaking = !bIsSneaking;
+
+	if (AbilitySound && bIsSneaking)
+	{
+		UGameplayStatics::PlaySoundAtLocation(GetWorld(), AbilitySound, GetActorLocation());
+	}
+	else if(AbilitySecondSound)
+	{
+		UGameplayStatics::PlaySoundAtLocation(GetWorld(), AbilitySecondSound, GetActorLocation());
+	}
 }
