@@ -25,7 +25,7 @@ void ASalmonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 // Movement in the X direction with a magnitude
 void ASalmonCharacter::MoveX(float magnitude)
 {
-	if (Controller)
+	if (Controller && !bIsSneaking)
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
@@ -38,7 +38,7 @@ void ASalmonCharacter::MoveX(float magnitude)
 // Movement in the Y direction with a magnitude
 void ASalmonCharacter::MoveY(float magnitude)
 {
-	if (Controller)
+	if (Controller && !bIsSneaking)
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);

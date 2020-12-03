@@ -80,6 +80,7 @@ protected:
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	virtual void Landed(const FHitResult& Hit) override;
 
 	void CheckAndPlayMoveAudio();
 
@@ -112,6 +113,8 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	virtual bool IsIngredientUsable();
+
+	void StopMovement();
 
 	void UpPress();
 	void UpRelease();

@@ -26,6 +26,14 @@ void AEscapeThePlateGameMode::RegisterDeathZoneWithGame(AIngredientDeathZone* De
 void AEscapeThePlateGameMode::PossessIngredient(AIngredientBaseCharacter* Character)
 {
 	APlayerController* Controller = UGameplayStatics::GetPlayerController(GetWorld(), 0);
+	AIngredientBaseCharacter* CurrPossess = Controller->GetPawn<AIngredientBaseCharacter>();
+
+	if (CurrPossess == Character)
+		return;
+
+	if (CurrPossess)
+		CurrPossess->StopMovement();
+
 	if (Character->IsIngredientUsable())
 	{
 		Controller->Possess(Character);

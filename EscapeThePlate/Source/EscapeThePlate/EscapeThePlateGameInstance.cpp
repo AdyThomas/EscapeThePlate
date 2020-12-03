@@ -9,13 +9,19 @@ UEscapeThePlateGameInstance::UEscapeThePlateGameInstance()
 {
 	SaveSlotName = TEXT("DefaultSlot");
 
-	// Unfortunately, currently only object storing level info
+	// Unfortunately, currently only object storing level info, should be changed to data table
 	LevelNames.Add(TEXT("Tutorial"));
 	LevelSaveNames.Add(TEXT("TutorialLevel"));
 	LevelParTimes.Add(600.f);
 	LevelNames.Add(TEXT("The Noodle Shop"));
 	LevelSaveNames.Add(TEXT("AsianEatery_v3"));
 	LevelParTimes.Add(30.f);
+	LevelNames.Add(TEXT("Le Chateau"));
+	LevelSaveNames.Add(TEXT("PrototypeLevel"));
+	LevelParTimes.Add(1000000.f);
+	LevelNames.Add(TEXT("Shirayuki Sushi and Grill"));
+	LevelSaveNames.Add(TEXT("SushiBar"));
+	LevelParTimes.Add(450.f);
 }
 
 void UEscapeThePlateGameInstance::Init()

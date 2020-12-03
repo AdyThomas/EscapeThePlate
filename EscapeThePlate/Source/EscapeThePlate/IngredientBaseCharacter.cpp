@@ -49,6 +49,7 @@ AIngredientBaseCharacter::AIngredientBaseCharacter()
 	bUseControllerRotationRoll = false;
 
 	GetCharacterMovement()->bOrientRotationToMovement = false;
+	GetCharacterMovement()->bRunPhysicsWithNoController = true;
 
 	if (MoveSound)
 	{
@@ -67,6 +68,11 @@ void AIngredientBaseCharacter::Tick(float DeltaTime)
 
 		if (ContaminationLevel >= 100.f)
 			KillThisIngredient();
+	}
+
+	if (bIsMoveSoundPlaying && GetMovementComponent()->IsFalling() && MoveAudioComponent && !MoveAudioComponent->bIsPaused)
+	{
+		MoveAudioComponent->SetPaused(true);
 	}
 }
 
@@ -117,7 +123,7 @@ void AIngredientBaseCharacter::AskGameToPause()
 void AIngredientBaseCharacter::KillThisIngredient()
 {
 	bIsDead = true;
-
+	StopMovement();
 
 	if(GetController())
 		GetController()->UnPossess();
@@ -137,7 +143,7 @@ void AIngredientBaseCharacter::KillThisIngredient()
 void AIngredientBaseCharacter::SaveThisIngredient()
 {
 	bIsSafe = true;
-
+	StopMovement();
 	
 	if (GetController())
 		GetController()->UnPossess();
@@ -196,7 +202,8 @@ void AIngredientBaseCharacter::CheckAndPlayMoveAudio()
 		if (!bIsMoveSoundPlaying)
 		{
 			UE_LOG(LogTemp, Warning, TEXT("Play"))
-			MoveAudioComponent->SetPaused(false);
+			if(!GetMovementComponent()->IsFalling())
+				MoveAudioComponent->SetPaused(false);
 			bIsMoveSoundPlaying = true;
 		}
 		else if (!bUpPressed && !bDownPressed && !bLeftPressed && !bRightPressed)
@@ -205,6 +212,24 @@ void AIngredientBaseCharacter::CheckAndPlayMoveAudio()
 			bIsMoveSoundPlaying = false;
 			MoveAudioComponent->SetPaused(true);
 		}
+}
+
+void AIngredientBaseCharacter::Landed(const FHitResult& Hit)
+{
+	Super::Landed(Hit);
+	if (bIsMoveSoundPlaying && MoveAudioComponent)
+		MoveAudioComponent->SetPaused(false);
+}
+
+void AIngredientBaseCharacter::StopMovement()
+{
+	bUpPressed = false;
+	bDownPressed = false;
+	bLeftPressed = false;
+	bRightPressed = false;
+	bIsMoveSoundPlaying = false;
+	if (MoveAudioComponent)
+		MoveAudioComponent->SetPaused(true);
 }
 
 void AIngredientBaseCharacter::UpPress()

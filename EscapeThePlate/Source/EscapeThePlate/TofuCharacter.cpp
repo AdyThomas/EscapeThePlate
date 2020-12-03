@@ -15,7 +15,7 @@ ATofuCharacter::ATofuCharacter()
 {
 	// Set instance variables to defaults
 	MoveSpeed = .5f;
-	MaxJumpHeight = 300.f;
+	MaxJumpHeight = 450.f;
 	AirControl = .5;
 	AbilityCooldown = 0.1f;
 	JumpCount = 0;
@@ -86,7 +86,7 @@ void ATofuCharacter::PerformAbility()
 	else if (JumpCount == 1)
 	{
 		Super::PerformAbility();
-		LaunchCharacter(FVector(0, 0, MaxJumpHeight), false, false);
+		LaunchCharacter(FVector(0, 0, MaxJumpHeight), false, true);
 		JumpCount++;
 
 		if (AbilitySecondSound)
