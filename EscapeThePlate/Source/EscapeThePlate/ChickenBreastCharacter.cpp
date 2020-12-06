@@ -85,6 +85,11 @@ void AChickenBreastCharacter::CheckAndPerformMovement(float DeltaTime)
 			AddMovementInput(HorizDirection, -1 * MoveSpeed);
 		}
 	}
+
+	if (bIsClimbing)
+	{
+		//GetMesh()->SetRelativeRotation(GetMesh()->GetRelativeRotation() + FRotator(0.f, 0.f, 1.f));
+	}
 	
 }
 

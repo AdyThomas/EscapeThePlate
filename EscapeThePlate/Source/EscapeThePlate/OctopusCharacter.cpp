@@ -8,7 +8,7 @@
 AOctopusCharacter::AOctopusCharacter()
 {
 	MoveSpeed = .3f;
-	AbilityCooldown = 0.1f;
+	AbilityCooldown = 1.f;
 }
 
 // Called to bind functionality to input

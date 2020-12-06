@@ -40,8 +40,8 @@ AIngredientBaseCharacter::AIngredientBaseCharacter()
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(RootComponent);
 	Camera->bUsePawnControlRotation = true;
-	Camera->SetRelativeLocation(FVector(-90, 0, 90));
-	Camera->SetRelativeRotation(FRotator(0, 45, 0));
+	Camera->SetRelativeLocation(FVector(-180, 0, 90));
+	Camera->SetRelativeRotation(FRotator(45, 0, 0));
 
 	// Rotate only for turning
 	bUseControllerRotationYaw = true;
@@ -128,7 +128,7 @@ void AIngredientBaseCharacter::KillThisIngredient()
 	if(GetController())
 		GetController()->UnPossess();
 
-	GetCapsuleComponent()->SetVisibility(false, true);
+	//GetCapsuleComponent()->SetVisibility(false, true);
 
 	if (MoveAudioComponent)
 		MoveAudioComponent->SetPaused(true);

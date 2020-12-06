@@ -23,6 +23,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement)
 	bool bIsMoving;
 
+	UPROPERTY(BlueprintReadOnly)
 	bool bIsClimbing;
 
 	// Called every frame

@@ -83,6 +83,11 @@ void EmptyLinkFunctionForGeneratedCodeChickenBreastCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsClimbing_MetaData[];
+#endif
+		static void NewProp_bIsClimbing_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsClimbing;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsMoving_MetaData[];
 #endif
 		static void NewProp_bIsMoving_SetBit(void* Obj);
@@ -107,6 +112,17 @@ void EmptyLinkFunctionForGeneratedCodeChickenBreastCharacter() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChickenBreastCharacter_Statics::NewProp_bIsClimbing_MetaData[] = {
+		{ "Category", "ChickenBreastCharacter" },
+		{ "ModuleRelativePath", "ChickenBreastCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AChickenBreastCharacter_Statics::NewProp_bIsClimbing_SetBit(void* Obj)
+	{
+		((AChickenBreastCharacter*)Obj)->bIsClimbing = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AChickenBreastCharacter_Statics::NewProp_bIsClimbing = { "bIsClimbing", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AChickenBreastCharacter), &Z_Construct_UClass_AChickenBreastCharacter_Statics::NewProp_bIsClimbing_SetBit, METADATA_PARAMS(Z_Construct_UClass_AChickenBreastCharacter_Statics::NewProp_bIsClimbing_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AChickenBreastCharacter_Statics::NewProp_bIsClimbing_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChickenBreastCharacter_Statics::NewProp_bIsMoving_MetaData[] = {
 		{ "Category", "Movement" },
 		{ "ModuleRelativePath", "ChickenBreastCharacter.h" },
@@ -118,6 +134,7 @@ void EmptyLinkFunctionForGeneratedCodeChickenBreastCharacter() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AChickenBreastCharacter_Statics::NewProp_bIsMoving = { "bIsMoving", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AChickenBreastCharacter), &Z_Construct_UClass_AChickenBreastCharacter_Statics::NewProp_bIsMoving_SetBit, METADATA_PARAMS(Z_Construct_UClass_AChickenBreastCharacter_Statics::NewProp_bIsMoving_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AChickenBreastCharacter_Statics::NewProp_bIsMoving_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AChickenBreastCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChickenBreastCharacter_Statics::NewProp_bIsClimbing,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChickenBreastCharacter_Statics::NewProp_bIsMoving,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AChickenBreastCharacter_Statics::StaticCppClassTypeInfo = {
@@ -147,7 +164,7 @@ void EmptyLinkFunctionForGeneratedCodeChickenBreastCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AChickenBreastCharacter, 3355972677);
+	IMPLEMENT_CLASS(AChickenBreastCharacter, 4048234369);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<AChickenBreastCharacter>()
 	{
 		return AChickenBreastCharacter::StaticClass();

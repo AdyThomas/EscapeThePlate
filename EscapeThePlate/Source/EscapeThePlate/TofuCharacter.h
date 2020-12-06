@@ -17,7 +17,7 @@ class ESCAPETHEPLATE_API ATofuCharacter : public AIngredientBaseCharacter
 
 	protected:
 
-		uint8 JumpCount;
+		
 
 	public:
 
@@ -27,6 +27,9 @@ class ESCAPETHEPLATE_API ATofuCharacter : public AIngredientBaseCharacter
 		// Jump control vars
 		float MaxJumpHeight;
 		float AirControl;
+
+		UPROPERTY(BlueprintReadOnly)
+		uint8 JumpCount;
 
 		ATofuCharacter();
 
