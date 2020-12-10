@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeBaguetteCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaguetteCharacter, 3630432115);
+	IMPLEMENT_CLASS(ABaguetteCharacter, 3837536793);
 	template<> ESCAPETHEPLATE_API UClass* StaticClass<ABaguetteCharacter>()
 	{
 		return ABaguetteCharacter::StaticClass();

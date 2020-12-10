@@ -107,11 +107,13 @@ void AChickenBreastCharacter::SetClimbing(bool CanClimb)
 	{
 		GetCharacterMovement()->bCheatFlying = true;
 		GetCharacterMovement()->MovementMode = MOVE_Flying;
+		GetMesh()->SetRelativeLocation(GetMesh()->GetRelativeLocation() - FVector(100, 0, 0));
 	}
 	else
 	{
 		GetCharacterMovement()->bCheatFlying = false;
 		GetCharacterMovement()->MovementMode = MOVE_Walking;
+		GetMesh()->SetRelativeLocation(GetMesh()->GetRelativeLocation() + FVector(100, 0, 0));
 	}
 }
 

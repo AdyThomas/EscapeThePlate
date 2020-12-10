@@ -16,12 +16,12 @@ UEscapeThePlateGameInstance::UEscapeThePlateGameInstance()
 	LevelNames.Add(TEXT("The Noodle Shop"));
 	LevelSaveNames.Add(TEXT("AsianEatery_v3"));
 	LevelParTimes.Add(30.f);
-	LevelNames.Add(TEXT("Le Chateau"));
-	LevelSaveNames.Add(TEXT("PrototypeLevel"));
-	LevelParTimes.Add(1000000.f);
+	LevelNames.Add(TEXT("Trattoria di Carbonara"));
+	LevelSaveNames.Add(TEXT("ItalianLevel"));
+	LevelParTimes.Add(510.f);
 	LevelNames.Add(TEXT("Shirayuki Sushi and Grill"));
 	LevelSaveNames.Add(TEXT("SushiBar"));
-	LevelParTimes.Add(450.f);
+	LevelParTimes.Add(240.f);
 }
 
 void UEscapeThePlateGameInstance::Init()

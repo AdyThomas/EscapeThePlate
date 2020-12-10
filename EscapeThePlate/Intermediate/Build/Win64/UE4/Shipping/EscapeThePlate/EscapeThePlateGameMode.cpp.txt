@@ -26,3 +26,9 @@ D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\DialogueTypes.g
 D:\Unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
 D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\GameplayStaticsTypes.generated.h
 D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\GameplayStatics.generated.h
+D:\Unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Sound/SoundCue.h
+D:\Unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Sound/SoundNode.h
+D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\SoundNode.generated.h
+D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\SoundCue.generated.h
+D:\Unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/AudioComponent.h
+D:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\AudioComponent.generated.h

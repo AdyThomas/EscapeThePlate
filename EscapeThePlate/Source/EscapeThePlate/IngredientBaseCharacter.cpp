@@ -67,7 +67,10 @@ void AIngredientBaseCharacter::Tick(float DeltaTime)
 		ContaminationLevel += ContaminationRate * DeltaTime;
 
 		if (ContaminationLevel >= 100.f)
+		{
 			KillThisIngredient();
+			GetCapsuleComponent()->SetVisibility(false, true);
+		}
 	}
 
 	if (bIsMoveSoundPlaying && GetMovementComponent()->IsFalling() && MoveAudioComponent && !MoveAudioComponent->bIsPaused)
@@ -149,6 +152,7 @@ void AIngredientBaseCharacter::SaveThisIngredient()
 		GetController()->UnPossess();
 
 	GetCapsuleComponent()->SetVisibility(false, true);
+	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
 	if(MoveAudioComponent)
 		MoveAudioComponent->SetPaused(true);

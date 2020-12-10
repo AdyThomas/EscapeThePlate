@@ -2,20 +2,21 @@
 
 
 #include "RedOnionCharacter.h"
-
+#include "GameFramework/CharacterMovementComponent.h"
 
 ARedOnionCharacter::ARedOnionCharacter() : Super()
 {
 	AbilityCooldown = 4.0;
 
 	BaseSpeed = 1.f;
-	BoostSpeed = 4.f;
+	BoostSpeed = 10.f;
 
 	MoveSpeed = BaseSpeed;
 	bUpPressed = false;
 	bDownPressed = false;
 	bLeftPressed = false;
 	bRightPressed = false;
+	GetCharacterMovement()->MaxWalkSpeed = 1000.f;
 }
 
 // Called every frame
@@ -67,10 +68,12 @@ void ARedOnionCharacter::PerformAbility()
 {
 	Super::PerformAbility();
 	MoveSpeed = BoostSpeed;
+	GetCharacterMovement()->MaxWalkSpeed = 10000.f;
 }
 
 void ARedOnionCharacter::ResetAbility()
 {
 	Super::ResetAbility();
 	MoveSpeed = BaseSpeed;
+	GetCharacterMovement()->MaxWalkSpeed = 1000.f;
 }

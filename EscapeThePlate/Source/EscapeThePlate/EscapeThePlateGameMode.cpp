@@ -111,15 +111,25 @@ uint8 AEscapeThePlateGameMode::GetStarsEarned()
 			AllIngredientsSafe = false;
 	}
 
-	Stars += 3 * ((percentSafe / Characters.Num()) / 100.f);
+	UE_LOG(LogTemp, Warning, TEXT("Percent: %f"), percentSafe)
+	UE_LOG(LogTemp, Warning, TEXT("Challenge: %x"), HasChallengeCompleted)
+	UE_LOG(LogTemp, Warning, TEXT("Time: %f"), RecordedGameTime)
+
+	Stars += 3 * (.25 + (percentSafe / Characters.Num()) / 100.f);
+
+	UE_LOG(LogTemp, Warning, TEXT("Stars: %d"), Stars)
 
 	// Par time star, requires every ingredient saved
 	if (AllIngredientsSafe && RecordedGameTime < ParTime)
 		Stars++;
 
+	UE_LOG(LogTemp, Warning, TEXT("Stars: %d"), Stars)
+
 	// Collectible pickup star
 	if(HasChallengeCompleted)
 		Stars++;
+
+	UE_LOG(LogTemp, Warning, TEXT("Stars: %d"), Stars)
 
 	return Stars;
 }
